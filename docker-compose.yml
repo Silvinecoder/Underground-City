@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  database:
+    image: postgres
+    container_name: celiac-db
+    restart: always
+    ports:
+      - "54321:5432"
+    environment:
+      POSTGRES_USER: celiac
+      POSTGRES_PASSWORD: celiac
+      POSTGRES_DB: celiac
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./database-seed/drop.sql:/docker-entrypoint-initdb.d/0.drop.sql
+      - ./database-seed/seed.sql:/docker-entrypoint-initdb.d/1.seed.sql
+      - ./.db-data:/var/lib/postgresql/data
+    command: ["postgres", "-c", "log_statement=all"]
+  be:
+    build:
+      context: ./app
+    container_name: celiac-be
+    environment:
+      - AWS_DEFAULT_REGION=eu-west-1
+      - T_DATABASE_HOST=database
+      - CELIAC_DATABASE_PORT=5432
+      - CELIAC_DATABASE_NAME=celiac
+      - CELIAC_DATABASE_SCHEMA=
+      - CELIAC_DATABASE_USERNAME=celiac
+      - CELIAC_DATABASE_PASSWORD=celiac
+      - CELIAC_DATABASE_SECRET_ARN=
+      - CELIAC_ENVIRONMENT=testing
+    ports:
+      - "5050:5050"

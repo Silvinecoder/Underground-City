@@ -16,4 +16,3 @@ class Products(Base):
     nutrition_data = Column(JSON)
     # need to figure out if I want to include the price
     product_location = Column(String(50), nullable=False)
-    
