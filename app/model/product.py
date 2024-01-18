@@ -7,12 +7,15 @@ from db.model_helper import Base
 class Products(Base):
     """Class representing the 'products' table in the database."""
 
-    __tablename__ = 'products'
-    id = Column(Integer, primary_key=True)
+    __tablename__ = 'product'
+    product_uuid = Column(Integer, primary_key=True)
     product_name = Column(String(50), nullable=False)
     product_description = Column(String(50), nullable=False)
     product_label = Column(String(50), nullable=False)
     product_ingredients = Column(String(50), nullable=False)
-    nutrition_data = Column(JSON)
+    product_image = Column(String(50), nullable=False)
     # need to figure out if I want to include the price
-    product_location = Column(String(50), nullable=False)
+    product_supermarket = Column(String(50), nullable=False)
+    product_country = Column(String(50), nullable=False)
+
+
