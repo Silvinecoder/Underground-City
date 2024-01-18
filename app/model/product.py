@@ -1,6 +1,6 @@
 '''Products module for the database'''
 
-from sqlalchemy import Column, String, JSON, Integer
+from sqlalchemy import Column, String, Text, Integer, Binary
 from db.model_helper import Base
 
 
@@ -8,14 +8,13 @@ class Products(Base):
     """Class representing the 'products' table in the database."""
 
     __tablename__ = 'product'
-    product_uuid = Column(Integer, primary_key=True)
-    product_name = Column(String(50), nullable=False)
-    product_description = Column(String(50), nullable=False)
-    product_label = Column(String(50), nullable=False)
-    product_ingredients = Column(String(50), nullable=False)
-    product_image = Column(String(50), nullable=False)
+    uuid = Column(Integer, primary_key=True)
+    name = Column(Text(50), nullable=False)
+    ingredients = Column(Text(150), nullable=False)
+    dietary_info = Column(Text(150), nullable=False)
+    image = Column(Binary, nullable=False)
     # need to figure out if I want to include the price
-    product_supermarket = Column(String(50), nullable=False)
-    product_country = Column(String(50), nullable=False)
+    supermarket = Column(String(50), nullable=False)
+    country = Column(String(50), nullable=False)
 
 
