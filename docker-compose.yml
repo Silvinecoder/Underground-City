@@ -21,8 +21,7 @@ services:
       context: ./app
     container_name: celiac-be
     environment:
-      - AWS_DEFAULT_REGION=eu-west-1
-      - T_DATABASE_HOST=database
+      - CELIAC_DATABASE_HOST=database
       - CELIAC_DATABASE_PORT=5432
       - CELIAC_DATABASE_NAME=celiac
       - CELIAC_DATABASE_SCHEMA=
