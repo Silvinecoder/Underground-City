@@ -1,6 +1,5 @@
-from sqlalchemy.orm import sessionmaker
-from db.models import Product
-
+from model.product import Product
+from bs4 import BeautifulSoup
 
 def scrape_and_store_gluten_free_products():
     """Scrape and store gluten free products."""

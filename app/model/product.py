@@ -4,7 +4,7 @@ from sqlalchemy import Column, String, Text, Integer, Binary
 from db.model_helper import Base
 
 
-class Products(Base):
+class Product(Base):
     """Class representing the 'products' table in the database."""
 
     __tablename__ = 'product'
