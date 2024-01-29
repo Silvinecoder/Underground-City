@@ -3,15 +3,18 @@
 ## Setup your environment
 
 Create a venv file
+
 ```
 python3 -m venv venv
 ```
-Then activate:
-```source venv/bin/activate```
-or for windows
-```venv\Scripts\activate```
 
-Install sqlAlchemy for Database
+Then activate:
+`source venv/bin/activate`
+or for windows
+`venv\Scripts\activate`
+
+Install dependencies:
+
 ```
-pip install sqlalchemy
+pip install -r requirements.txt
 ```
