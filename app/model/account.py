@@ -1,7 +1,7 @@
 '''Products module for the database'''
 
 from sqlalchemy import Column, String, Integer
-from db.model_helper import Base
+from config_helper.db.model_helper import Base
 
 
 class Account(Base):

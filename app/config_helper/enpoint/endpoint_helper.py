@@ -51,4 +51,4 @@ class Endpoint(object):
 
     __deprecated__ = False  #: Flag this endpoint as deprecated
     __body_schema_name__ = None  #: Override the name of the schema to use for the body
-    __return_schema_name__ = None  #: Override the name of the schema to use for the response
+    __return_schema_name__ = None  #: Override the name of the schema to use for the responsew
