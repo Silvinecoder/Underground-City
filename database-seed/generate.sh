@@ -28,4 +28,4 @@ echo "
 cat ./inserts.sql >> ./seed.sql
 rm ./inserts.sql
 
-echo "
+echo ""

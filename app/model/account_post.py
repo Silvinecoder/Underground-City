@@ -1,9 +1,7 @@
 '''Products module for the database'''
 
 from sqlalchemy import Column, String, Integer, Date
-from db.model_helper import Base
-
-from model.account import Account
+from app.db.model_helper import Base
 
 
 class Post(Base):

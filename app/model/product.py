@@ -1,7 +1,7 @@
 '''Products module for the database'''
 
-from sqlalchemy import Column, String, Text, Integer, Binary
-from db.model_helper import Base
+from sqlalchemy import Column, String, Text, Integer
+from app.db.model_helper import Base
 
 
 class Product(Base):
