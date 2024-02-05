@@ -14,7 +14,12 @@ or for windows
 `venv\Scripts\activate`
 
 Install dependencies:
-
 ```
 pip install -r requirements.txt
 ```
+Run db seed and setup Docker
+```
+./database-seed/generate.sh
+docker-compose up -d database
+```
+
