@@ -3,6 +3,8 @@
 from sqlalchemy import Column, String, Integer, Date
 from db.model_helper import Base
 
+from model.account import Account
+
 
 class Post(Base):
     """Class representing the 'products' table in the database."""
