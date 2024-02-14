@@ -1,6 +1,6 @@
 '''Products module for the database'''
 
-from sqlalchemy import Column, String, Text, Integer
+from sqlalchemy import Column, String, UUID
 from app.db.model_helper import Base
 
 class Product(Base):
@@ -8,8 +8,8 @@ class Product(Base):
 
     __tablename__ = 'product'
     
-    uuid = Column(Integer, primary_key=True)
-    name = Column(Text(50), nullable=False)
+    product_uuid = Column(UUID(as_uuid=True), primary_key=True)
+    name = Column(String(50), nullable=False)
     # image = Column(Binary, nullable=False)
     supermarket = Column(String(50), nullable=False)
     country = Column(String(50), nullable=False)

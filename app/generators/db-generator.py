@@ -11,11 +11,10 @@ def generate_postgres_schema(models_path="../model") -> list:
             class_name = module_name.capitalize()
             full_module_path = f"app.model.{module_name}"
 
-            print(full_module_path)
-
             module = __import__(full_module_path, fromlist=[class_name])
             module_class = getattr(module, class_name)
-            print(f"{CreateTable(module_class.__table__).compile(dialect=postgresql.dialect())}")
+            create_schema = CreateTable(module_class.__table__).compile(dialect=postgresql.dialect())
+            print(f"{create_schema};".replace("\n\n;", ";"))
 
 
 if __name__ == "__main__":
