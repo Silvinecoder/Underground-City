@@ -1,19 +1,16 @@
 '''Products module for the database'''
 
-from sqlalchemy import Column, String, Text, Integer, Binary
-from db.model_helper import Base
-
+from sqlalchemy import Column, String, UUID
+from app.db.model_helper import Base
 
 class Product(Base):
     """Class representing the 'products' table in the database."""
 
     __tablename__ = 'product'
-    uuid = Column(Integer, primary_key=True)
-    name = Column(Text(50), nullable=False)
-    ingredients = Column(Text(150), nullable=False)
-    dietary_info = Column(Text(150), nullable=False)
-    image = Column(Binary, nullable=False)
-    # need to figure out if I want to include the price
+    
+    product_uuid = Column(UUID(as_uuid=True), primary_key=True)
+    name = Column(String(50), nullable=False)
+    # image = Column(Binary, nullable=False)
     supermarket = Column(String(50), nullable=False)
     country = Column(String(50), nullable=False)
 
