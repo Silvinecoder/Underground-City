@@ -4,7 +4,7 @@ from sqlalchemy import Column, String, Integer, Date
 from app.db.model_helper import Base
 
 
-class Post(Base):
+class AccountPost(Base):
     """Class representing the 'products' table in the database."""
 
     __tablename__ = 'account_post'
