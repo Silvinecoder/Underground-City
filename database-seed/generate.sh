@@ -28,7 +28,6 @@ echo "
 cat ./inserts.sql >> ./seed.sql
 rm ./inserts.sql
 
--- Clean up
-rm -rf .egg-info dist build
+rm -rf celiac_python.egg-info dist build
 
 echo ""
