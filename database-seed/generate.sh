@@ -11,7 +11,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null && pwd )"
 # ------------------------------------------
 
 cd "${DIR}/../app/generators" || exit 1
-python db-generator.py > "${DIR}/seed"
+python db_generator.py > "${DIR}/seed"
 if [[ $? -ne 0 ]]; then
   echo "Failed to generate DB schema"
   exit 1
