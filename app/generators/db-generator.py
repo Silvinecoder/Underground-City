@@ -10,7 +10,6 @@ def generate_postgres_schema(models_path="../model") -> list:
             module_name = os.path.splitext(filename)[0]
             class_name = module_name.capitalize()
             full_module_path = f"app.model.{module_name}"
-
             module = __import__(full_module_path, fromlist=[class_name])
             module_class = getattr(module, class_name)
             create_schema = CreateTable(module_class.__table__).compile(dialect=postgresql.dialect())
@@ -20,5 +19,4 @@ def generate_postgres_schema(models_path="../model") -> list:
 if __name__ == "__main__":
     BASE_PATH = sys.argv[1] if len(sys.argv) > 1 else "../model"
     sys.path.append(BASE_PATH)
-
     generate_postgres_schema(BASE_PATH)

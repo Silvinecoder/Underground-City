@@ -2,14 +2,14 @@ version: "3.9"
 services:
   database:
     image: postgres
-    container_name: celiac-db
+    container_name: underground
     restart: always
     ports:
       - "54321:5432"
     environment:
-      POSTGRES_USER: celiac
-      POSTGRES_PASSWORD: celiac
-      POSTGRES_DB: celiac
+      POSTGRES_USER: underground
+      POSTGRES_PASSWORD: underground
+      POSTGRES_DB: underground
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
       - ./database-seed/drop.sql:/docker-entrypoint-initdb.d/drop.sql
@@ -19,15 +19,15 @@ services:
   be:
     build:
       context: ./app
-    container_name: celiac-be
+    container_name: underground
     environment:
-      - CELIAC_DATABASE_HOST=database
-      - CELIAC_DATABASE_PORT=5432
-      - CELIAC_DATABASE_NAME=celiac
-      - CELIAC_DATABASE_SCHEMA=
-      - CELIAC_DATABASE_USERNAME=celiac
-      - CELIAC_DATABASE_PASSWORD=celiac
-      - CELIAC_DATABASE_SECRET_ARN=
-      - CELIAC_ENVIRONMENT=testing
+      - UNDERGROUND_DATABASE_HOST=database
+      - UNDERGROUND_DATABASE_PORT=5432
+      - UNDERGROUND_DATABASE_NAME=underground
+      - UNDERGROUND_DATABASE_SCHEMA=
+      - UNDERGROUND_DATABASE_USERNAME=underground
+      - UNDERGROUND_DATABASE_PASSWORD=underground
+      - UNDERGROUND_DATABASE_SECRET_ARN=
+      - UNDERGROUND_ENVIRONMENT=testing
     ports:
       - "5050:5050"

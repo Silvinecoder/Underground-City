@@ -28,4 +28,7 @@ echo "
 cat ./inserts.sql >> ./seed.sql
 rm ./inserts.sql
 
+-- Clean up
+rm -rf .egg-info dist build
+
 echo ""

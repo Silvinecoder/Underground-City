@@ -1,4 +1,5 @@
-# Celiac Project
+<div align="center"><img src="./icon.svg" /></div>
+<h1 align="center">Underground City</h1>
 
 ## Setup your environment
 

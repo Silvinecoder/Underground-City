@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     description='Celiac app backend',
     author='CSS',
-    url='https://github.com/Silvinecoder/Celiac-be',
+    url='https://github.com/Silvinecoder/Underground-City',
     packages=find_packages(),
     install_requires=[
       'beautifulsoup4',

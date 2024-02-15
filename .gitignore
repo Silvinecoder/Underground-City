@@ -1,4 +1,4 @@
 venv
 .db-data
-celiac_python.egg-info
-database-seed/seed
+seed.sql
+drop.sql
