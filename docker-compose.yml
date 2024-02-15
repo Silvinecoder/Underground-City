@@ -21,13 +21,12 @@ services:
       context: ./app
     container_name: underground
     environment:
-      - UNDERGROUND_DATABASE_HOST=database
+      - UNDERGROUND_DATABASE_HOST=localhost
       - UNDERGROUND_DATABASE_PORT=5432
       - UNDERGROUND_DATABASE_NAME=underground
-      - UNDERGROUND_DATABASE_SCHEMA=
+      - UNDERGROUND_DATABASE_SCHEMA=public
       - UNDERGROUND_DATABASE_USERNAME=underground
       - UNDERGROUND_DATABASE_PASSWORD=underground
-      - UNDERGROUND_DATABASE_SECRET_ARN=
       - UNDERGROUND_ENVIRONMENT=testing
     ports:
       - "5050:5050"

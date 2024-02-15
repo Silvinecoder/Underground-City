@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Integer, UUID
-from app.db.model_helper import Base
+from app.assistant.model_helper import Base
 
 
 class Account(Base):
