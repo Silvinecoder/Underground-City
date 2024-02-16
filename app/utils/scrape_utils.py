@@ -2,13 +2,12 @@ import requests
 from sqlalchemy.orm import session
 from bs4 import BeautifulSoup
 
+from app.db.db_connection import create_session
 from app.model.product import Product
 
 class Scraper:
-    def __init__(self, session):
+    def scrape_and_store_sainsbury_gluten_free_products(self, session):
         self.session = session
-
-    def scrape_and_store_sainsbury_gluten_free_products(self):
         url = 'https://www.sainsburys.co.uk/gol-ui/groceries/dietary-and-world-foods/free-from/gluten-free/all-gluten-free/c:1019188'
         response = requests.get(url)
         print('hello?')
@@ -32,5 +31,8 @@ class Scraper:
         else:
             print('Error: Could not scrape products from the website.')
 
+session = create_session()
+
+# Create a Scraper instance and pass the session object
 scraper = Scraper(session)
 scraper.scrape_and_store_sainsbury_gluten_free_products()

@@ -3,6 +3,7 @@
     "capitalise",
     "fromlist",
     "sqlalchemy",
-    "venv"
+    "venv",
+    "sessionmaker"
   ]
 }

@@ -11,3 +11,10 @@ config = {
     "password": env(f"UNDERGROUND_DATABASE_PASSWORD", "underground")
   },
 }
+
+def get_config_params():  # pragma: unit
+    """
+    Gets the version of the application.
+    """
+    global config
+    return config
