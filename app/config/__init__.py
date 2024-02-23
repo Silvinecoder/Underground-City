@@ -4,8 +4,8 @@ config = {
   "database": {
     "engine": "postgresql",
     "host": env(f"UNDERGROUND_DATABASE_HOST", "localhost"),
-    "port": env(f"UNDERGROUND_DATABASE_PORT", "5432"),
-    "schema": env(f"UNDERGROUND_DATABASE_SCHEMA", "public"),
+    "port": env(f"UNDERGROUND_DATABASE_PORT", "54321"),
+    "schema": env(f"UNDERGROUND_DATABASE_SCHEMA", ""),
     "database_name": env(f"UNDERGROUND_DATABASE_NAME", "underground"),
     "username": env(f"UNDERGROUND_DATABASE_USERNAME", "underground"),
     "password": env(f"UNDERGROUND_DATABASE_PASSWORD", "underground")
