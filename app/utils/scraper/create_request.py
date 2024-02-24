@@ -1,11 +1,7 @@
 import requests
 import random
-import datetime
 
-from bs4 import BeautifulSoup
-import time
-
-# Use proxies to scrape data from the web without the chance of being blocked.
+    # Use proxies to scrape data from the web without the chance of being blocked.
 proxy_list = [
     'http://',
     'http://',
@@ -15,7 +11,7 @@ proxy_list = [
 def get_random_proxy():
     return random.choice(proxy_list)
 
-def make_request(url):
+def create_request(url):
     try:
       proxy = get_random_proxy()
       # we create a header to represent a user agent
@@ -34,15 +30,6 @@ def make_request(url):
         print(f"Error: {e}")
         # Handle errors (e.g., retry with a different proxy)
         return None
-    
-def supermarkets_scrape(url):
-  soup = BeautifulSoup(url, 'html.parser')
-
-  product_link = soup.find_all('a', class_='pt__link')
-  product_names = [name.get('title') for name in product_link]
-
-  product_images = soup.find_all('img', attrs={'data-test-id': 'pt-image'})
-  product_image_urls = [link.get('src') for link in product_images]
 
 
-  return product_names, product_image_urls
+   

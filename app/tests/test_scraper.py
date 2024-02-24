@@ -1,5 +1,5 @@
 from unittest.mock import Mock
-from app.utils.origin_scrape import supermarkets_scrape
+from app.utils.scraper.origin_scrape import supermarkets_scrape
 
 def read_html():
       with open('/Users/cristianasimoes/Documents/side-projects/Underground-City/app/utils/sainsburys.html') as file:
