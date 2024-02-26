@@ -22,7 +22,7 @@ services:
     container_name: underground
     environment:
       - UNDERGROUND_DATABASE_HOST=localhost
-      - UNDERGROUND_DATABASE_PORT=54321
+      - UNDERGROUND_DATABASE_PORT=5432
       - UNDERGROUND_DATABASE_NAME=underground
       - UNDERGROUND_DATABASE_SCHEMA=public
       - UNDERGROUND_DATABASE_USERNAME=underground

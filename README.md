@@ -15,8 +15,13 @@ venv\Scripts\activate
 Install dependencies:
 pip install -r requirements.txt && python setup.py develop
 
-Run db seed and setup Docker
+Run db seed
 ./database-seed/generate.sh
+
+For linux run:
+sudo systemctl start docker.service
+
+Then setup Docker
 docker-compose up -d database
 ```
 

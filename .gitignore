@@ -2,3 +2,7 @@ venv
 .db-data
 seed.sql
 drop.sql
+__pycache__
+build
+celiac_python.egg-info
+dist

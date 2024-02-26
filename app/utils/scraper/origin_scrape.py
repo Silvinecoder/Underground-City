@@ -2,9 +2,8 @@ import random
 
 from bs4 import BeautifulSoup
 
-from db.db_connection import create_session
-from create_request import create_request
-from model.product import Product
+from app.db.db_connection import create_session
+from app.model.product import Product
 
 
 session = create_session()
@@ -20,7 +19,7 @@ def supermarkets_scrape(url):
 
 # Loop through the product names and image URLs to add each product to the database
   for name, image_url in zip(product_names, product_image_urls):
-    new_product = Product(name=name, image=image_url)
+    new_product = Product(name=name, image=image_url, supermarket='sainsburys', country='uk')
     session.add(new_product)
 
   session.commit()

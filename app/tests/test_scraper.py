@@ -1,8 +1,11 @@
-from unittest.mock import Mock
+import os
+
 from app.utils.scraper.origin_scrape import supermarkets_scrape
 
 def read_html():
-      with open('/Users/cristianasimoes/Documents/side-projects/Underground-City/app/utils/sainsburys.html') as file:
+      relative_path = '../utils/sainsburys.html'
+      absolute_path = os.path.abspath(relative_path)
+      with open(absolute_path) as file:
         return file.read()
 
 def scraper_test():
