@@ -1,29 +1,18 @@
 import json
-import requests
+
+from datetime import datetime
 
 from bs4 import BeautifulSoup
 
 from app.db.db_connection import create_session
 from app.model.product import Product
+from create_request import proxy_request
 
-
-def proxy_request(url, proxy_url):
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        response = requests.get(url, proxies={'http': proxy_url, 'https': proxy_url}, headers=headers, timeout=10)
-        print(f"Proxy: {proxy_url}, Status Code: {response.status_code}")
-
-        if response.status_code == 200:
-            print(f"Valid Proxy: {proxy_url}")
-        return response.text
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
 
 def supermarkets_scrape(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
 
-    product_link = soup.find_all('a', class_='text-default-font')
+    product_link = soup.find_all(attrs={'data-qa': 'search-product-title'})
     product_names = [name.get('title') for name in product_link]
 
     product_images = soup.find_all('img', class_='product-image')
@@ -47,7 +36,11 @@ def supermarkets_scrape(html_content):
 
     session.commit()
 
-    with open('scraped_sainsbury_data.json', 'w') as json_file:
+    # Append a timestamp to the JSON file name to avoid overwriting
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    json_file_name = f'scraped_aldi_data_{timestamp}.json'
+    
+    with open(json_file_name, 'w') as json_file:
         json.dump(products_data, json_file, indent=2)
 
     return product_names, product_image_urls
@@ -55,14 +48,20 @@ def supermarkets_scrape(html_content):
 # Initialize your session object
 session = create_session()
 
-# Define your proxy information
-proxy_url = 'http://SvLweHI5oL3yKMUW:C7mz1XuqF48OviAt_country-gb@geo.iproyal.com:12321'
+    
+def scrape():
+    # Define your proxy information
+    proxy_url = 'http://SvLweHI5oL3yKMUW:C7mz1XuqF48OviAt_country-gb@geo.iproyal.com:12321'
 
-# Define the URL to scrape
-url = 'https://groceries.aldi.co.uk/en-GB/Search?keywords=gluten+free'
+    # Define the URL to scrape
+    url = 'https://groceries.aldi.co.uk/en-GB/Search?keywords=gluten+free'
 
-# Make a proxy request and then scrape the content
-html_content = proxy_request(url, proxy_url)
-if html_content:
-    scraper_results = supermarkets_scrape(html_content)
-    print(scraper_results)
+    # Make a proxy request and then scrape the content
+    html_content = proxy_request(url, proxy_url)
+    if html_content:
+        scraper_results = supermarkets_scrape(html_content)
+        print(scraper_results)
+
+    supermarkets_scrape(proxy_request(url))
+
+scrape()

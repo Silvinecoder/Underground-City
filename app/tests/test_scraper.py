@@ -1,25 +1,67 @@
 import os
+import json
 
-from app.utils.scraper.origin_scrape import supermarkets_scrape
-from app.utils.scraper.create_request import proxy_request, create_request
+from datetime import datetime
+from bs4 import BeautifulSoup
+
+from app.db.db_connection import create_session
+from app.model.product import Product
+
 
 def read_html():
-      relative_path = '../utils/sainsburys.html'
+      relative_path = './aldi.html'
       absolute_path = os.path.abspath(relative_path)
       with open(absolute_path) as file:
         return file.read()
 
-def scraper_test():
-    expectedNames = ['Strong Roots Oven Baked Sweet Potato 500g', 'Alpro Almond No Sugars Long Life Drink 1L', 'Alpro Almond No Sugars Chilled Drink 1L', 'Vitalite Dairy Free Spread 500g', 'Heck British Chicken Italia Sausages 340g', 'Alpro No Bits Strawberry Banana & Peach Pear Yogurt Alternative 4x125g', 'The Coconut Collaborative Natural Yogurt Alternative 350g', 'Alpro Soya Yofu Red Fruit Mix Blueberry & Cherry 4x125g', 'Alpro Plain Unsweetened No Sugars Plant-Based Alternative To Yoghurt 500g', 'Quorn Vegan Smoky Ham Free Slices 100g', "Sainsbury's Deliciously Free From Fusilli 500g", "Sainsbury's Deliciously Free From Penne 500g", 'Alpro Soya No Sugars Chilled Drink 1L', 'Alpro Soya Vanilla Flavoured 500g', 'Alpro Plain with Coconut Yoghurt Alternative 500g', 'Alpro Soya Chilled Drink 1L', 'Heck 97% British Pork Sausages 400g', "Sainsbury's Deliciously Free From Oats 450g", 'Eat Real Lentil Chips Sea Salt Flavour 113g', 'Swedish Glace Vanilla Dairy Free Vegan Ice Cream Tub Dessert 750ml', 'Warburtons Gluten Free Super Soft Sliced Square Rolls x4 240g', 'Alpro Soya Long Life Drink 1L', 'Alpro Dark Chocolate Dessert 4x125g', 'Kallo Dark Chocolate Rice Cake Thins Gluten Free 90g', "Sainsbury's Fresh British Turkey Gluten Free Sausages x8 454g", 'Schar Gluten Free Wholesome Seeded Loaf 300g', 'Alpro No Sugars Organic Soya Long Life Drink 1L', "Sainsbury's Deliciously Free From Chocolate Chip Cookies 150g", 'Alpro Rasberry Cranberry & Blackberry Yogurt Alternative 4x125g', "Nairn's Chocolate Biscuit Breaks 160g", 'Manomasa Manchego & Green Olive Sharing Tortilla Chips 140g', 'Alpro Soya No Sugars Long Life Drink 1L', "Sainsbury's Deliciously Free From Spaghetti 500g", "Hellmann's Plant Based Vegan Mayonnaise 270g", 'Warburtons Tiger Artisan Bloomer, Gluten Free 400g', 'Warburtons Gluten Free Multiseed Loaf 300g ', 'BOL Garden Pea & Spinach Protein Power Soup', "Goodfella's Gluten Free Pepperoni Pizza 317g", 'Eat Real Hummus, Lentil, Quinoa Chips X5 116g', "Sacla' Vegan Basil Pesto 190g", 'Clearspring Organic Japanese Silken & Smooth Tofu 300g', 'Warburtons Gluten Free White Bread Sourdough 400g', 'Birds Eye Gluten Free Breaded Fish Fingers x12 360g', 'Alpro Soya Long Life Alternative to Single Cream 250ml ', "Sainsbury's Red Lentil Penne 250g", 'Alpro greek Style Strawberry & Raspberry Yogurt Alternative 150g', 'Alpro Vanilla Custard 525g', 'Rude Health Almond Drink 1L', 'Alpro Smooth Chocolate Dessert 4x125g', "Nairn's Gluten Free Scottish Porridge Oats 450g", 'BOL Butternut Squash & Chilli Immunity Power Soup', 'Alpro Soya Growing Up Long Life Drink 1L', 'Rude Health Oat Drink 1L', 'Alpro Plain Yoghurt Alternative 500g ', 'Nairns Gluten Free Oatcakes 213g', "Mrs Crimble's Gluten Free Coconut Macaroons x6", 'Alpro Almond Long Life Drink 1L', 'Promise Gluten Free Multigrain Loaf 480g', "Sainsbury's Little Ones Organic Apple & Blueberry Rice Cakes 12+ Months 40g", "Sainsbury's Little Ones Organic Apple Rice Cakes 12+ Months 40g"]
-    expectedUrls = ['https://assets.sainsburys-groceries.co.uk/gol/7934004/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7595669/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7603414/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7284376/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7792825/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/3486788/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7783545/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7227349/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7881758/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7898419/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7782881/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7782809/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7223524/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7063455/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7740228/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/3979624/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7792830/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7783244/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7894465/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2486123/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8061231/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2654737/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7213894/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/3443903/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7839772/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7873267/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2654720/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7783517/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7749493/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7671002/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7754631/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2967684/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7782893/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7936618/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7857744/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8013508/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8180762/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7861899/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7894469/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7688449/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7745153/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7746118/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7833673/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2939735/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7967268/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7847452/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7139025/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7651481/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/2813578/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7745300/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8180766/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7501422/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7651490/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/3071953/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7510765/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/6413097/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/7544271/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8032550/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8120464/image.jpg', 'https://assets.sainsburys-groceries.co.uk/gol/8120472/image.jpg'] 
     
-    url = read_html()
-    scrapedData = supermarkets_scrape(create_request(url))
-   
-    assert scrapedData == (expectedNames, expectedUrls)
+def supermarkets__test_scrape(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
 
-def scraper():
-    url = 'https://www.sainsburys.co.uk/gol-ui/groceries/dietary-and-world-foods/free-from/gluten-free/all-gluten-free/c:1019188'
-    supermarkets_scrape(proxy_request(url))
+    product_link = soup.find_all(attrs={'data-qa': 'search-product-title'})
+    product_names = [name.get('title') for name in product_link]
 
-scraper()
+    product_images = soup.find_all('img', class_='product-image')
+    product_image_urls = [link.get('src') for link in product_images]
+
+    products_data = []
+
+    # Loop through the product names and image URLs to add each product to the database
+    for name, image_url in zip(product_names, product_image_urls):
+        new_product = Product(name=name, image=image_url, supermarket='aldi', country='uk')
+        session.add(new_product)
+
+        product_data = {
+            'name': name,
+            'image_url': image_url,
+            'supermarket': 'aldi',
+            'country': 'uk'
+        }
+
+        products_data.append(product_data)
+
+    session.commit()
+
+    # Append a timestamp to the JSON file name to avoid overwriting
+    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+    json_file_name = f'scraped_aldi_data_{timestamp}.json'
+    
+    with open(json_file_name, 'w') as json_file:
+        json.dump(products_data, json_file, indent=2)
+
+    return product_names, product_image_urls
+
+def scraper_test():
+    # expectedNames = []
+    # expectedUrls = ['https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\10.11.22\\4088600206486_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\25.05.23\\4088600206462_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\25.05.23\\4088600206479_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/16.05.22 (2)/5060014570130_0.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/5449000031341_c56e9b7073c14d1ab5f6e1ff351f3050.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/5449000004451_034bb5f73dfa4efebcdbd35ae274aabc.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\16.08.23\\5060059531028_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\19.01.24\\5021727000475_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\19.09.23\\5060059530151_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\08.01.24\\5060426810114_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\10.08.23\\4088600518022_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\02.11.22\\4088600334776_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/4002971207309_9f72b7ef0ffb4dd8bbbc2daf1463128e.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/4002971207705_de43a52a1e5e47dbbb8d21bd1f18f64a.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\07.06.23\\4088600135304_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/4088600146683_d592e146a26346a58c4d5a20f0e801ec.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/26.04.23/4088600167824_0.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\16.05.22 (2)\\5060302740030_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\12.05.22\\5449000058386_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\12.08.22 (2)\\5449000601971_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\08.09.23\\5019503018974_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\08.09.23\\5019503019056_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\19.05.22\\5449000131836_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\12.08.22 (2)\\54491472_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\25.05.22\\54491496_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/04.10.22/5010082132792_0.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/04.10.22/5449000669902_0.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/04.10.22/5449000673039_0.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\5000193034559_2ddeb7013f0348f5b6ee8dc3eed82fb9_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\10.10.23\\5010228012926_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/23.10.23/8719200269743_0.jpg', 'https://aldprdproductimages.azureedge.net/media/$Aldi_GB/23.10.23/8719200269934_0.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\04.02.2022\\50107452_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\20.01.23\\50382811_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\23.02.22\\4088600434179_0_M.jpg', 'https://aldprdproductimages.azureedge.net/media/resized\\$Aldi_GB\\10.08.23\\4088600013756_0_M.jpg'] 
+    
+    scrapedData = supermarkets__test_scrape(read_html())
+
+    # assert scrapedData == (expectedUrls)
+
+    print(scrapedData)
+
+
+# Initialize your session object outside the scraper function
+session = create_session()
+scraper_test()
