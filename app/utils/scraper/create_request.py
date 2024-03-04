@@ -8,7 +8,7 @@ def proxy_request(url, proxy_url):
         print(f"Proxy: {proxy_url}, Status Code: {response.status_code}")
 
         if response.status_code == 200:
-            print(f"Valid Proxy: {proxy_url}")
+            print(f"Valid Proxy: {proxy_url}", response.text)
         return response.text
     except Exception as e:
         print(f"Error: {e}")
