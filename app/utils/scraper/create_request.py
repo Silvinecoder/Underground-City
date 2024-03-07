@@ -1,10 +1,10 @@
 import requests
 
 
-def proxy_request(url, proxy_url):
+def proxy_request(url, proxy_url, timeout=10):
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        response = requests.get(url, proxies={'http': proxy_url, 'https': proxy_url}, headers=headers, timeout=10)
+        response = requests.get(url, proxies={'http': proxy_url, 'https': proxy_url}, headers=headers, timeout=timeout)
         print(f"Proxy: {proxy_url}, Status Code: {response.status_code}")
 
         if response.status_code == 200:
