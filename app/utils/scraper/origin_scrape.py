@@ -36,19 +36,12 @@ def supermarkets_aldi_scrape(html_content):
 
     session.commit()
 
-def supermarkets_tesco_scrape(html_content):
-    soup = BeautifulSoup(html_content, 'html.parser')
-    product_image = soup.find_all('img', class_='img loaded')
-    product_image_urls = [link.get('src') for link in product_image]
 
-  
 def scrape():
-    # Define your proxy information
     proxy_url = 'http://SvLweHI5oL3yKMUW:C7mz1XuqF48OviAt_country-gb@geo.iproyal.com:12321'
-    # Define the URL to scrape
-    base_url = 'https://www.lidl.com/search/products/gluten%20free'
+    base_url = 'https://groceries.morrisons.com/search?display=700&entry=gluten%20free'
 
-    supermarkets_tesco_scrape(proxy_request(base_url, proxy_url, timeout=10))
+    supermarkets_aldi_scrape(proxy_request(base_url, proxy_url, timeout=4000))
 
     # page = 1
     # max_pages = 6
@@ -68,3 +61,4 @@ def scrape():
 scrape()
 
 # Aldi - 'https://groceries.aldi.co.uk/en-GB/Search?keywords=gluten+free&page={}'
+# Morrisons - 'https://groceries.morrisons.com/search?entry=gluten%20free'
