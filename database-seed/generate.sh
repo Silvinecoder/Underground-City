@@ -28,6 +28,4 @@ echo "
 cat ./inserts.sql >> ./seed.sql
 rm ./inserts.sql
 
-rm -rf celiac_python.egg-info dist build
-
 echo ""

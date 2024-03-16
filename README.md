@@ -3,25 +3,30 @@
 
 ## Setup your environment
 
+```
 Create a venv file
-
-```
 python3 -m venv venv
-```
 
 Then activate:
-`source venv/bin/activate`
-or for windows
-`venv\Scripts\activate`
+source venv/bin/activate
+or for windows:
+venv\Scripts\activate
 
 Install dependencies:
-```
-pip install -r requirements.txt
-python setup.py install
-```
-Run db seed and setup Docker
-```
+pip install -r requirements.txt && python setup.py develop
+
+Run db seed
 ./database-seed/generate.sh
+
+For linux run:
+sudo systemctl start docker.service
+
+Then setup Docker
 docker-compose up -d database
 ```
 
+For a clean installation of all of the python packages run:
+```
+rm -rf celiac_python.egg-info dist build
+python setup.py install
+```
