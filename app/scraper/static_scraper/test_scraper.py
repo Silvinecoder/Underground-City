@@ -20,6 +20,29 @@ def read_json():
 def sanitize_string(string):
     return html.unescape(string)
 
+def add_products_to_db(products_data, session):
+    # Add sorted products to the database
+    for product_data in products_data:
+        new_product = Product(
+            name=product_data['name'],
+            image=product_data['image_url'],
+            category=product_data['category'],
+            supermarket=product_data['supermarket'],
+            country=product_data['country']
+        )
+        session.add(new_product)
+
+    session.commit()
+
+def create_product_data(product_name, product_image_url, category, supermarket, country):
+    return {
+        'name': product_name,
+        'image_url': product_image_url,
+        'category': category,
+        'supermarket': supermarket,
+        'country': country
+    }
+
 
 def supermarkets_auchan_scrape(html_content, session):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -44,33 +67,15 @@ def supermarkets_auchan_scrape(html_content, session):
 
         if '/' in category:
             category_parts = category.split('/')
-            category_href = '/'.join(category_parts[:-1])  # excluding the last part (product)
             category_name = category_parts[-2]
         else:
             category_name = ''
 
-        product_data = {
-            'name': product_name,
-            'image_url': product_image_url,
-            'category': category_name,
-            'supermarket': 'auchan',
-            'country': 'PT'
-        }
+        product_data = create_product_data(product_name, product_image_url, category_name, 'pingo_doce', 'PT')
 
         products_data.append(product_data)
 
-    # Add products to the database
-    for product_data in products_data:
-        new_product = Product(
-            name=product_data['name'],
-            image=product_data['image_url'],
-            category=product_data['category'],
-            supermarket=product_data['supermarket'],
-            country=product_data['country']
-        )
-        session.add(new_product)
-
-    session.commit()
+    add_products_to_db(products_data, session)
 
     return product_data
 
@@ -84,28 +89,11 @@ def supermarkets_pingo_doce_scrape(json_content, session):
         product_image_url = product.get('image', 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png')
         category = product.get('category', '')
 
-        product_data = {
-            'name': product_name,
-            'image_url': product_image_url,
-            'category': category,
-            'supermarket': 'pingo_doce',
-            'country': 'PT'
-        }
+        product_data = create_product_data(product_name, product_image_url, category, 'pingo_doce', 'PT')
 
         products_data.append(product_data)
 
-    # Add products to the database
-    for product_data in products_data:
-        new_product = Product(
-            name=product_data['name'],
-            image=product_data['image_url'],
-            category=product_data['category'],
-            supermarket=product_data['supermarket'],
-            country=product_data['country']
-        )
-        session.add(new_product)
-
-    session.commit()
+    add_products_to_db(products_data, session)
 
     return product_data
 
@@ -134,28 +122,11 @@ def supermarkets_continent_scrape(html_content, session):
         product_name = sanitize_string(product_name)
         product_image_url = data_dict.get('url', '')
 
-        product_data = {
-            'name': product_name,
-            'image_url': product_image_url,
-            'supermarket': 'continent',
-            'country': 'PT',
-            'category': category_data['category']  # Access category from the corresponding dictionary
-        }
+        product_data = create_product_data(product_name, product_image_url, category_data['category'], 'continent', 'PT')
 
         products_data.append(product_data)
 
-    # Add sorted products to the database
-    for product_data in products_data:
-        new_product = Product(
-            name=product_data['name'],
-            image=product_data['image_url'],
-            category=product_data['category'],
-            supermarket=product_data['supermarket'],
-            country=product_data['country']
-        )
-        session.add(new_product)
-
-    session.commit()
+    add_products_to_db(products_data, session)
 
     return product_data
 
