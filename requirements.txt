@@ -6,3 +6,4 @@ setuptools
 selenium
 pandas
 flask
+flask-cors
