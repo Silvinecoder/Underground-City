@@ -17,9 +17,9 @@ def get_products_by_category():
         session.close()
 
         # Group products by category
-        categories_with_products = defaultdict(list)
+        categories_with_products = defaultdict(lambda: {"products": []})
         for product in products:
-            categories_with_products[product.category].append({
+            categories_with_products[product.category]["products"].append({
                 'product_uuid': str(product.product_uuid),
                 'name': product.name,
                 'image': product.image,
@@ -27,7 +27,7 @@ def get_products_by_category():
                 'country': product.country
             })
 
-        return jsonify(categories_with_products), 200
+        return jsonify(dict(categories_with_products)), 200
 
 if __name__ == "__main__":
     app.run(debug=True)
