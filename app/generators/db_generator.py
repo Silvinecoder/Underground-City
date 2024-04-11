@@ -1,18 +1,24 @@
-import os
 import sys
 from sqlalchemy.schema import CreateTable
 from sqlalchemy.dialects import postgresql
 
 def generate_postgres_schema(models_path="../model") -> list:
+    table_order = [
+        "attribute",
+        "category",
+        "product",
+        "supermarket",
+        "supermarket_product_pair"
+    ]
 
-    for filename in os.listdir(models_path):
-        if filename.endswith(".py") and not filename.startswith("__"):
-            module_name = os.path.splitext(filename)[0]
-            class_name = module_name.capitalize()
-            full_module_path = f"app.model.{module_name}"
-            module = __import__(full_module_path, fromlist=[class_name])
-            module_class = getattr(module, class_name)
-            create_schema = CreateTable(module_class.__table__).compile(dialect=postgresql.dialect())
+    for table_name in table_order:
+            module_name = table_name.replace("_", " ").title().replace(" ", "")
+            full_module_path = f"app.model.{table_name}"
+            module = __import__(full_module_path, fromlist=[module_name])
+            module_class = getattr(module, module_name)
+            create_schema = CreateTable(module_class.__table__).compile(
+                dialect=postgresql.dialect()
+            )
             print(f"{create_schema};".replace("\n\n;", ";"))
 
 
