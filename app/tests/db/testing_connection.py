@@ -1,5 +1,5 @@
 from sqlalchemy import text
-from db_connection import create_session
+from app.db.db_connection import create_session
 
 session = create_session()
 query = session.execute(text("select * from product"))

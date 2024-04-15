@@ -10,6 +10,7 @@
     "pingo",
     "sessionmaker",
     "sqlalchemy",
-    "venv"
+    "venv",
+    "jsonify",
   ]
 }

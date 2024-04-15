@@ -2,8 +2,14 @@ import os
 import json
 import html
 from bs4 import BeautifulSoup
+
 from app.db.db_connection import create_session
+
 from app.model.product import Product
+from app.model.category import Category
+from app.model.attribute import Attribute
+from app.model.supermarket import Supermarket
+from app.model.supermarket_product_pair import SupermarketProductPair
 
 def read_html():
     relative_path = './auchan.html'
@@ -21,28 +27,33 @@ def sanitize_string(string):
     return html.unescape(string)
 
 def add_products_to_db(products_data, session):
-    # Add sorted products to the database
     for product_data in products_data:
-        new_product = Product(
-            name=product_data['name'],
-            image=product_data['image_url'],
-            category=product_data['category'],
-            supermarket=product_data['supermarket'],
-            country=product_data['country']
-        )
-        session.add(new_product)
+        category_name = product_data.get('category', '')
+        attribute_type = product_data.get('attribute_type', '')  # Updated key name
+        supermarket_name = product_data.get('supermarket_name', '')
+        country = product_data.get('country', '')
+
+        category = Category.get_or_create(session, category_name)
+        attribute = Attribute.get_or_create(session, attribute_type)
+        supermarket = Supermarket.get_or_create(session, supermarket_name, country)
+        product = Product.get_or_create(session, product_data['name'], product_data['image_url'], category, attribute)
+
+        session.add(product)
+
+        if supermarket:
+            SupermarketProductPair.get_or_create(session, product, supermarket)
 
     session.commit()
 
-def create_product_data(product_name, product_image_url, category, supermarket, country):
+def create_product_data(product_name, product_image_url, category, attribute_type, supermarket_name, country):
     return {
         'name': product_name,
         'image_url': product_image_url,
         'category': category,
-        'supermarket': supermarket,
+        'attribute_type': attribute_type, 
+        'supermarket_name': supermarket_name,
         'country': country
     }
-
 
 def supermarkets_auchan_scrape(html_content, session):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -59,7 +70,9 @@ def supermarkets_auchan_scrape(html_content, session):
         product_name = sanitize_string(product_name)
         print(product_name)
         
-        product_image_url = search_result.find('img', class_='tile-image').get('src', '')
+        picture_element = search_result.find('picture')
+        link_element = picture_element.find('link')
+        product_image_url = link_element.get('href', '').strip()
         print(product_image_url)
 
         category = data_dict.get('category', '')
@@ -71,7 +84,7 @@ def supermarkets_auchan_scrape(html_content, session):
         else:
             category_name = ''
 
-        product_data = create_product_data(product_name, product_image_url, category_name, 'pingo_doce', 'PT')
+        product_data = create_product_data(product_name, product_image_url, category_name, 'gluten-free', 'Auchan', 'PT')
 
         products_data.append(product_data)
 
@@ -135,8 +148,8 @@ def scrape_and_save():
     json_content = read_json()
     
     with create_session() as session:
-        products_data = supermarkets_pingo_doce_scrape(json_content, session)
-        # products_data = supermarkets_auchan_scrape(html_content, session)
+        # products_data = supermarkets_pingo_doce_scrape(json_content, session)
+        products_data = supermarkets_auchan_scrape(html_content, session)
         print(f'Total products scraped: {len(products_data)}')
 
 scrape_and_save()
