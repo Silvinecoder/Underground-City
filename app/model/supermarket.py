@@ -14,4 +14,13 @@ class Supermarket(Base):
     supermarket_name = Column(String(255), nullable=False)
     supermarket_country = Column(String(255), nullable=False)
 
-    supermarket_product_pair = relationship( 'SupermarketProductPair', back_populates='supermarkets')
+    supermarket_product_pair = relationship( 'SupermarketProductPair', back_populates='supermarket')
+
+    # Checking if supermarket exists in the database, if not, create it
+    @classmethod
+    def get_or_create(cls, session, supermarket_name, country):
+        supermarket = session.query(Supermarket).filter_by(supermarket_name=supermarket_name).first()
+        if not supermarket:
+            supermarket = Supermarket(supermarket_name=supermarket_name, supermarket_country=country)
+            session.add(supermarket)
+        return supermarket

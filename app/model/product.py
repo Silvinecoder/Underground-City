@@ -21,4 +21,13 @@ class Product(Base):
 
     product_category = relationship(Category, back_populates='products')
     product_attribute = relationship(Attribute, back_populates='products')
-    supermarket_product_pair = relationship( 'SupermarketProductPair', back_populates='products')
+    supermarket_product_pair = relationship('SupermarketProductPair', back_populates='product')
+
+    # Checking if product exists in the database, if not, create it
+    @classmethod
+    def get_or_create(cls, session, product_name, product_image, category, attribute):
+        product = session.query(Product).filter_by(product_name=product_name).first()
+        if not product:
+            product = Product(product_name=product_name, product_image=product_image, product_category=category, product_attribute=attribute)
+            session.add(product)
+        return product

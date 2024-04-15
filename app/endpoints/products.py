@@ -17,11 +17,11 @@ def get_products():
     for product in products:
         products_json.append({
             'product_uuid': str(product.product_uuid),
-            'name': product.name,
-            'image': product.image,
-            'category': product.category,
-            'supermarket': product.supermarket,
-            'country': product.country
+            'name': product.product_name,
+            'image': product.product_image,
+            'category': product.product_category.category_name,
+            'attribute': product.product_attribute.attribute_type,
+            'supermarketProductPair': [pair.supermarket_product_pair_uuid for pair in product.supermarket_product_pair],  # Added key
         })
 
     return jsonify(products_json), 200
