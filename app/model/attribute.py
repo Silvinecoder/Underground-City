@@ -13,8 +13,9 @@ class Attribute(Base):
     attribute_uuid = Column(UUID(as_uuid=True), primary_key=True, unique=True, default=uuid.uuid4, nullable=False)
     attribute_type = Column(String(255), nullable=False)
 
-    products = relationship('Product', back_populates='product_attribute')
+    products = relationship('Product')
 
+    
     # Checking if attribute exists in the database, if not, create it
     @classmethod
     def get_or_create(cls, session, attribute_type):

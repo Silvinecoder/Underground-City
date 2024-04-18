@@ -14,8 +14,6 @@ class Supermarket(Base):
     supermarket_name = Column(String(255), nullable=False)
     supermarket_country = Column(String(255), nullable=False)
 
-    supermarket_product_pair = relationship( 'SupermarketProductPair', back_populates='supermarket')
-
     # Checking if supermarket exists in the database, if not, create it
     @classmethod
     def get_or_create(cls, session, supermarket_name, country):

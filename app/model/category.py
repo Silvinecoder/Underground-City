@@ -12,7 +12,7 @@ class Category(Base):
     category_uuid = Column(UUID(as_uuid=True), primary_key=True, unique=True, default=uuid.uuid4, nullable=False)
     category_name = Column(String(255), nullable=False)
 
-    products = relationship('Product', back_populates='product_category')
+    products = relationship('Product')
 
     # Checking if category exists in the database, if not, create it, else 
     @classmethod

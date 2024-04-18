@@ -1,13 +1,12 @@
 from flask import Flask, jsonify
-from flask_cors import CORS
+
 from app.db.db_connection import create_session
-from collections import defaultdict
-from app.model.product import Product
+
 from app.model.category import Category
+from app.model.product import Product
 
 # Create Flask application
 app = Flask(__name__)
-CORS(app)  # Initialize Flask-CORS
 
 # Define route to get all categories
 @app.route('/categories', methods=['GET'])
@@ -16,38 +15,28 @@ def get_products():
     categories = session.query(Category).all()
     session.close()
 
-    attribute_json = []
+    categories_json = []
     for category in categories:
-        attribute_json.append({
-            'attribute_uuid': category.attribute_uuid,
-            'attribute_type': category.attribute_type
+        categories_json.append({
+            'category_uuid': str(category.category_uuid),
+            'category_name': category.category_name
         })
 
-    return jsonify(attribute_json), 200
+    return jsonify(categories_json), 200
 
 # Define route to get all products within a category
-@app.route('/categories/products', methods=['GET'])
-def get_products_by_category():
-    with app.app_context():  # Ensure execution within Flask application context
-        session = create_session()
-        products = session.query(Product).all()
-        session.close()
+@app.route('/categories/<category_uuid>/products', methods=['GET'])
+def get_products_by_category(category_uuid):
+    session = create_session()
+    products = session.query(Product).filter_by(product_category_uuid=category_uuid).all()
+    session.close()
 
-        # Group products by category
-        categories_with_products = defaultdict(list)
-        for product in products:
-            category_name = product.product_category.category_name
-            product_data = {
-                'product_uuid': str(product.product_uuid),
-                'name': product.product_name,
-                'image': product.product_image,
-                'attribute': product.product_attribute.attribute_type,
-                'supermarket': [pair.supermarket.supermarket_name for pair in product.supermarket_product_pair],
-                'country': [pair.supermarket.country for pair in product.supermarket_product_pair]
-            }
-            categories_with_products[category_name].append(product_data)
+    products_json = []
+    for product in products:
+        products_json.append({
+            'product_uuid': str(product.product_uuid),
+            'name': product.product_name,
+            'image': product.product_image,
+        })
 
-        return jsonify(dict(categories_with_products)), 200
-
-if __name__ == "__main__":
-    app.run(debug=True)
+    return jsonify(products_json), 200
