@@ -1,5 +1,7 @@
 from flask import Flask, jsonify
+
 from app.db.db_connection import create_session
+
 from app.model.product import Product
 
 # Create Flask application
@@ -19,9 +21,8 @@ def get_products():
             'product_uuid': str(product.product_uuid),
             'name': product.product_name,
             'image': product.product_image,
-            'category': product.product_category.category_name,
-            'attribute': product.product_attribute.attribute_type,
-            'supermarketProductPair': [pair.supermarket_product_pair_uuid for pair in product.supermarket_product_pair],  # Added key
+            'category': product.product_category_uuid,
+            'attribute': product.product_attribute_uuid
         })
 
     return jsonify(products_json), 200

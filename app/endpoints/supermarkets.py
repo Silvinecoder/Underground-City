@@ -17,7 +17,7 @@ def get_products():
         supermarket_json.append({
             'supermarket_uuid': supermarket.supermarket_uuid,
             'supermarket_name': supermarket.supermarket_name,
-            'country': supermarket.country
+            'supermarket_country': supermarket.supermarket_country
         })
 
     return jsonify(supermarket_json), 200

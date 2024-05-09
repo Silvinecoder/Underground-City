@@ -3,8 +3,6 @@ from sqlalchemy import Column, ForeignKey, UUID
 from sqlalchemy.orm import relationship
 from app.assistant.model_helper import Base
 
-from app.model.product import Product
-from app.model.supermarket import Supermarket
 
 class SupermarketProductPair(Base):
     """Class representing the association between products and shops."""
@@ -14,8 +12,8 @@ class SupermarketProductPair(Base):
     product_uuid = Column(UUID(as_uuid=True), ForeignKey('product.product_uuid'), nullable=False)
     supermarket_uuid = Column(UUID(as_uuid=True), ForeignKey('supermarket.supermarket_uuid'), nullable=False)
     
-    product = relationship(Product, back_populates="supermarket_product_pair")
-    supermarket = relationship(Supermarket, back_populates="supermarket_product_pair")
+    product = relationship('Product')
+    supermarket = relationship('Supermarket')
 
     # Checking if supermarket-product pair exists in the database, if not, create it
     @classmethod
