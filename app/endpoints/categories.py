@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 # Define route to get all categories
 @app.route('/categories', methods=['GET'])
-def get_products():
+def get_categories():
     session = create_session()
     categories = session.query(Category).all()
     session.close()
@@ -24,10 +24,38 @@ def get_products():
 
     return jsonify(categories_json), 200
 
+@app.route('/categories/products', methods=['GET'])
+def get_categories_with_products():
+    session = create_session()
+    categories = session.query(Category).all()
+
+    categories_json = []
+    for category in categories:
+        products = session.query(Product).filter_by(product_category_uuid=category.category_uuid).all()
+
+        products_json = []
+        for product in products:
+            products_json.append({
+                'product_uuid': str(product.product_uuid),
+                'name': product.product_name,
+                'image': product.product_image,
+            })
+
+        categories_json.append({
+            'category_uuid': str(category.category_uuid),
+            'category_name': category.category_name,
+            'products': products_json
+        })
+
+    session.close()
+
+    return jsonify(categories_json), 200
+
 # Define route to get all products within a category
 @app.route('/categories/<category_uuid>/products', methods=['GET'])
 def get_products_by_category(category_uuid):
     session = create_session()
+    category = session.query(Category).filter_by(category_uuid=category_uuid).one()
     products = session.query(Product).filter_by(product_category_uuid=category_uuid).all()
     session.close()
 
@@ -39,4 +67,7 @@ def get_products_by_category(category_uuid):
             'image': product.product_image,
         })
 
-    return jsonify(products_json), 200
+    return jsonify({
+        'category_name': category.category_name,
+        'products': products_json
+    }), 200

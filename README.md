@@ -23,6 +23,9 @@ sudo systemctl start docker.service
 
 Then setup Docker
 docker-compose up -d database
+
+Run the server
+flask --app file name run
 ```
 
 For a clean installation of all of the python packages run:

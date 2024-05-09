@@ -12,9 +12,6 @@ class Attribute(Base):
     __tablename__ = 'attribute'
     attribute_uuid = Column(UUID(as_uuid=True), primary_key=True, unique=True, default=uuid.uuid4, nullable=False)
     attribute_type = Column(String(255), nullable=False)
-
-    products = relationship('Product')
-
     
     # Checking if attribute exists in the database, if not, create it
     @classmethod
