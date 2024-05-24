@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 from app.db.db_connection import create_session
-
 from app.model.attribute import Attribute
 from app.model.product import Product
 

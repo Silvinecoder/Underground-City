@@ -13,7 +13,7 @@ or for windows:
 venv\Scripts\activate
 
 Install dependencies:
-pip install -r requirements.txt && python setup.py develop
+pip install -r app/requirements.txt && python setup.py develop
 
 Run db seed
 ./database-seed/generate.sh
