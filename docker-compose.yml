@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  database:
+    image: postgres
+    container_name: underground
+    restart: always
+    ports:
+      - "54321:5432"
+    environment:
+      POSTGRES_USER: underground
+      POSTGRES_PASSWORD: underground
+      POSTGRES_DB: underground
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./database-seed/drop.sql:/docker-entrypoint-initdb.d/drop.sql
+      - ./database-seed/seed.sql:/docker-entrypoint-initdb.d/seed.sql
+      - ./.db-data:/var/lib/postgresql/data
+    command: ["postgres", "-c", "log_statement=all"]
+  be:
+    build:
+      context: ./app
+    container_name: underground
+    environment:
+      - UNDERGROUND_DATABASE_HOST=localhost
+      - UNDERGROUND_DATABASE_PORT=5432
+      - UNDERGROUND_DATABASE_NAME=underground
+      - UNDERGROUND_DATABASE_SCHEMA=public
+      - UNDERGROUND_DATABASE_USERNAME=underground
+      - UNDERGROUND_DATABASE_PASSWORD=underground
+      - UNDERGROUND_ENVIRONMENT=testing
+    ports:
+      - "5050:5050"
