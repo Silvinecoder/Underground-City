@@ -7,14 +7,14 @@ INSERT INTO category (category_uuid, category_name) VALUES
 ('8250b741-8948-471f-9350-bfcc0f37c8d5','Canned'),
 ('a3e179c1-9e9b-4105-94c3-821216551a03','Biscuits');
 
-INSERT INTO product (product_uuid, product_name, product_image, product_attribute_uuid, product_category_uuid) VALUES
-('b973cb3a-777e-44e4-8a53-f868932f8eb4','Cogumelos Laminados','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd9ee9df0/images/col/300/3003826-hero.jpg?sw=2000&sh=2000', '5ddf34ac-a0ed-4042-869d-d584fd10b97b', '8250b741-8948-471f-9350-bfcc0f37c8d5'),
-('a8409995-69f4-495a-b801-f71979305d72','Cogumelos Laminados','https://www.pingodoce.pt/wp-content/uploads/products/large/598150-1215f04224bfbf8e878a1dc30a074c10.jpg', '5ddf34ac-a0ed-4042-869d-d584fd10b97b', '8250b741-8948-471f-9350-bfcc0f37c8d5'),
-('11b31b73-4334-48df-a573-005cac6c4667','Tortitas de Milho com Sal','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw47acd0da/images/col/596/5968600-hero.jpg?sw=2000&sh=2000','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
-('1e78dd01-053f-4a59-aa6d-8f271c6851a1','Tortitas Vitalday de Arroz, Iogurte e Framboesa','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw55d1f831/images/col/718/7188280-frente.jpg?sw=2000&sh=2000','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
-('96e4aacd-1a9f-4e7c-bb07-bcf86a5b548e','Tortitas Vitalday de Arroz, Chocolate e Coco','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw97599dee/images/col/718/7188279-frente.jpg?sw=2000&sh=2000','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
-('ad15e752-9b27-4568-8a63-8615363dce5b','Bolachas de Aveia e Chocolate','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw41acaa99/images/col/770/7708105-esquerdo.jpg?sw=2000&sh=2000','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
-('4abe8c2c-ceba-46ce-b3c3-5b3e9da59ffc','bolacha gullon aveia laranja','https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc3407d0b/images/hi-res/002896961.jpg','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03');
+INSERT INTO product (product_uuid, product_name, product_image, product_price, product_attribute_uuid, product_category_uuid) VALUES
+('b973cb3a-777e-44e4-8a53-f868932f8eb4','Cogumelos Laminados','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd9ee9df0/images/col/300/3003826-hero.jpg?sw=2000&sh=2000','€3,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b', '8250b741-8948-471f-9350-bfcc0f37c8d5'),
+('a8409995-69f4-495a-b801-f71979305d72','Cogumelos Laminados','https://www.pingodoce.pt/wp-content/uploads/products/large/598150-1215f04224bfbf8e878a1dc30a074c10.jpg','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','8250b741-8948-471f-9350-bfcc0f37c8d5'),
+('11b31b73-4334-48df-a573-005cac6c4667','Tortitas de Milho com Sal','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw47acd0da/images/col/596/5968600-hero.jpg?sw=2000&sh=2000','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
+('1e78dd01-053f-4a59-aa6d-8f271c6851a1','Tortitas Vitalday de Arroz, Iogurte e Framboesa','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw55d1f831/images/col/718/7188280-frente.jpg?sw=2000&sh=2000','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
+('96e4aacd-1a9f-4e7c-bb07-bcf86a5b548e','Tortitas Vitalday de Arroz, Chocolate e Coco','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw97599dee/images/col/718/7188279-frente.jpg?sw=2000&sh=2000','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
+('ad15e752-9b27-4568-8a63-8615363dce5b','Bolachas de Aveia e Chocolate','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw41acaa99/images/col/770/7708105-esquerdo.jpg?sw=2000&sh=2000', '€1,21','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
+('4abe8c2c-ceba-46ce-b3c3-5b3e9da59ffc','bolacha gullon aveia laranja','https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc3407d0b/images/hi-res/002896961.jpg','€1,21','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03');
 
 INSERT INTO supermarket (supermarket_uuid, supermarket_name, supermarket_country) VALUES
 ('c3dc5c28-afc4-4680-9fd6-b39132f82612','Continente','UK'),
@@ -24,6 +24,7 @@ INSERT INTO supermarket (supermarket_uuid, supermarket_name, supermarket_country
 
 INSERT INTO supermarket_product_pair (supermarket_product_pair_uuid, product_uuid, supermarket_uuid) VALUES
 ('b787c508-76dd-4c1f-4bd0-f51b8dc3b6f9','b973cb3a-777e-44e4-8a53-f868932f8eb4','c3dc5c28-afc4-4680-9fd6-b39132f82612'),
+('087d6cad-e3d5-4fd9-9214-4ac9796b70a1','b973cb3a-777e-44e4-8a53-f868932f8eb4','058e6b43-4b66-4b7f-b18a-b861830a1703'),
 ('32ae5488-8b67-467a-9593-75ffa707379b','a8409995-69f4-495a-b801-f71979305d72','fadf51d4-30c4-42f8-82e5-6ce8bb6c7fb3'),
 ('cfa52d0d-43db-dac6-fda4-59d1f49acacb','11b31b73-4334-48df-a573-005cac6c4667','c3dc5c28-afc4-4680-9fd6-b39132f82612'),
 ('a081ea44-f6fa-48ef-8e8a-deb7e6368bee','1e78dd01-053f-4a59-aa6d-8f271c6851a1','c3dc5c28-afc4-4680-9fd6-b39132f82612'),
