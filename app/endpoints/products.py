@@ -31,6 +31,7 @@ def get_products_by_category_in_supermarket(supermarket_uuid, category_uuid):
                     "name": product.product_name,
                     "image": product.product_image,
                     "price": product.product_price,
+                    "rating": product.product_average_rating
                 }
             )
 
@@ -62,6 +63,7 @@ def get_products():
                 "name": product.product_name,
                 "image": product.product_image,
                 "price": product.product_price,
+                "rating": product.product_average_rating,
                 "supermarket_uuids": []
             }
         product_map[product_uuid_str]["supermarket_uuids"].append(str(supermarket_uuid))
