@@ -7,7 +7,7 @@ INSERT INTO category (category_uuid, category_name) VALUES
 ('8250b741-8948-471f-9350-bfcc0f37c8d5','Canned'),
 ('a3e179c1-9e9b-4105-94c3-821216551a03','Biscuits');
 
-INSERT INTO product (product_uuid, product_name, product_image, product_price, product_rating, product_attribute_uuid, product_category_uuid) VALUES
+INSERT INTO product (product_uuid, product_name, product_image, product_price, product_attribute_uuid, product_category_uuid) VALUES
 ('b973cb3a-777e-44e4-8a53-f868932f8eb4','Cogumelos Laminados','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd9ee9df0/images/col/300/3003826-hero.jpg?sw=2000&sh=2000','€3,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b', '8250b741-8948-471f-9350-bfcc0f37c8d5'),
 ('a8409995-69f4-495a-b801-f71979305d72','Cogumelos Laminados','https://www.pingodoce.pt/wp-content/uploads/products/large/598150-1215f04224bfbf8e878a1dc30a074c10.jpg','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','8250b741-8948-471f-9350-bfcc0f37c8d5'),
 ('11b31b73-4334-48df-a573-005cac6c4667','Tortitas de Milho com Sal','https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw47acd0da/images/col/596/5968600-hero.jpg?sw=2000&sh=2000','€2,65','5ddf34ac-a0ed-4042-869d-d584fd10b97b','a3e179c1-9e9b-4105-94c3-821216551a03'),
