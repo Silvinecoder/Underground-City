@@ -28,34 +28,22 @@ variable "db_username" {
   description = "Database username for RDS"
   type        = string
 }
-
-variable "db_password" {
-  description = "Database password for RDS"
-  type        = string
-  sensitive   = true
-}
-
 variable "db_name" {
   description = "Database name for RDS"
   type        = string
 }
 
-variable "custom_domain" {
-  description = "Custom domain name for the API Gateway"
-  type        = string
-}
-
-variable "certificate_arn" {
+variable "cert_arn" {
   description = "ARN of the SSL certificate for the custom domain"
   type        = string
 }
 
-variable "vpc_id" {
-  description = "ID of the VPC to deploy RDS in"
+variable "top_domain" {
+  description = "The top-level domain name (e.g., example.com)"
   type        = string
 }
 
-variable "subnet_ids" {
-  description = "List of subnet IDs for RDS deployment"
-  type        = list(string)
+variable "subdomain" {
+  description = "The subdomain for the API Gateway (e.g., api)"
+  type        = string
 }

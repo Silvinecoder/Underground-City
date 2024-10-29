@@ -24,17 +24,22 @@ variable "rds_arn" {
   type        = string
 }
 
+variable "db_name" {
+  description = "Database name for RDS"
+  type        = string
+}
+
 variable "db_username" {
   description = "Database username for RDS"
   type        = string
 }
 
-variable "db_password" {
-  description = "Database password for RDS"
-  type        = string
+variable "subnet_ids" {
+  description = "List of subnet IDs for the Lambda function"
+  type        = list(string)
 }
 
-variable "db_name" {
-  description = "Database name for RDS"
+variable "db_password" {
+  description = "Database password for the Lambda function"
   type        = string
 }

@@ -1,5 +1,5 @@
 resource "aws_api_gateway_domain_name" "domain" {
-  domain_name              = "${var.subdomain}${var.subdomain_suffix}.${var.top_domain}"
+  domain_name              = "${var.subdomain}.${var.top_domain}"
   regional_certificate_arn = var.cert_arn
 
   endpoint_configuration {

@@ -9,13 +9,12 @@ resource "aws_lambda_function" "flask_lambda" {
   filename         = var.lambda_zip
 
   environment {
-    variables = {
-      DB_HOST     = var.db_endpoint
-      DB_USER     = var.db_username
-      DB_PASSWORD = var.db_password
-      DB_NAME     = var.db_name
-    }
+  variables = {
+    DB_NAME       = var.db_name
+    DB_USERNAME   = var.db_username
+    DB_PASSWORD   = var.db_password
   }
+}
 
   vpc_config {
     subnet_ids         = var.subnet_ids

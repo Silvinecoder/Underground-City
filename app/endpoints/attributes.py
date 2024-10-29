@@ -100,5 +100,3 @@ def get_product_with_attributes(product_uuid):
     }
 
     return jsonify(product_json), 200
-
-

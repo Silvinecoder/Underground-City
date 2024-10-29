@@ -9,26 +9,33 @@ module "lambda" {
   lambda_handler = var.lambda_handler
   runtime       = var.runtime
   db_username   = var.db_username
-  db_password   = var.db_password
+  db_password   = module.rds.db_password 
   db_name       = var.db_name
   rds_arn       = module.rds.rds_arn
+  subnet_ids    = module.vpc.subnet_ids
 }
 
 module "api_gateway" {
   source       = "./api_gateway"
   project_name = var.project_name
-  lambda_arn   = module.lambda.lambda_arn
   region       = var.region
-  custom_domain = var.custom_domain
-  certificate_arn = var.certificate_arn
+  name         = var.project_name
+  top_domain   = var.top_domain
+  subdomain    = var.subdomain
+  cert_arn     = var.cert_arn
+  lambdas               = {
+    "backend_lambda" = {
+      arn  = module.lambda.lambda_arn
+      name = module.lambda.lambda_name
+    }
+  }
 }
 
 module "rds" {
   source       = "./rds"
   project_name = var.project_name
   db_username  = var.db_username
-  db_password  = var.db_password
   db_name      = var.db_name
-  vpc_id       = var.vpc_id
-  subnet_ids   = var.subnet_ids
+  vpc_id       = module.vpc.vpc_id
+  subnet_ids   = module.vpc.subnet_ids
 }
