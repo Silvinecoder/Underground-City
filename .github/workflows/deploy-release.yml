@@ -22,10 +22,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
 
       - name: Install dependencies
         run: |
@@ -44,7 +44,13 @@ jobs:
 
       - name: Terraform Plan
         working-directory: terraform
-        run: terraform plan
+        run: terraform plan \
+            -var "top_domain=${DOMAIN}" \
+            -var "subdomain=${SUBDOMAIN}" \
+            -var "region=${AWS_DEFAULT_REGION}" \
+            -var "cert_arn=${CERT_ARN}" \
+            -var "db_name=${DB_NAME}" \
+            -var "db_username=${DB_USERNAME}"
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
