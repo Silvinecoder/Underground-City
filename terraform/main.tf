@@ -2,6 +2,22 @@ provider "aws" {
   region = var.region
 }
 
+module "vpc" {
+  source = "./networking"
+  project_name = var.project_name
+  region = var.region
+}
+
+module "rds" {
+  source       = "./rds"
+  project_name = var.project_name
+  db_username  = var.db_username
+  db_name      = var.db_name
+  vpc_id       = module.vpc.vpc_id
+  subnet_ids   = module.vpc.subnet_ids
+  rds_sg = module.vpc.rds_sg
+}
+
 module "lambda" {
   source        = "./lambda"
   project_name  = var.project_name
@@ -13,6 +29,7 @@ module "lambda" {
   db_name       = var.db_name
   rds_arn       = module.rds.rds_arn
   subnet_ids    = module.vpc.subnet_ids
+  lambda_sg  = module.vpc.lambda_sg
 }
 
 module "api_gateway" {
@@ -29,13 +46,4 @@ module "api_gateway" {
       name = module.lambda.lambda_name
     }
   }
-}
-
-module "rds" {
-  source       = "./rds"
-  project_name = var.project_name
-  db_username  = var.db_username
-  db_name      = var.db_name
-  vpc_id       = module.vpc.vpc_id
-  subnet_ids   = module.vpc.subnet_ids
 }

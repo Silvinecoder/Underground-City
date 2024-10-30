@@ -23,3 +23,7 @@ variable "vpc_id" {
   type        = string
 }
 
+variable "rds_sg" {
+  description = "Security group ID for the RDS instance"
+  type        = string
+}

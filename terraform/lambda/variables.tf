@@ -43,3 +43,9 @@ variable "db_password" {
   description = "Database password for the Lambda function"
   type        = string
 }
+
+variable "lambda_sg" {
+  description = "Security group ID for the Lambda function"
+  type        = string
+}
+

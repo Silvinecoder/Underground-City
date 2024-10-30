@@ -9,3 +9,7 @@ output "domain_name_regional" {
 output "domain_zone_id" {
     value = aws_api_gateway_domain_name.domain.regional_zone_id
 }
+
+output "api_gateway_url" {
+    value = "https://${var.subdomain}.${var.top_domain}"
+}
