@@ -12,11 +12,11 @@ jobs:
       name: production
     env:
       AWS_DEFAULT_REGION: ${{ vars.AWS_REGION }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_ACCESS_KEY_ID: ${{ vars.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       DOMAIN: ${{ vars.AWS_DOMAIN }}
       SUBDOMAIN: ${{ vars.AWS_SUBDOMAIN }}
-      CERT_ARN: ${{ vars.AWS_CERT_ARN }}
+      CERT_ARN: ${{ vars.AWS_DOMAIN_CERT_ARN }}
       DB_NAME: ${{ vars.AWS_DB_NAME }}
       DB_USERNAME: ${{ vars.AWS_DB_USER }}
 
@@ -26,6 +26,8 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
       - name: Install dependencies
         run: |
@@ -44,22 +46,25 @@ jobs:
 
       - name: Terraform Plan
         working-directory: terraform
-        run: terraform plan \
-            -var "top_domain=${DOMAIN}" \
-            -var "subdomain=${SUBDOMAIN}" \
-            -var "region=${AWS_DEFAULT_REGION}" \
-            -var "cert_arn=${CERT_ARN}" \
-            -var "db_name=${DB_NAME}" \
-            -var "db_username=${DB_USERNAME}"
+        run: |
+          cd ./terraform
+          terraform plan -no-color \
+            -var top_domain=${DOMAIN} \
+            -var subdomain=${SUBDOMAIN} \
+            -var region=${AWS_DEFAULT_REGION} \
+            -var cert_arn=${CERT_ARN} \
+            -var db_name=${DB_NAME} \
+            -var db_username=${DB_USERNAME}
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main'
         working-directory: terraform
         run: |
-          terraform apply -auto-approve \
-            -var "top_domain=${DOMAIN}" \
-            -var "subdomain=${SUBDOMAIN}" \
-            -var "region=${AWS_DEFAULT_REGION}" \
-            -var "cert_arn=${CERT_ARN}" \
-            -var "db_name=${DB_NAME}" \
-            -var "db_username=${DB_USERNAME}"
+          cd ./terraform
+          terraform apply -auto-approve -no-color \
+            -var top_domain=${DOMAIN} \
+            -var subdomain=${SUBDOMAIN} \
+            -var region=${AWS_DEFAULT_REGION} \
+            -var cert_arn=${CERT_ARN} \
+            -var db_name=${DB_NAME} \
+            -var db_username=${DB_USERNAME}
