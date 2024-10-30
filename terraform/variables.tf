@@ -1,26 +1,25 @@
 variable "region" {
   description = "The AWS region to deploy resources in"
-  type        = string
+  default        = "eu-west-2"
 }
 
 variable "project_name" {
   description = "The name of the project"
-  type        = string
+  default        = "underground_city"
 }
 
 variable "lambda_zip" {
   description = "Path to the Lambda deployment package"
-  type        = string
+  default = "../lambda.zip"
 }
 
 variable "lambda_handler" {
   description = "Lambda handler (e.g. app.lambda_handler)"
-  type        = string
+  default = "app.handler.lambda_handler"
 }
 
 variable "runtime" {
   description = "Runtime for Lambda"
-  type        = string
   default     = "python3.9"
 }
 
