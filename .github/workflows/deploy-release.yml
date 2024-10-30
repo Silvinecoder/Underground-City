@@ -47,7 +47,6 @@ jobs:
       - name: Terraform Plan
         working-directory: terraform
         run: |
-          cd ./terraform
           terraform plan -no-color \
             -var top_domain=${DOMAIN} \
             -var subdomain=${SUBDOMAIN} \
@@ -60,7 +59,6 @@ jobs:
         if: github.ref == 'refs/heads/main'
         working-directory: terraform
         run: |
-          cd ./terraform
           terraform apply -auto-approve -no-color \
             -var top_domain=${DOMAIN} \
             -var subdomain=${SUBDOMAIN} \
