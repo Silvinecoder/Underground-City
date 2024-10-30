@@ -7,3 +7,4 @@ selenium
 pandas
 flask
 flask-cors
+aws-wsgi
