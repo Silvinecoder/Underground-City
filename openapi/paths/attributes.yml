@@ -1,0 +1,28 @@
+get:
+  summary: Get a list of attributes
+  operationId: getAttributes
+  responses:
+    200:
+      description: A list of attributes
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: ../schemas/Attributes.yml
+post:
+  summary: Create a new attribute
+  operationId: createAttribute
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: ../schemas/Attributes.yml
+  responses:
+    201:
+      description: Attribute created
+      content:
+        application/json:
+          schema:
+            $ref: ../schemas/Attributes.yml

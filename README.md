@@ -25,7 +25,7 @@ Then setup Docker
 docker-compose up -d database
 
 Run the server
-flask --app initiate.py run
+flask --app app/handler/lambda_handler.py run
 ```
 
 For a clean installation of all of the python packages run:
