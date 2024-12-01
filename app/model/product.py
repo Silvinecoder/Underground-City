@@ -1,6 +1,6 @@
 import uuid
 
-from sqlalchemy import Column, String, UUID
+from sqlalchemy import Column, String, UUID, Float
 from sqlalchemy import ForeignKey
 
 from app.assistant.model_helper import Base
@@ -20,7 +20,8 @@ class Product(Base):
     product_name = Column(String(255), nullable=False)
     product_image = Column(String(255), nullable=True)
     product_price = Column(String(255), nullable=True)
-
+    product_average_rating = Column(Float, default=0)
+    
     product_category_uuid = Column(UUID(as_uuid=True), ForeignKey("category.category_uuid"))
     product_attribute_uuid = Column(UUID(as_uuid=True), ForeignKey("attribute.attribute_uuid"))
 
