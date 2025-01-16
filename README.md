@@ -17,6 +17,8 @@ pip install -r app/requirements.txt && python setup.py develop
 
 Run db seed
 ./database-seed/generate.sh
+or for windows:
+sh database-seed/generate.sh
 
 For linux run:
 sudo systemctl start docker.service
