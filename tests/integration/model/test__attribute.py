@@ -3,24 +3,27 @@ from app.db.db_connection import refresh_session
 from app.assistant.model_helper import from_json
 from app.model.attribute import Attribute
 
-ATTRIBUTE_UUID = "123e4567-e89"
+ATTRIBUTE_UUID = "41396390-3609-4872-8609-86992873fe48"
 
 
 @pytest.fixture(autouse=True)
 def setup_and_teardown():
-    refresh_session()
+    session = refresh_session()
     yield
-    Attribute.get(ATTRIBUTE_UUID).delete()
+    attribute = session.query(Attribute).filter_by(attribute_uuid=ATTRIBUTE_UUID).first()
+    if attribute:
+        session.delete(attribute)
 
 
 def test__attribute__save_and_get():
+    session = refresh_session()
     attribute = from_json(
         Attribute, {"attributeUuid": ATTRIBUTE_UUID, "attributeType": "test Attribute"}
     )
     attribute.uuid = ATTRIBUTE_UUID
-    attribute.save()
+    session.add(attribute)
 
-    saved_attribute = Attribute.get(ATTRIBUTE_UUID)
+    saved_attribute = session.query(Attribute).filter_by(attribute_uuid=ATTRIBUTE_UUID).one()
 
-    assert str(saved_attribute.uuid) == ATTRIBUTE_UUID
+    assert str(saved_attribute.attribute_uuid) == ATTRIBUTE_UUID
     assert saved_attribute.attribute_type == "test Attribute"
