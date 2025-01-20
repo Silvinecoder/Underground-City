@@ -1,43 +1,69 @@
-
 import logging
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 
 from app.config import get_config_params
 
-def create_session(timeout=None):
-    """
-    We are creating a session with the database.
-    :param timeout: How long your application should wait for a connection before taking appropriate action.
-    :obfuscated_url: How the connection URL should look like.
-    :engine_url: The connection URL for the given database engine.
-    :engine: The database engine.
-    :Session: The sessionmaker.
-    :session: The session.
-    """
 
-    config = get_config_params() # We are getting our configuration parameters
+# Global variables for the database engine and sessionmaker
+_ENGINE = None
+_SESSION_MAKER = None
+_SESSION = None
+
+
+def initialize_engine_and_sessionmaker(timeout=None):
+    """
+    Initializes the database engine and sessionmaker globally.
+    """
+    global _ENGINE, _SESSION_MAKER
+
+    config = get_config_params()
     database_config = config.get("database", {})
-    connection_timeout = timeout if timeout else database_config.get("timeout", 30)  # With a timeout, you can specify how long your application should wait for a connection before taking appropriate action.
+    connection_timeout = timeout or database_config.get("timeout", 30)
 
     obfuscated_url = (
         f"{database_config['engine']}://{database_config['username']}:***@"
         f"{database_config['host']}:{database_config['port']}/{database_config['database_name']}"
     )
-    logging.info(f"Connecting to database with: {obfuscated_url} (timeout: {connection_timeout})")
+    logging.info(
+        f"Connecting to database with: {obfuscated_url} (timeout: {connection_timeout})"
+    )
 
-    engine_url = create_generic_url(**database_config) # We are creating a connection URL with the database_config for the given database engine
-    engine = create_engine(engine_url, connect_args={"connect_timeout": connection_timeout})
+    engine_url = create_generic_url(**database_config)
+    _ENGINE = create_engine(
+        engine_url, connect_args={"connect_timeout": connection_timeout}
+    )
+    _SESSION_MAKER = sessionmaker(bind=_ENGINE, expire_on_commit=False)
 
-    logging.debug(f"Acquiring session")
-    Session = sessionmaker(bind=engine, expire_on_commit=False)
-    session = Session()
 
-    logging.debug(f"Got session")
+def create_session():
+    """
+    Creates and returns a new database session.
+    """
+    global _SESSION_MAKER
+    if not _SESSION_MAKER:
+        raise RuntimeError("Engine and sessionmaker are not initialized. Call initialize_engine_and_sessionmaker first.")
+    return _SESSION_MAKER()
 
-    return session
+
+def refresh_session():
+    """
+    Refreshes the global session and returns a new one.
+    """
+    global _SESSION
+    if _SESSION:
+        try:
+            _SESSION.close()
+        except Exception as e:
+            logging.warning(f"Error while closing session: {e}")
+    _SESSION = create_session()
+    return _SESSION
+
 
 def create_generic_url(engine, username, password, host, port, database_name, schema: str = None):
+    """
+    Constructs a database connection URL.
+    """
     _schema = f"/{schema}" if schema else ""
     return f"{engine}://{username}:{password}@{host}:{port}/{database_name}{_schema}"
 
@@ -48,11 +74,18 @@ def has_table_access(table_name: str) -> bool:  # pragma: integration
     :param table_name: Table to check.
     :return: Whether the table is accessible.
     """
+    global _SESSION
+    if not _SESSION:
+        raise RuntimeError("Session is not initialized. Call refresh_session first.")
+
     try:
-        _SESSION.execute(text(f"select count(*) from {table_name}"))
+        _SESSION.execute(text(f"SELECT COUNT(*) FROM {table_name}"))
     except Exception as e:
-        logging.warning(f"Unexpected error: {e}")
+        logging.warning(f"Unexpected error while accessing table {table_name}: {e}")
         return False
     return True
 
-_SESSION = create_session(create_generic_url)
+
+# Initialize engine and sessionmaker on module load
+initialize_engine_and_sessionmaker()
+_SESSION = create_session()

@@ -1,7 +1,6 @@
 import uuid
 
 from sqlalchemy import Column, String, UUID
-from sqlalchemy.orm import relationship
 from sqlalchemy.orm.exc import NoResultFound
 
 from app.assistant.model_helper import Base
