@@ -1,0 +1,44 @@
+name: Run API Tests
+description: Run API tests for the project. It requires a file called postman.json in the postman directory.
+inputs:
+  base-url:
+    description: Base URL (e.g. "https://your-app.com" or "http://localhost:4321")
+    required: true
+  env-vars:
+    description: Array of objects with key-value pars to make up the postman environment for the API tests
+    required: true
+  postman-collection:
+    description: Postman collection name (case-insensitive)
+    required: true
+  postman-key:
+    description: Postman API key (see https://postman.co/settings/me/api-keys)
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Extract branch name
+      shell: bash
+      run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+      id: extract_branch
+
+    - name: Get Postman Collection
+      uses: TheKeyholdingCompany/action-get-postman-collection@0.0.10
+      with:
+        postman-key: ${{ inputs.postman-key }}
+        collection-name: ${{ inputs.postman-collection }}
+        collection-fork: ${{ steps.extract_branch.outputs.branch}}
+        export-output: postman/postman.json
+
+    - name: Wait until API responds
+      shell: bash
+      run: timeout 1m bash -c "until curl -s '${{ inputs.base-url }}/status?debug=true'; do sleep 5 ; done"
+
+    - name: Wait until API connects to the DB
+      shell: bash
+      run: timeout 2m bash -c "until curl -s ${{ inputs.base-url }}/status | python3 -c \"import sys, json; json.load(sys.stdin)['db']['hasRequiredTableAccess'] or sys.exit(1)\"; do sleep 5 ; done"
+
+    - name: Run API Tests
+      uses: matt-ball/newman-action@master
+      with:
+        collection: postman/postman.json
+        envVar: ${{ inputs.env-vars }}

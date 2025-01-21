@@ -1,0 +1,45 @@
+name: run-tests
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  integration-test:
+    environment:
+      name: testing
+    env:
+      AWS_DEFAULT_REGION: ${{ vars.AWS_REGION }}
+      AWS_ACCESS_KEY_ID: ${{ vars.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      DOMAIN: ${{ vars.AWS_DOMAIN }}
+      SUBDOMAIN: ${{ vars.AWS_SUBDOMAIN }}
+      CERT_ARN: ${{ vars.AWS_DOMAIN_CERT_ARN }}
+      DB_NAME: ${{ vars.AWS_DB_NAME }}
+      DB_USERNAME: ${{ vars.AWS_DB_USER }}
+    timeout-minutes: 3
+    defaults:
+      run:
+        working-directory: .
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r app/requirements.txt
+
+      - name: Produce seed data
+        run:  ./database-seed/generate.sh
+
+      - name: Setup database
+        run: docker compose up -d database
+
+      - name: Wait until DB is accepting connections
+        run: timeout 2m bash -c "until docker compose logs --tail 10 | grep 'underground-city-db' | grep 'database system is ready to accept connections'; do sleep 5 ; done"
+
+      - name: Run Integration Tests
+        run: pytest
