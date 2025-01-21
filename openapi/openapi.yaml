@@ -1,0 +1,20 @@
+openapi: 3.1.0
+info:
+  description: API Documentation for underground-city
+  title: underground-city api
+  version: '1.0.0'
+paths:
+  /attributes:
+    $ref: paths/attributes.yml
+  /products:
+    $ref: paths/products.yml
+  /supermarkets:
+    $ref: paths/supermarkets.yml
+components:
+  schemas:
+    Attributes:
+      $ref: schemas/Attributes.yml
+    Products:
+      $ref: schemas/Products.yml
+    Supermarkets:
+      $ref: schemas/Supermarkets.yml

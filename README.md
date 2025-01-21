@@ -17,6 +17,8 @@ pip install -r app/requirements.txt && python setup.py develop
 
 Run db seed
 ./database-seed/generate.sh
+or for windows:
+sh database-seed/generate.sh
 
 For linux run:
 sudo systemctl start docker.service
@@ -25,7 +27,7 @@ Then setup Docker
 docker-compose up -d database
 
 Run the server
-flask --app initiate.py run
+flask --app app/handler/lambda_handler.py run
 ```
 
 For a clean installation of all of the python packages run:
