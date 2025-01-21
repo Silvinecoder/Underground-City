@@ -55,14 +55,14 @@ jobs:
             -var db_name=${DB_NAME} \
             -var db_username=${DB_USERNAME}
 
-      - name: Terraform Apply
-        if: github.ref == 'refs/heads/main'
-        working-directory: terraform
-        run: |
-          terraform apply -auto-approve -no-color \
-            -var top_domain=${DOMAIN} \
-            -var subdomain=${SUBDOMAIN} \
-            -var region=${AWS_DEFAULT_REGION} \
-            -var cert_arn=${CERT_ARN} \
-            -var db_name=${DB_NAME} \
-            -var db_username=${DB_USERNAME}
+      # - name: Terraform Apply
+      #   if: github.ref == 'refs/heads/main'
+      #   working-directory: terraform
+      #   run: |
+      #     terraform apply -auto-approve -no-color \
+      #       -var top_domain=${DOMAIN} \
+      #       -var subdomain=${SUBDOMAIN} \
+      #       -var region=${AWS_DEFAULT_REGION} \
+      #       -var cert_arn=${CERT_ARN} \
+      #       -var db_name=${DB_NAME} \
+      #       -var db_username=${DB_USERNAME}
