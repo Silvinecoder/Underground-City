@@ -1,12 +1,13 @@
 import uuid
 from sqlalchemy import Column, ForeignKey, UUID
+from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm import relationship
 from app.assistant.model_helper import Base
 
 from app.model.category import Category
 
 
-class SupermarketCategoryPair(Base):
+class SupermarketCategoryPair(Base):  # pragma: integration
     """Class representing the association between categories and shops."""
 
     __tablename__ = 'supermarket_category_pair'
@@ -19,9 +20,10 @@ class SupermarketCategoryPair(Base):
 
     # Checking if supermarket-category pair exists in the database, if not, create it
     @classmethod
-    def get_or_create(cls, session, category, supermarket):
-        supermarket_category_pair = session.query(SupermarketCategoryPair).filter_by(category_uuid=category.category_uuid, supermarket_uuid=supermarket.supermarket_uuid).first()
-        if not supermarket_category_pair:
+    def get_or_create(cls, session, category, supermarket):  # pragma: integration
+        try:
+            supermarket_category_pair = session.query(SupermarketCategoryPair).filter_by(category_uuid=category.category_uuid, supermarket_uuid=supermarket.supermarket_uuid).first()
+        except NoResultFound:
             supermarket_category_pair = SupermarketCategoryPair(category=category, supermarket=supermarket)
             session.add(supermarket_category_pair)
         return supermarket_category_pair
