@@ -11,12 +11,12 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ inputs.python-version }}
+    - name: Checkout
+      uses: actions/checkout@v4
 
-    - name: Install dependencies
+    - name: Setup Python Virtual Environment
       shell: bash
       run: |
-        pip install -r ${{ inputs.requirements-path }}
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r app/requirements.txt && python setup.py develop
