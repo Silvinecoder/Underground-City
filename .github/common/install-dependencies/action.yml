@@ -4,19 +4,17 @@ inputs:
   python-version:
     description: Python version to use
     default: "3.10"
-  requirements-path:
-    description: Path to the requirements file
-    required: true
-    default: "app/requirements.txt"
+  app-directory:
+    description: The app directory (where you keep your requirements.txt files)
+    default: ./app
 runs:
   using: "composite"
   steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ inputs.python-version }}
 
     - name: Setup Python Virtual Environment
       shell: bash
-      run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install -r app/requirements.txt && python setup.py develop
+      run: cd ${{ inputs.app-directory}} && python3 -m pip install --upgrade pip && pip3 install  --no-input -r requirements.txt && cd .. && python setup.py develop
