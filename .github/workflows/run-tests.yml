@@ -25,7 +25,7 @@ jobs:
         run: docker compose up -d database
 
       - name: Wait until DB is accepting connections
-        run: timeout 2m bash -c "until docker compose logs --tail 10 | grep 'underground-city-db' | grep 'database system is ready to accept connections'; do sleep 5 ; done"
+        run: timeout 2m bash -c "until docker compose logs --tail 10 | grep 'underground' | grep 'database system is ready to accept connections'; do sleep 5 ; done"
 
-      - name: Run Integration Tests
+      - name: Run Tests
         run: pytest
