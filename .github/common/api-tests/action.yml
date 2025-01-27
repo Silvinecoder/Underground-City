@@ -1,0 +1,31 @@
+name: Run API Tests
+description: Run API tests for the project. It requires a file called postman.json in the postman directory.
+inputs:
+  base-url:
+    description: Base URL (e.g. "https://your-app.com" or "http://localhost:4321")
+    required: true
+  api_key:
+    description: the api key for the postman collection
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Extract branch name
+      shell: bash
+      run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+      id: extract_branch
+
+    - name: Run API Tests
+      uses: matt-ball/newman-action@master
+      with:
+        collection: postman/collection.json
+        base-url: ${{ inputs.base-url }}
+        api-key: ${{ secrets.POSTMAN_API_KEY }}
+
+    - name: Wait until API responds
+      shell: bash
+      run: timeout 1m bash -c "until curl -s '${{ inputs.base-url }}/status?debug=true'; do sleep 5 ; done"
+
+    - name: Wait until API connects to the DB
+      shell: bash
+      run: timeout 2m bash -c "until curl -s ${{ inputs.base-url }}/status | python3 -c \"import sys, json; json.load(sys.stdin)['db']['hasRequiredTableAccess'] or sys.exit(1)\"; do sleep 5 ; done"
