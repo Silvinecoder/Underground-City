@@ -1,0 +1,16 @@
+openapi: 3.1.0
+components:
+  schemas:
+    Supermarket:
+      type: object
+      properties:
+        supermarket_uuid:
+          type: string
+          format: uuid
+          description: The UUID of the supermarket
+        supermarket_name:
+          type: string
+          description: The name of the supermarket
+        supermarket_country:
+          type: string
+          description: The country where the supermarket is located

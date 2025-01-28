@@ -1,0 +1,39 @@
+openapi: 3.1.0
+info:
+  title: Product Endpoint
+  description: Endpoints for products in the underground city application.
+paths:
+  /products:
+    get:
+      summary: Get a list of products
+      operationId: getProducts
+      responses:
+        200:
+          description: A list of products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ../schemas/product.yml#/components/schemas/Product
+  /products/{product_uuid}:
+    get:
+      summary: Get a product by UUID for a specific product
+      operationId: getProductByUuid
+      parameters:
+        - name: product_uuid
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The UUID of the product
+      responses:
+        200:
+          description: The requested product
+          content:
+            application/json:
+              schema:
+                $ref: ../schemas/product.yml#/components/schemas/Product
+        404:
+          description: Product or product not found

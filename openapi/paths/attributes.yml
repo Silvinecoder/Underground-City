@@ -1,28 +1,69 @@
-get:
-  summary: Get a list of attributes
-  operationId: getAttributes
-  responses:
-    200:
-      description: A list of attributes
-      content:
-        application/json:
+openapi: 3.1.0
+info:
+  title: Attributes Endpoints
+  description: Endpoints for managing attributes in the underground city application.
+paths:
+  /attributes:
+    get:
+      summary: Get a list of attributes
+      operationId: getAttributes
+      responses:
+        200:
+          description: A list of attributes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ../schemas/attribute.yml#/components/schemas/Attribute
+  /attributes/{attribute_uuid}/products:
+    get:
+      summary: Get products for a specific attribute
+      operationId: getProductsByAttribute
+      parameters:
+        - name: attribute_uuid
+          in: path
+          required: true
           schema:
-            type: array
-            items:
-              $ref: ../schemas/Attributes.yml
-post:
-  summary: Create a new attribute
-  operationId: createAttribute
-  requestBody:
-    required: true
-    content:
-      application/json:
-        schema:
-          $ref: ../schemas/Attributes.yml
-  responses:
-    201:
-      description: Attribute created
-      content:
-        application/json:
+            type: string
+            format: uuid
+          description: The UUID of the attribute
+      responses:
+        200:
+          description: List of products for the attribute
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: ../schemas/product.yml#/components/schemas/Product
+        404:
+          description: Attribute not found
+  /attributes/{attribute_uuid}/products/{product_uuid}:
+    get:
+      summary: Get a product by UUID for a specific attribute
+      operationId: getProductByAttribute
+      parameters:
+        - name: attribute_uuid
+          in: path
+          required: true
           schema:
-            $ref: ../schemas/Attributes.yml
+            type: string
+            format: uuid
+          description: The UUID of the attribute
+        - name: product_uuid
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: The UUID of the product
+      responses:
+        200:
+          description: The requested product
+          content:
+            application/json:
+              schema:
+                $ref: ../schemas/product.yml#/components/schemas/Product
+        404:
+          description: Product or attribute not found
