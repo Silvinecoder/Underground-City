@@ -17,4 +17,4 @@ runs:
 
     - name: Setup Python Virtual Environment
       shell: bash
-      run: cd ${{ inputs.app-directory}} && python3 -m pip install --upgrade pip && pip3 install  --no-input -r requirements.txt && cd .. && python setup.py develop
+      run: cd ${{ inputs.app-directory}} && python3 -m pip install --upgrade pip && pip3 install  --no-input -r requirements.txt && cd .. && pip install -e .

@@ -1,0 +1,18 @@
+[project]
+name = "underground-city"
+version = "0.1.0"
+description = "Celiac app backend"
+authors = [{name = "CSS" }]
+readme = "README.md"
+
+[dependencies]
+beautifulsoup4 = "*"
+requests = "==2.28.2"
+SQLAlchemy = "~2.0.0"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}

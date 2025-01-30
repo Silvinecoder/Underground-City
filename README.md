@@ -13,7 +13,7 @@ or for windows:
 venv\Scripts\activate
 
 Install dependencies:
-pip install -r app/requirements.txt && python setup.py develop
+pip install -r app/requirements.txt && pip install -e .
 
 Run db seed
 ./database-seed/generate.sh
@@ -24,7 +24,7 @@ For linux run:
 sudo systemctl start docker.service
 
 Then setup Docker
-docker-compose up -d database
+docker compose up -d database
 
 Run the server
 flask --app app/handler/lambda_handler.py run

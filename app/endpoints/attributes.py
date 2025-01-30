@@ -6,7 +6,6 @@ from app.model.product import Product
 # Create Flask application
 attributes_blueprint = Blueprint("attributes_blueprint", __name__)
 
-
 # Define route to get all attributes
 @attributes_blueprint.route("/attributes", methods=["GET"])
 def get_attributes():
