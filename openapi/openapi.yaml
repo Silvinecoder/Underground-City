@@ -6,20 +6,20 @@ info:
 components:
   schemas:
     Attribute:
-      $ref: schemas/attribute.yml#/components/schemas/Attribute
+      $ref: schemas/attribute.yaml#/components/schemas/Attribute
     Product:
-      $ref: schemas/product.yml#/components/schemas/Product
+      $ref: schemas/product.yaml#/components/schemas/Product
     Category:
-      $ref: schemas/category.yml#/components/schemas/Category
+      $ref: schemas/category.yaml#/components/schemas/Category
     Supermarket:
-      $ref: schemas/supermarket.yml#/components/schemas/Supermarket
+      $ref: schemas/supermarket.yaml#/components/schemas/Supermarket
 paths:
   /attributes:
-    $ref: paths/attributes.yml
+    $ref: paths/attributes.yaml
   /products:
-    $ref: paths/products.yml
+    $ref: paths/products.yaml
   /supermarkets:
-    $ref: paths/supermarkets.yml
+    $ref: paths/supermarkets.yaml
 
 responses:
   200:
@@ -30,10 +30,10 @@ responses:
           type: object
           properties:
             Attribute:
-              $ref: schemas/attribute.yml
+              $ref: schemas/attribute.yaml
             Product:
-              $ref: schemas/product.yml
+              $ref: schemas/product.yaml
             Category:
-              $ref: schemas/category.yml
+              $ref: schemas/category.yaml
             Supermarket:
-              $ref: schemas/supermarket.yml
+              $ref: schemas/supermarket.yaml

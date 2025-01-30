@@ -9,3 +9,4 @@ flask
 flask-cors
 aws-wsgi
 pytest
+flask_swagger_ui
