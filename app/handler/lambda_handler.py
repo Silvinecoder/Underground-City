@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app, supports_credentials=True, resources={r"/*": {"origins": "*"}})
 
 # Set up swagger UI
-setup_swagger_ui(app, path_to_openapi='../../openapi')
+setup_swagger_ui(app, path_to_openapi='openapi')
 
 # Register blueprints for different endpoints
 app.register_blueprint(attributes_blueprint)
