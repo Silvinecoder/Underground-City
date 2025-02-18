@@ -1,0 +1,4418 @@
+[
+  {
+    "product_uuid": "001666f6-392d-4643-a015-273cb053a852",
+    "name": "CHOCOLATE DE LEITE 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "003b08c5-746d-4674-a6f2-9aaf67dbf601",
+    "name": "BATATAS RODELAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "004d86a2-911f-49e1-8afd-72f0383360cd",
+    "name": "BOLSA DE BANANA COM IOGURTE 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0077de85-2fc1-4c00-b8eb-73eeaf7c909d",
+    "name": "BEBIDA DE SOJA ORIGINAL 200ML",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "019f75b7-b683-45e1-9910-0b102ae13c35",
+    "name": "QUEIJO CABRA SERRA DA GARDUNHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "01e789f6-2f3a-48a5-98c9-cec43f0244b0",
+    "name": "IOGURTE AROMA A COCO ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "02109dab-543c-47d4-8bde-beb167def48b",
+    "name": "MANTEIGA DE AMENDOIM CREMOSA 340g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "021c6dd4-0cd9-4982-86fd-a1291fb4b256",
+    "name": "IOGURTE LÍQUIDO MAGRO SEM LACTOSE NATURAL TRIPLO 0%",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "02655eb2-e026-4bed-b3d5-f81ebcff30c6",
+    "name": "ATUM POSTA EM ÓLEO 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "03a5ae36-2311-4b69-a106-e3e369eda147",
+    "name": "CHOCOLATE DE LEITE COM AMÊNDOAS CARAMELIZADAS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0462c9d3-1d90-453f-b600-f8708294f21a",
+    "name": "MOLHO PIRI-PIRI",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "04728a6b-0330-40f9-a2af-9ba89f6067d8",
+    "name": "HUMMUS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "04c8f902-4df1-48c6-a7cd-9d2dcbf17f39",
+    "name": "IOGURTE LÍQUIDO SEM LACTOSE PURA VIDA MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "05628f95-4850-415e-956f-86a7381fa970",
+    "name": "CAFÉ EXPRESSO CHIADO 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "05755528-8011-41ff-b27c-c58651d042ec",
+    "name": "BOLSA DE FRUTA MULTIFRUTOS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "06274572-dc24-465a-bc08-941f92ad4de1",
+    "name": "IOGURTE LÍQUIDO MAGRO AROMA MELÃO E MELOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "06b5b166-3bbc-4dce-8de3-f0109ac373b2",
+    "name": "GELADO SEM LACTOSE BAUNILHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "073d5f09-964e-40f5-9702-821848e01362",
+    "name": "QUEIJO MOZZARELLA FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "07859fda-d2e6-4b30-bb0a-7b5f6543666d",
+    "name": "FUET EXTRA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "09052a40-c2d2-4693-8c1d-90b597b6b4c6",
+    "name": "PATÉ DE SALMÃO 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0935d356-aa78-4b3f-a12b-ace1fd9f22f0",
+    "name": "FEIJÃO FRADE LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "093969c9-b72c-4f36-95e3-f03f4b689851",
+    "name": "GELATINA DE ANANÁS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "09dca2df-be5c-471b-b1c9-c48bb5e13b3a",
+    "name": "CHOCOLATE DE LEITE COM AMÊNDOAS 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0a186296-97bd-4888-a3c0-2219f603a962",
+    "name": "CAFÉ KAAPI ROYALE 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0a549cfb-ae14-44b0-bd04-511c2ec4f8ab",
+    "name": "QUEIJO CHEDDAR FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0a7344fb-ea0b-4d86-8707-b4003d19866a",
+    "name": "SALSICHA CHURRASCO PICANTE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0abf3ba9-ad47-4903-b3e0-fa2318943e27",
+    "name": "QUEIJO DA BEIRA BAIXA DOP AMARELO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0b95dca9-a323-4157-8b45-e591660712c3",
+    "name": "RAW BAR AMENDOIM E CACAU GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0bd5f993-5dc2-4594-b0cf-e8dcec9205cb",
+    "name": "MANTEIGA COM SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0c85e314-57ce-49f6-8432-a30368298920",
+    "name": "AZEITONAS VERDES RECHEADAS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0cc6f3be-40b6-46e9-969b-99c4644f55d8",
+    "name": "TEMPERO DE FRANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0d0adf3e-0a56-4689-aab1-89ed469ebae0",
+    "name": "MORTADELA SIMPLES FATIADA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0d52a7e1-7980-4cae-9548-9b18ee6bf6ad",
+    "name": "IOGURTE MORANGO SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0d6f8add-c039-43f1-8bd2-690b763a2a89",
+    "name": "MOLHO PESTO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0e604e62-24ce-4bb0-b477-9b61863ffb87",
+    "name": "MOLHO PESTO ALLA CALABRESE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0e74c8c8-b77d-4b71-add9-936b3d30c37d",
+    "name": "IOGURTE LÍQUIDO FRUTOS VERMELHOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0ebc6d33-fa90-424c-80c0-f677bba470fc",
+    "name": "QUEIJO BRIE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0f5962db-54a5-489e-b181-c2f195f94798",
+    "name": "CREME DE SOJA CULINÁRIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Natas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1017f197-ec33-48a4-aa81-4c2a667f7a0e",
+    "name": "PASTILHAS RECHEADAS SPEARMINT 22g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "11fe78a0-e590-4ce0-88b9-e6e78b953dc6",
+    "name": "GOMAS SORTIDO FRUTA BRILHO 300g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1211f641-31f0-482d-8ea8-0e8286656eec",
+    "name": "CHOCOLATE DE LEITE COM AMÊNDOAS INTEIRAS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "124780f7-d517-4746-888b-a2835f7f8d64",
+    "name": "IOGURTE LÍQUIDO PROTEÍNA MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Proteína",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "12d94847-c292-41a4-957e-36c95d5763f7",
+    "name": "SARDINHAS EM ÓLEO 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "142eacb1-c99e-4887-8cfd-9189589c111d",
+    "name": "IOGURTE REDUZ COLESTEROL MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "14411b95-ff78-46b2-a267-db6a3fd43d15",
+    "name": "IOGURTE NATURAL INTEIRO PROBIÓTICO SÓLIDO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "165869a0-95a4-4b3d-8903-16be7a257a48",
+    "name": "MEL PORTUGUÊS PINGO DOCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "165b2af5-ebf6-4bd5-9f20-86f6da9e9dbc",
+    "name": "BOLSA DE FRUTA & CENOURA 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "16eb7597-90e3-4592-8fa6-0cdb8f2251ed",
+    "name": "CLARA DE OVO GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "179144d1-d86c-4938-8a14-2d780762da4c",
+    "name": "IOGURTE MAGRO PEDAÇOS ANANÁS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "17ad3219-04f9-4176-9f4c-4d1ed5e69b5b",
+    "name": "GOMAS SORTIDAS ÁCIDAS 300g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "18a23483-bbde-4c49-b486-5ae15c8bf895",
+    "name": "GOMAS MULTI AÇÚCAR 300g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "18b831a4-b6ab-47af-934e-c25108e201cf",
+    "name": "PAIO DE LOMBO DA BEIRA BAIXA FUNDÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1988afaa-2a63-4dca-a8ec-acfd3fff4d0e",
+    "name": "FEIJÃO ENCARNADO FRASCO 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1993636a-f356-4b35-855b-2ed233cfb053",
+    "name": "BARRA PROTEICA COCO E AMÊNDOA GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1a3cb9d2-3aaf-4b98-8dbf-04f31f195562",
+    "name": "QUEIJO CHEVRE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1a453cc0-5d7e-47ff-8257-c83c06f395ae",
+    "name": "LEITE ACHOCOLATADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/leite",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1a45dd0e-c4e8-49e8-810a-1fd0c3cebf3b",
+    "name": "QUEIJO SERRA DA ESTRELA VELHO DOP IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1b2fbf8e-6700-4993-934b-4f4aa4d9044f",
+    "name": "FEIJÃO PRETO LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1c6694be-f14d-482e-8a1a-58aee07cc34d",
+    "name": "ACTIPLUS MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1ca74d18-c0ba-4089-ae52-e9cec0e63c89",
+    "name": "PRESUNTO SERRANO 9 MESES DE CURA FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1cd26ed0-e3ec-45cf-8f80-4bf6adc0d4ef",
+    "name": "FFILETES DE ATUM NATURAL 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1d0c59cd-1e09-491f-9b59-3fe44df78ea7",
+    "name": "QUEIJO SERPA DOP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1d3209f5-19c0-4806-b759-d8ddb348c900",
+    "name": "SORTIDO DE CHUPAS 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1e9a69b0-a0d7-4d9e-abae-4266bb68b036",
+    "name": "PASTILHAS RECHEADAS MORANGO E LIMA 22g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1eb79c0d-be8f-4ce1-bb58-fada0b26fb15",
+    "name": "IOGURTE PEDAÇOS PÊSSEGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1f03bcfa-3216-426e-a2cf-0cc857d08cb9",
+    "name": "NATAS UHT PARA BATER",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Natas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1f82d61c-ef32-4887-bc78-f372fdc6bf05",
+    "name": "PALITOS QUEIJO MOZZARELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1fc761d2-b94b-4c38-a031-8810fd00c37b",
+    "name": "IOGURTE LÍQUIDO BIFIDUS MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1ff283c3-fb45-41dd-ab08-3f2df18b2fb8",
+    "name": "PATÉ DE SARDINHA 4x22g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "215060de-5eea-42d1-8551-c1145010d2c4",
+    "name": "PETIT SUISSE MORANGO FRAMBOESA E ALPERCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2169a25d-7ae6-4000-bfa8-89b00e76c18d",
+    "name": "TORTITAS DE ARROZ BIOLÓGICO S/ SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "21746f55-0d0d-463c-a7c1-c26d8f5ea43a",
+    "name": "QUEIJO CAMEMBERT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "220978cd-ed28-454c-bb7b-24fb369ff131",
+    "name": "PASTILHAS ELÁSTICAS SEM AÇÚCAR MORANGO 4x26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "221ab2f1-ed4d-4535-9515-051f9c9c7fb9",
+    "name": "IOGURTE BATIDO COM PEDAÇOS DE MANGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "234dedd0-98cd-44da-959b-d48c9bb60b59",
+    "name": "PATÉ ATUM 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2370ec4a-b5af-48f0-9db4-7b72b8a10337",
+    "name": "QUEIJO FUNDIDO FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2375e1fa-033d-43dc-9e2b-19b95af18ac5",
+    "name": "MADALENAS SEM GLÚTEN CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2440b02b-033f-4df9-878b-0ac2e8908f61",
+    "name": "IOGURTE PEDAÇOS FRUTOS SILVESTRES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2445395c-3e25-4047-994d-0ccf7ba09a19",
+    "name": "COCKTAIL DE MARISCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "24679caf-70b3-478a-90fe-d55abd530274",
+    "name": "BARRA DE FRUTOS SECOS PISTACHIO E CHOCOLATE 3x35g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "24b7f181-6533-4b4b-b2fd-3ddae688a500",
+    "name": "TORTITAS DE ARROZ COM CHOCOLATE PRETO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "24c182a5-108b-4d60-a910-cb3c1efb4bf1",
+    "name": "SALSICHA ALEMÃ EM FRASCO 720g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "24f2c782-bc68-4abb-886b-761f792ceefb",
+    "name": "IOGURTE SKYR MORANGO E FRAMBOESA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "257e9dfb-132f-4c9f-8744-8b73b63510ea",
+    "name": "ATUM POSTA NATURAL 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "25f23071-21ed-4029-b6cf-d63265ae9100",
+    "name": "TORTITAS MILHO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "261f42d1-8191-457f-9e26-1b3274b355bf",
+    "name": "PETIT IOGURTE TANGERINA CENOURA E MEL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "26f0f3a3-a242-41ad-8eb1-fb8222df4a06",
+    "name": "CREPES C/ RECHEIO DE CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "27190124-f3fb-4e9a-9ee2-17532c1ee1ae",
+    "name": "BATATAS PALITOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "27b4237a-46fe-4ad0-843b-fd6f5c882b56",
+    "name": "GELADO MAJESTIC COOKIES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "27e4cb09-6d06-4741-bafd-ab292792c227",
+    "name": "MARMELADA EXTRA 450g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "27e9d551-b924-42a2-b7a3-753dd3918aca",
+    "name": "QUEIJO FLAMENGO FATIAS REDONDAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2809f8ba-0082-4794-9c45-a8be55891f1d",
+    "name": "PATÉ FRANGO 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "28e720ef-bb35-4a13-8ad6-a089ed02b3bc",
+    "name": "PATÉ ERVAS FINAS 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "28eb1148-36b1-4a11-afe5-a9a6c90d3c1d",
+    "name": "PAIO DO LOMBO FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "291a30b2-4b3e-4913-86d2-ef4bb3ef21c5",
+    "name": "PASTILHAS ELÁSTICAS SEM AÇÚCAR MORANGO 26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "295fad9c-0e66-43d7-8746-496fb4c8477b",
+    "name": "BOLSA DE FRUTA MAÇÃ BANANA E LARANJA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "29659c93-7e25-4ece-bc68-75cf5a7fc04f",
+    "name": "IOGURTE GREGO CARAMELO SALGADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2a54667a-8eaf-43f2-93ff-8569e39418d7",
+    "name": "CAFÉ EXPRESSO DESCOBRIMENTOS 16x8g 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2b9d7511-97d9-4540-bf83-24fbd89c587e",
+    "name": "AZEITONAS VERDES 560g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2c0428b3-a649-4d8a-806a-c02bab521271",
+    "name": "GELADO MAJESTIC LIMÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2c3d553c-1f18-42de-a2ce-d28c563e271d",
+    "name": "IOGURTE LÍQUIDO MAGRO AROMA MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2c8810ce-fc1a-401f-90c4-902d31608c42",
+    "name": "IOGURTE GREGO SEM LACTOSE STRACCIATELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2d531a8e-43cc-4ef0-8fc9-8574a8ff3879",
+    "name": "EDULCORANTE EM PÓ 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/EDULCORANTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2da79b20-fb2b-4766-bac6-a0487e90d499",
+    "name": "QUEIJO CABRA CURADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2def25cf-a9ab-47b6-b6e1-24ade31791fe",
+    "name": "IOGURTE PEDAÇOS CEREAIS SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2e65555e-76c8-470b-8150-fc4d2fdef47d",
+    "name": "IOGURTE PEDAÇOS ANANÁS SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2e6fd09c-062e-40ea-860d-5cbac3b43f68",
+    "name": "CREME VEGETAL PARA BARRAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2e9f2be8-35d1-4f3b-b5ce-b4262ed4bb7b",
+    "name": "FIAMBRE FRANGO FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2ecaacde-c1f6-4101-92d8-9e227e827f28",
+    "name": "GELADO TUBITO LIMÃO & MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2f0bcfd2-5a94-4d40-aef5-4a9f2bb51e15",
+    "name": "PUDIM FLAN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2f97421c-483c-4cab-838e-36b9d6c2f624",
+    "name": "SALSICHAS HOT-DOG EM FRASCO 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3033f928-133a-4459-81ee-4e6e9683cd2f",
+    "name": "AVEIA PROTEICA GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "303f2436-a90f-4659-bfae-f9150e545fd9",
+    "name": "GELADO SEM AÇÚCAR CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "30da5d0a-d0c8-4171-add6-c8e4bd14e5c8",
+    "name": "QUEIJO CURADO MEIO GORDO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "31a3ebc0-0b32-4e50-9af2-a5a754f62340",
+    "name": "IOGURTE PEDAÇOS ANANÁS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "31a8abd4-c9d0-48d3-8966-2923224764bb",
+    "name": "IOGURTE SÓLIDO À BASE DE SOJA FRUTOS CÍTRICOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes de soja",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "324ab34a-de3e-4dc5-acd6-800d70269f93",
+    "name": "IOGURTE LÍQUIDO STRACCIATELLA E MENTA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3327793f-bbe8-4968-85f0-436883403ef7",
+    "name": "FIAMBRE PERU FATIAS FINAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "33328483-d417-44de-9e12-5a9592e37379",
+    "name": "PRESUNTO SERRANO 9 MESES DE CURA FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "34a35dcc-84bf-44d6-96f6-cc7331dc11c3",
+    "name": "CAFÉ EXPRESSO AVELUDADO 10x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3598152b-166f-4dc2-b2af-a7c9d77be15a",
+    "name": "ATUM POSTA NATURAL 385g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "372cd089-2a87-4de9-b198-9623b4d28d8f",
+    "name": "GELATINA 10 KCAL ROMÃ E FRAMBOESA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "37d041d0-3dd0-4cef-9099-1d6635aa9d6b",
+    "name": "GELADO HIGH PROTEIN LOW CARB DE CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "37e3bd9a-56ba-4961-aae6-55e813f85f7f",
+    "name": "MOLHO PIRI-PIRI EXTRA FORTE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "382d13c1-9689-470f-bf90-5434dad31cae",
+    "name": "SALPICÃO LAMEGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3903df90-666c-4d36-880e-cb3bfe720ead",
+    "name": "SORTIDO DE PORCO PRETO IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3994ca12-73b7-4c50-a801-a34481bd34f2",
+    "name": "PUDIM DE CHOCOLATE 110g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "39b9326b-2cb8-4e9f-b294-1f6a6f8f0283",
+    "name": "REBUÇADOS PARA TOSSE 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3a1642ec-6142-4544-bcab-cf3b4a37ea8a",
+    "name": "GELADO HIGH PROTEIN LOW CAB CARAMELO SALGADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3a6d427e-5df8-4e7f-8105-7ad2aa8ddf45",
+    "name": "BACON TIRAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3b7ba982-9663-4302-b73a-eda7373587b6",
+    "name": "COPITA DE PORCO PRETO ALENTEJANO IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3c63e6a8-5614-4017-acf7-34e0c210a13a",
+    "name": "SOBREMESA DE ORIGEM VEGETAL FRUTOS VERMELHOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3c8baec4-b47f-46a0-8e5b-9b0fd166010d",
+    "name": "BEBIDA DE SOJA LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3cc2127e-2932-47f2-95b3-cf6f0cc78d79",
+    "name": "IOGURTE CREMOSO LIMÃO ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3d700523-748e-4aa1-8eb7-2a6bf076c659",
+    "name": "FIAMBRE DE PERU FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3d9c8303-a4ed-4b3b-8131-68c8b2d01bb5",
+    "name": "PRESUNTO BEIRA BAIXA 9 MESES DE CURA OITAVOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3deed355-84ba-4773-917f-8c3b69555e70",
+    "name": "QUEIJO OVELHA ALTO ALENTEJO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3e0128b3-abcf-4f1f-b573-90c28e1a9dfc",
+    "name": "DROPS RECHEIO FRUTAS 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3e5a8e4c-b6ca-4d5b-aed6-95e16393b74a",
+    "name": "BOLSA DE FRUTA MORANGO E PÊSSEGO 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3ee60549-d564-4dd4-ab09-c5878b261211",
+    "name": "MANTEIGA MAGRA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3f89b6f7-9366-45d0-9330-68addfa6c4ab",
+    "name": "IOGURTE GREGO 0% LIMA LIMÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "40274e37-327f-4026-80a2-8983f7effae5",
+    "name": "IOGURTE LÍQUIDO MAGRO MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "40d38fa3-ed3a-4baa-aaa9-ed01718708ad",
+    "name": "SORTIDO DE GOMAS SEM AÇUCAR 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4158b636-4e90-45f8-b159-f3279c576c7a",
+    "name": "IOGURTE AROMA A BANANA ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "41d229b1-9d1d-408c-9c56-79e367100b78",
+    "name": "CHOCOLATE DE LEITE COM AVELÃS INTEIRAS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "42bf1e44-8be6-44df-be89-87847f339f75",
+    "name": "MOUSSE DE CHOCOLATE 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "42cc9b92-e4ac-49b6-94e3-356741204539",
+    "name": "SARDINHA EM TOMATE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4359191c-6db2-4947-b30f-cfdb14e2e00c",
+    "name": "BOLSA DE FRUTA PÊRA E MAÇÃ 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "43ceadb5-26a8-4f5c-a887-03b6192f7452",
+    "name": "IOGURTE GREGO NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "45324b61-e9eb-4ae0-8d81-973e37d20f30",
+    "name": "GELATINA LIGHT MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "453a84e7-4887-428d-a56a-57c01717c958",
+    "name": "QUEIJO FRESCO PARA BARRAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4649c424-75c5-4faf-bca0-f5745a2e11b4",
+    "name": "DOCE DE PÊSSEGO SEM ADIÇÃO AÇÚCAR 230g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "467fc053-81ce-4e18-b919-2d0eb2f64e82",
+    "name": "BOLACHA MARIA SEM GLÚTEN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "46bc07bf-e539-4915-9ccf-6c50b88cb659",
+    "name": "QUEIJO DA ILHA RALADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "471738f5-23d2-461a-a2ee-21ced69452ba",
+    "name": "GELATINA PÊSSEGO 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "48487027-bf57-444f-bda4-022063b84560",
+    "name": "PAIO DO LOMBO SEIA BEIRA ALTA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "48e15f08-bc90-428e-9e7f-b9cf5ea20728",
+    "name": "KETCHUP TOP DOWN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "48eb8255-ab72-49b2-b232-26a4a0975d78",
+    "name": "IOGURTE LÍQUIDO MAGRO AROMA LIMÃO E LARANJA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "491fab2f-3136-46b9-bac5-3f5583cc22e0",
+    "name": "QUEIJO DA BEIRA BAIXA DOP PICANTE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "49593e4e-c05c-46ee-97b0-6cd3a180dcf4",
+    "name": "GELATINA MELANCIA LIGHT 31g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4a52b328-e2ee-4c94-8498-0c15960dd1dc",
+    "name": "CHOCOLATE RUBY C/FRAMBOESA 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4abac9c9-52f5-40d9-9b16-e39b5339e004",
+    "name": "GELADO MAJESTIC RUBY",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4be72456-8233-4e74-babc-247c64891afb",
+    "name": "PETIT LÍQUIDO MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4c2cdf2b-8061-425a-979c-c97e54aa5ad8",
+    "name": "SALMÃO FUMADO NORUEGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4df55ce5-861c-416c-b2ee-e6da056fd71c",
+    "name": "ACTIPLUS NATURAL AÇUCARADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4dfc0fd1-3ce9-47ef-9cd0-9e8219a7c86b",
+    "name": "CHOURIÇO MOURO BEIRA BAIXA FUNDÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4e1fa742-c5fc-453f-860a-86fdc201da83",
+    "name": "MADALENAS SEM GLÚTEN CLÁSSICAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4e2271e4-834b-40d0-85a5-efc3c3f7230a",
+    "name": "QUEIJO CURADO DE VACA BARRADO COM PIMENTÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4ee5677d-8f9b-4899-b5d2-9c44625291f6",
+    "name": "QUEIJO CURADO LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4f20e709-1914-4e36-a481-e05c00530402",
+    "name": "CÁPSULAS DE CAFÉ EXPRESSO UGANDA 10x8gs",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4f99400f-ea2e-4f48-99ba-01622dc64645",
+    "name": "FEIJÃO FRADE LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4ffc8826-7aad-41cc-8844-205a60907828",
+    "name": "CHOCOLATE PRETO COM AVELÃS INTEIRAS 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "504ef151-cc8a-414b-8d4b-601a5dbec37a",
+    "name": "MARSHMALLOWS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "50d91b75-f69f-4a3d-929f-a73fa3071512",
+    "name": "LEVEDURA DE CERVEJA INTEGRAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "510b624c-e1a9-4bae-8363-bfc4d25d15b1",
+    "name": "CREME VEGETAL SABOR MANTEIGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "52796cdd-e19a-4a9c-acb2-473dec0a2863",
+    "name": "ATUM POSTA ÓLEO 385g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "52c6c7ab-ae2e-4bb0-b1fd-c6e433b00f67",
+    "name": "CHOCOLATE DE LEITE COM CEREAIS 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "53053cb0-7a6d-4875-a096-d58d7407000a",
+    "name": "MAIONESE 414g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "53208b42-f408-45d8-9758-23d21d051bab",
+    "name": "MAIONESE TOP DOWN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "545223d9-a926-47a1-aace-58cf9e2f9f90",
+    "name": "GELATINA 10 KCAL CHÁ PRETO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "547a2a14-0230-4e68-930c-36d449b6e740",
+    "name": "GELADO SEM AÇÚCAR BAUNILHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "547c959c-4c24-441d-9af3-c44172dc2263",
+    "name": "IOGURTE CREMOSO BAUNILHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "54b565da-3d9d-44f5-875b-62bbb6cb3530",
+    "name": "BATATA FRITA GOURMET 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "54f21adb-a2e4-4bd3-912e-dd5faa4d56cf",
+    "name": "PEITO DE PERU FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5635f3d0-12d5-49b5-a22d-37dcd1daa723",
+    "name": "QUEIJO PRATO AMANTEIGADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5638b540-f667-46f2-880c-7193622c4d5e",
+    "name": "IOGURTE MAGRO PEDAÇOS MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "565e4925-b151-46eb-8eaf-4a685b08079d",
+    "name": "CAFÉ EXPRESSO AROMÁTICO 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "572a65d1-f272-4ca0-8a05-d8957ebe6383",
+    "name": "FIAMBRE DA PÁ FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "575d085d-4696-4b46-8e39-1e06f841fc6c",
+    "name": "SALSICHAS FRANKFURT 8 Unid.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "57701c4f-634b-4a70-b8d4-b25f2c7cca6a",
+    "name": "COOKIES S/ GLÚTEN C/ PEPITAS DE CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "58fb69c1-61a5-49f1-b00b-79f58a9a8d03",
+    "name": "IOGURTE GREGO 0% MARACUJÁ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "59ad179c-693e-4c11-837b-8c828ce54863",
+    "name": "IOGURTE SKYR MARACUJÁ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "59d1092f-5e70-49d3-b91a-807eac4dc70b",
+    "name": "GELATINA LIGHT LIMÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5a16e6cc-c069-4bec-bf5f-69f5488903a7",
+    "name": "BEBIDA À BASE DE SOJA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5a1d25b9-1ff2-46ec-9e94-ff10f5129be4",
+    "name": "FEIJÃO PRETO LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5b68abb6-5765-48e6-b93d-401c67ba6d25",
+    "name": "CHOCOLATE PRETO 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5b70c6f5-cac7-4234-8f2f-604284111b9a",
+    "name": "IOGURTE LÍQUIDO BIFIDUS KIWI",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5b95be03-bd69-4c62-9e6f-1f498c4cf97a",
+    "name": "MOLHO PESTO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5bc3c02b-3b68-4282-9dde-47aeec46a216",
+    "name": "PATÉ VEGETAL PIMENT VERDE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5c20cac5-b484-4234-980c-224b72c5a1fd",
+    "name": "BEBIDA DE SOJA ORIGINAL 1LT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5c319c96-848f-4227-858f-4487e13dc1f7",
+    "name": "CHOURIÇO PORCO PRETO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5d4bd118-453c-4b14-8e98-98d3629572e3",
+    "name": "DOCE FRAMBOESA 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5dd0f9ad-bb8c-4108-a219-0727d34a9e62",
+    "name": "CHOURIÇO REGIONAL BEIRA BAIXA FUNDÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5f79316f-1914-4eab-a52e-8e39edaae8ba",
+    "name": "PRESUNTO BEIRA BAIXA 9 MESES FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5f81189d-a05b-4f1c-863e-301077de2de6",
+    "name": "GRÃO BICO COZIDO FRASCO 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "601ef20d-5612-4adf-858e-999b674e46c8",
+    "name": "IOGURTE CREMOSO NATURAL AÇUCARADO ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "616d00db-2b6f-49f0-9792-a76ce1e7f2ee",
+    "name": "DOCE LARANJA 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "617d0cb3-ba60-416d-ac7d-82ea1343fc7a",
+    "name": "GELATINA LIGHT MOJITO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "62ce798d-aed4-417c-b028-b053b67f85a5",
+    "name": "DOCE AMORA 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "62dd9ac9-fea7-4b7e-8b78-18158592429b",
+    "name": "LEGUMES SALTEADOS COM QUINOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "63a75c6d-bf76-48c9-85c5-092a0f932896",
+    "name": "PIZZA FRESCA QUEIJO E FIAMBRE SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "64bced99-7f59-4f2e-921c-e8acd49a26cc",
+    "name": "CHOURIÇO PRETO BEIRA LITORAL QUIAIOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "655e50e5-9b0c-41a4-8c35-68ee077cfcb0",
+    "name": "CÁPSULAS GALÃO 10x90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "65fbec16-018c-4477-8197-09e9ee74c66a",
+    "name": "GELATINA MORANGO 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6634f5a7-2c86-4996-9ff0-233e407987ec",
+    "name": "GELADOS MAJESTICS C/AMÊNDOAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "66667654-a679-48e6-a636-40741edf2a95",
+    "name": "MAIONESE COM TRUFA IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "66ccc888-dba1-4bfe-b4a3-c3edb55eb7cf",
+    "name": "GELADO SEM LACTOSE SABOR A CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "67600d78-1afd-46d6-9afe-0c2059934359",
+    "name": "BATATAS PALITOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "68a283a9-552f-44e0-b42a-7fbaa22a8da2",
+    "name": "BARRA PROTEICA PISTACHIO CROCANTE GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "68a6a71a-efbc-4658-af37-98536c3d5f50",
+    "name": "QUEIJO CURADO MISTURA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6b429d2f-539c-404e-bba8-6000a709f42d",
+    "name": "BARRA DE FRUTOS SECOS AMÊNDOAS E AVELÃ 3x35g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6b491d3f-d3b2-41cb-85b7-f81b9d7e9e1f",
+    "name": "GOMAS PARTY MIX 10x40g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6bd26e57-082d-4a3c-8f78-bbfcb4179bf9",
+    "name": "CHOURIÇO BEIRA LITORAL ARGANIL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6c1d0520-4d21-4fad-94da-ddd9f706cebe",
+    "name": "VINHA D’ALHO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6d1db734-209b-467a-a0b6-64ed92451d11",
+    "name": "CHOCOLATE DE LEITE C/GENGIBRE E CANELA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6e58abee-bf84-4905-8e50-ce71a9b0dd6a",
+    "name": "PIPOCAS DOCES PARA MICRO-ONDAS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6eb5d4ca-3b6a-4043-a07b-ce48fa6378b5",
+    "name": "AMÊNDOAS COBERTAS DE CHOCOLATE BRANCO E COCO RALADO IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6f65f94b-8176-4bd1-aa96-9ff753ceba4a",
+    "name": "PEITO DE PERU COM ERVAS FINÍSSIMAS FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7065fe44-5e57-402a-a21f-8436c831dc2c",
+    "name": "GELATINA FRUTOS VERMELHOS LIGHT 31g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "711f3fe4-5d3a-4ff1-a8bf-7451424ee509",
+    "name": "IOGURTE GREGO PEDAÇOS MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "71690f9c-2eff-41ec-a172-b631563fb357",
+    "name": "IOGURTE CREMOSO MORANGO&NOZES ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "72c1fb71-47d6-4283-93ab-7f54c2cb6756",
+    "name": "BEBIDA À BASE DE AVEIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "74355ed0-3e85-4e3f-939f-7cbc57787696",
+    "name": "IOGURTE SÓLIDO À BASE DE SOJA FRUTOS VERMELHOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes de soja",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "748190aa-9397-4a01-9810-89f80ce48671",
+    "name": "IOGURTE GREGO LIMA LIMÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7543875e-174d-433f-912f-85876509b7a8",
+    "name": "IOGURTE GREGO 0% NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "754bc1e5-eb0c-42d1-9968-b04227e512d2",
+    "name": "GELADO MINI MAJESTIC AMÊNDOAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "757261d3-12d1-4d1e-b990-a7f0a2454ff2",
+    "name": "PATÉ DE ATUM 4x22g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "76150fc2-87a5-4b5c-90c0-824e297e916f",
+    "name": "CHOURIÇO CARNE PONTE DE LIMA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7713285a-4598-4b81-8062-c9c23b77e126",
+    "name": "QUEIJO OVELHA AMANTEIGADO SERRA DA ARRÁBIDA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "772c2c8b-d810-42c6-bb29-90cb8b0d53e2",
+    "name": "HAMBÚRGUER DE FEIJÃO E MILLET VEGGIE STYLE PLANT BASED 0% CARNE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "77779bcc-d5b3-4301-83eb-c61e73d7abe0",
+    "name": "CARAMELOS NATA 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "77bfcbaf-4ddd-4186-a4f6-1f27151672c4",
+    "name": "PAIO DO LOMBO PORCO PRETO ALENTEJANO IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "77db3a3d-f7c6-4a04-a652-28c0edf3302d",
+    "name": "QUEIJO OVELHA CURADO BARRADO SECO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7872b29c-f39d-4d7d-b34c-eb1626c62e23",
+    "name": "IOGURTE LÍQUIDO NATURAL AÇUCARADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "78fc63f7-d2d8-4c90-b8ae-915c4e1a025c",
+    "name": "DOCE ABÓBORA 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "79460810-962e-4fbb-8a0d-c910d2c576f8",
+    "name": "MOLHO DE ALHO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "794fb564-f82e-4ed0-9cf1-11b317c7d567",
+    "name": "IOGURTE BATIDO COM PEDAÇOS DE CEREJA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7a017620-e20e-4588-bfdd-48837a5c74d0",
+    "name": "QUEIJO RALADO MOZZARELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7a3c26ec-7aad-449d-a6d4-37e4b0fbf7b0",
+    "name": "GELADOS MINI MAJESTICS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7a492245-eeb2-4d96-a815-3a344a22022c",
+    "name": "SALMÃO FUMADO NORUEGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7bb9c2b2-229c-44a3-a857-49eb3ba69fd4",
+    "name": "BOLSA DE FRUTA MORANGO E BANANA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7bc32ce2-5920-4388-bc98-29924961b61c",
+    "name": "IOGURTE MAGRO NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7c642f91-3041-403b-8e62-2cb7071bf7c4",
+    "name": "CAFÉ EXPRESSO RISTRETTO 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7d5063b9-d753-45d8-9711-5f2ee78327bd",
+    "name": "ESPARREGADO DE ESPINAFRES SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7eba092a-118d-4ba5-b8f6-21650d592ca8",
+    "name": "QUEIJO EDAM FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7f435948-a6ec-4369-ad12-19c62143db1c",
+    "name": "QUEIJO FLAMENGO BOLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8014d59d-1c61-4967-b670-902b294515d0",
+    "name": "QUEIJO FRESCO P/BARRAR S/LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "81175eef-59f1-4f8b-802a-d92dcc5021dc",
+    "name": "PAIO YORK DA PÁ FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "81192cef-deeb-4570-9d97-f4476ca0a46b",
+    "name": "ALMÔNDEGAS DE ERVILHA VEGGIE STYLE 0% CARNE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8123984b-03e1-496c-a86f-b47c720986ad",
+    "name": "GELADO SEM AÇÚCAR MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "81e14411-5dca-44d9-87b9-c077efd88418",
+    "name": "FEIJÃO MANTEIGA LATA 420g Categoria: MERCEARIA/ENLATADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "81e4c8f7-8e4c-48db-ac7f-9935efae856f",
+    "name": "IOGURTE BATIDO PEDAÇOS DE AMORA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "823cb087-6b62-4866-aa87-401b5b7597a7",
+    "name": "GOMAS MULTI AÇÚCAR 300g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "82fe6036-e4c1-4a8c-8cbc-aba45cbe34cb",
+    "name": "BEBIDA DE AMÊNDOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "831404a2-f584-4440-8728-c06e6661f41a",
+    "name": "PUDIM DE BAUNILHA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "83c96f93-d00d-4a17-8280-7bc2e48e2ad1",
+    "name": "POLPA TOMATE/MANJERICÃO/OREGÃOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Tomate conservado",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8538d649-ba1a-455c-8c35-a4a0f6ee4650",
+    "name": "PRESUNTO PORCO PRETO ALENTEJANO IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "86ab4ca1-c680-4a29-b2b4-ce56662cb4b3",
+    "name": "QUEIJO FLAMENGO SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "873e1f91-3dff-4277-a73b-a4825930b08a",
+    "name": "PÃO DE FORMA SEM GLÚTEN CLÁSSICO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "877b6326-9f23-4b14-a3f6-7ce22acaed77",
+    "name": "MOIRAS DA BEIRA ALTA LAMEGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "886bece2-4dd9-4b93-98b7-c26637417d24",
+    "name": "PETIT LÍQUIDO MORANGO E BANANA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "88833321-9efd-4d3d-895c-4a4c1def2175",
+    "name": "CAPPUCCINO 5 Bebidas",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "888f12c8-129b-44bd-bf3e-72f9f65198b5",
+    "name": "IOGURTE LÍQUIDO STRACCIATELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "88933621-3472-45ef-863b-e000e21c40da",
+    "name": "SALAME FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "88a3680b-b4ed-4886-b414-b1ebd951d8bc",
+    "name": "GELATINA DE MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "88c62290-9095-48b2-951b-49a5f65fea5b",
+    "name": "FIAMBRE DA PERNA DE PERU FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "896fbbed-b424-48e1-8662-97929b7732b8",
+    "name": "QUEIJO FUNDIDO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8971288e-7024-47f8-94e1-6cac3d5192a9",
+    "name": "CHOURIÇÃO EXTRA FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "89824d89-199c-4293-b2e4-4e37a925d3f0",
+    "name": "QUEIJO FLAMENGO FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "89dbf39d-8559-47ae-812c-60059dd95ba4",
+    "name": "IOGURTE BIFIDUS NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "89ea953c-7846-4193-9b9a-afefd1251576",
+    "name": "IOGURTE MAGRO AROMA MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8a172731-167e-4483-a258-1ece64cf89a8",
+    "name": "LEITE CREME 4x23g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8a7a5695-0f08-412f-b8ec-d9f6ea15ae60",
+    "name": "BURRATA FRESCA IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8a8e3602-06ed-4236-a4fc-f9f0407475b7",
+    "name": "IOGURTE MAGRO AROMA PÊSSEGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8a9ad6f8-afff-420b-8b77-358b23d4e5bd",
+    "name": "SARDINHA SEM PELE E SEM ESPINHA EM TOMATE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8b222531-396d-4fae-bcd8-607286cf415b",
+    "name": "PAINHO DE PORTO PRETO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8b5ca852-3d74-49cb-98ab-3000ca1e090b",
+    "name": "MASSA FUSILLI",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Massas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8b6d2555-7793-4e70-b6b1-2b2435c7c250",
+    "name": "GELATINA ANANÁS 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8b71ce35-2d9d-43c6-b8a6-c652130da6d4",
+    "name": "TORTITAS DE MILHO BIOLÓGICO S/ SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8c015162-c9dd-4b94-a2c5-07f1406244c0",
+    "name": "CHOURIÇO REGIONAL BEIRA ALTA SEIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8c9e33b5-0fae-4f2a-a3c1-00a27b3c6fb7",
+    "name": "QUEIJO FLAMENGO BOLA QUARTOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8ce48178-bc00-4254-a37f-5de36bde780e",
+    "name": "IOGURTE CREMOSO BISCUIT ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8dabf6b1-a983-4070-9c63-700884cbf01b",
+    "name": "PASTILHAS ELÁSTICAS SEM AÇÚCAR SPEARMINT 26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8dfd291a-a737-45f3-b596-151b4e520161",
+    "name": "IOGURTE GREGO SEM LACTOSE NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8e284213-8964-4c82-b17e-85eefcaa1226",
+    "name": "MAIONESE COM BAIXO TEOR DE SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8e3f3579-3295-46a4-9ee2-96b23960a2c4",
+    "name": "QUEIJO OVELHA AMANTEIGADO PEQUENO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8eb9e12b-7e94-49da-a6f8-f5d9f5c8c96a",
+    "name": "PÃO DE FORMA SEM GLÚTEN C/ SEMENTES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Padaria&Bolos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8ecf5e58-e0b3-4292-806b-efbcb3ac128c",
+    "name": "MORTADELA COM AZEITONAS FATIADA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f1aa216-de55-4dbd-af48-d6fc42ca6262",
+    "name": "IOGURTE LÍQUIDO MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f3a6f13-0e32-49ba-bcc8-846cad876c70",
+    "name": "MAIONESE COM MANJERICÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f41add6-a892-4d28-90a4-811c5efd2098",
+    "name": "AZEITONA PRETAS 210g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f7c44bb-e8f1-4841-8a72-4a84a8cd000c",
+    "name": "BOLSA DE FRUTA MAÇÃ E PÊRA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "906c3a5e-6fab-4e59-ba23-af025b6efb56",
+    "name": "FEIJÃO FRADE FRASCO 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "907f189c-d98a-4241-965e-5d2343a204d9",
+    "name": "IOGURTE LÍQUIDO À BASE DE SOJA FRUTOS EXÓTICOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes de soja",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9086180a-eced-4b8a-8702-a29b9ccaa513",
+    "name": "PUDIM DE BAUNILHA COM MOLHO DE CARAMELO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "909ae8a3-d665-4457-b567-f2f7a2e5d90d",
+    "name": "QUEIJO FRESCO COM ERVAS PARA BARRAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "91102bda-eeb0-4e48-8bec-02286dc64cdc",
+    "name": "MAIONESE 207g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "918707d4-93b8-4800-8b72-1bf50f6c3a60",
+    "name": "REBUÇADOS DE MENTOL 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "91e352c1-369e-4673-a2b5-71f9d1a5003b",
+    "name": "TORTITAS ARROZ COM SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "92e9dfea-f332-41c0-ac99-1a00085bb32f",
+    "name": "QUEIJO SERRA DA ESTRELA DOP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "937a6c33-10db-4738-ae54-3334cd043c21",
+    "name": "BEBIDA À BASE DE ARROZ E AMÊNDOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9385648c-92e0-48b8-8b4e-c4a7148224fa",
+    "name": "MASSA ESPARGUETE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Massas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "93b810ec-f03f-4435-bd9f-92b761577b9a",
+    "name": "BEBIDA DE SOJA CACAU 1LT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9442e690-b2e9-4f67-847a-4d9b6915822a",
+    "name": "PIPOCAS SALGADAS MICRO-ONDAS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "94a8b4e9-eecd-49fe-bc5e-49b00f6bf925",
+    "name": "FEIJÃO ENCARNADO LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9551b11e-4d92-4a12-a888-ea15708e9c2f",
+    "name": "BOLSA DE FRUTA PÊSSEGO E MANGA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "96c33311-6b23-488b-89b5-8a59ba28b773",
+    "name": "QUEIJO GOUDA FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "973b8fc8-5e51-4eb7-89f3-798ec3983178",
+    "name": "QUEIJO EDAM LIGHT FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "974dcb42-e6f3-47b1-b3c5-0ed391c494ef",
+    "name": "GELATINA DE TANGERINA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "97544b61-11ee-49b4-8f92-9d9335ad25c3",
+    "name": "BOLSA DE FRUTA MAÇÃ E BANANA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "98d0dc48-cde1-48da-8a60-b62b8e3a96c0",
+    "name": "SARDINHA EM AZEITE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "99135aa2-f5ba-40c7-bb7c-0750c1ac4fe2",
+    "name": "PUDIM FLAN 4x56g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "99dde875-e004-40e3-9e1b-d6ffc36c8611",
+    "name": "IOGURTE LÍQUIDO PROTEÍNA MANGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Proteína",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9a66eada-f49b-4b34-9aeb-5a0b081240ce",
+    "name": "TORTITAS ARROZ SEM SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9af133cd-7be7-4f40-9d47-4fe9cb4de629",
+    "name": "DOCE PÊSSEGO 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9af55a11-dcf0-4ff9-acca-9a537096678e",
+    "name": "BOLSA 100% FRUTA & CHIA 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9b7e77bc-ae63-498e-86e4-2cb4424ec284",
+    "name": "IOGURTE LÍQUIDO MAGRO SEM LACTOSE MAÇÃ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9c04a088-f38f-4f25-bf9e-32c1a5383147",
+    "name": "BARRA DE FRUTOS SECOS AMENDOINS CAJU E ARANDUS 3x35g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9c697c3f-359f-40ef-9c24-38497f1c1d7e",
+    "name": "IOGURTE GREGO 0% FRUTOS VERMELHOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9c8d61eb-b39c-4931-9f7d-fbcd87ae6467",
+    "name": "FIAMBRE FRANGO FATIAS FINAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9d07e1f5-1bc5-432e-bb06-bed3b44e7792",
+    "name": "QUEIJO CABRA FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9d0f67b8-113f-4b1b-ac96-c9ae00d80d16",
+    "name": "IOGURTE GREGO NATURAL AÇUCARADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9d849459-80c0-4dcb-9548-b28a018e4c0b",
+    "name": "BATATA CUBOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9e646025-72f6-4031-884c-eabe67ec1ceb",
+    "name": "BEBIDA À BASE DE ARROZ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9e69e43e-2fcf-4e49-9746-99fc94a93f72",
+    "name": "IOGURTE GREGO BANANA E STRACCIATELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9f30b954-560c-41de-8c97-1ed45444df7f",
+    "name": "CHOCOLATE BRANCO C/MORANGOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9fe3c407-8507-433d-9775-a10090d9e4c3",
+    "name": "IOGURTE LÍQUIDO LEMON CURD",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9fe3e9ce-9085-4a15-b218-436350483026",
+    "name": "IOGURTE PEDAÇOS MORANGO ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a0de5347-75fa-4207-99c3-2478dc0202f6",
+    "name": "TORTITAS DE ARROZ COM CHOCOLATE BRANCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a0ef02a3-2731-4a34-acb8-cbaa868cb410",
+    "name": "ESPARGOS BRANCOS 345g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a1dcce2a-89e5-4eed-935a-3f609940ebc3",
+    "name": "BOLSA DE LEGUMES MAÇÃ MANGA E CENOURA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a28c96bf-cf2d-48bd-b87f-381050a72919",
+    "name": "QUEIJO GRANA PADANO CUNHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a2bc1909-93f1-495f-8f03-beab052ef82c",
+    "name": "BARRAS DE FRUTOS SECOS SÉSAMO E MEL 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a2f3d0ac-3105-47f4-9418-1b1fa479655d",
+    "name": "GELADO DE CARAMELO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a2fb30cc-e3e6-4400-81ed-38cab127b851",
+    "name": "FEIJÃO ENCARNADO LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a37786ab-feae-4301-b949-6c95dfb92f3e",
+    "name": "MINI TORTITAS DE MILHO COM SAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a3b9c666-ff5e-47d4-b3bd-2e95f3eaf3bc",
+    "name": "DOCE TOMATE 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a4747b5a-2b11-4293-b868-cd0f9cfbbae8",
+    "name": "SORBET DE TANGERINA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a4907561-1b1a-4052-9450-7365f533103d",
+    "name": "BEBIDA DE SOJA BAUNILHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a4e46a1f-a3df-4dbe-ab91-72fab69f7cf1",
+    "name": "CHANTILLY",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Natas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a5a14cfd-a016-42ab-b40a-d52712a9840d",
+    "name": "CAFÉ EXPRESSO BRASIL 10x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a600e751-6f0c-443d-afbf-47d1dd317cee",
+    "name": "FEIJÃO MANTEIGA LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a676541b-4ea5-4357-8747-f143455cedde",
+    "name": "GELADOS MINI MAJESTIC DE CHOCOLATE E AMÊNDOAS SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a6c86868-855a-47ec-92cd-a6fe5807ff18",
+    "name": "CAFÉ EXPRESSO CANELA 10x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a6ea8e5a-edfb-4a24-8c45-cdeb5e80886f",
+    "name": "PRESUNTO SERRANO GRAN RESERVA IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a71a3174-7412-4358-aaab-14e1b9a5bf12",
+    "name": "SARDINHA SEM PELE E SEM ESPINHA EM AZEITE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a76c8e75-dffb-4adf-8407-0380ab27bbb6",
+    "name": "CARAMELOS FRUTA 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a77420fb-76c6-4be1-b878-8584a6f71a3c",
+    "name": "MOLHO DE COCKTAIL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a7bbe2db-decf-416a-9a10-4e43560342ae",
+    "name": "QUEIJO NISA DOP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a81e1f73-77c8-4255-bab9-8f62e8b73919",
+    "name": "FERMENTO EM PÓ 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA DOÇARIA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a82afd51-c03b-42db-85c0-a52d40d0123e",
+    "name": "IOGURTE LÍQUIDO MAGRO AROMA TROPICAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a8646d17-712f-412b-9c4e-99a98b941373",
+    "name": "GELADO MAJESTICS CLASSIC",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a8936858-b485-4f8a-a22e-b8ed4d2dcf9c",
+    "name": "DOCE DE ABÓBORA COM NOZ IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a8fdf499-0db4-4eae-9893-0093650f58f5",
+    "name": "ACTIPLUS NATURAL MAGRO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a916b48f-4db3-4182-b381-660c2d20ecdb",
+    "name": "RAW BAR AMENDOIM BANANA GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a91ccd08-db62-44f4-b8bc-9f9dbf8e4e69",
+    "name": "BOLSA DE FRUTA MAÇÃ E BANANA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a9ee9d63-60ec-4bce-8f4c-806686e36f1e",
+    "name": "MOLHO VINAGRETE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "aa9afa7d-0651-4402-add8-7fe6177fc65f",
+    "name": "GELADOS MINI MAJESTIC DOUBLE MIX",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "aae74b43-0fe0-44ec-8c9a-2b8915775626",
+    "name": "QUEIJOS ÉVORA DOP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "aaf5394d-d3db-43d8-8a26-a097e951a651",
+    "name": "QUEIJO EMMENTAL PORÇÕES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ab6610c6-b38e-40c0-8c3a-556fa721bac9",
+    "name": "ACTIPLUS MAGRO DE MANGA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ab94825c-e5e3-4ff2-922f-1d605ccc1a2f",
+    "name": "SORBET DE MANGA PINGO IGUARIAS DOCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ac248eb1-3f22-4e5a-b029-5bb9016722ec",
+    "name": "PATÉ VEGETAL DE COGUMELOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "acfe17ea-d2af-4227-a1b4-7f7b94f02eb6",
+    "name": "CÁPSULAS GALÃO 10x90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ad8fa406-bccd-453b-988c-387acc592506",
+    "name": "IOGURTE LÍQUIDO STRACCIATELLA E COCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ae237b3f-d56c-463d-a44f-94430292c835",
+    "name": "MOSTARDA DIJON",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "afbfeb7d-4e16-4fd5-a464-bbe31b1e9451",
+    "name": "DOCE CEREJA 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b014dfc2-9888-4f2b-ab8b-7595d03e1028",
+    "name": "IOGURTE AROMA A TUTI FRUTI ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0226f62-0c8c-4eb9-bc0f-84c00904e3ea",
+    "name": "FEIJÃO MANTEIGA FRASCO 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b07e4624-dece-4042-868d-6276e887a661",
+    "name": "QUEIJO MISTURA REGIONAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0aa305b-890e-47fd-af66-4e4470e80fd1",
+    "name": "BOLSA DE FRUTA MULTIFRUTOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Bio",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0d50eaf-5f55-40de-97c6-8021ec11d58f",
+    "name": "CHOURIÇÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0d731c0-c61f-40f7-bc1f-8a6f63304bd1",
+    "name": "QUEIJO MASCARPONE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b1db57e7-900b-4d8c-b55d-ed0119c69017",
+    "name": "PEITO DE PERU FUMADO FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b22adfd7-fd5f-4a94-a18b-2daf172b9606",
+    "name": "DOCE MORANGO 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b364705b-7bd6-4fa9-bd39-fc99a6916619",
+    "name": "BOLSA DE MULTIFRUTOS C/CEREAIS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b4398907-dced-491d-9089-3a6bf11f0c46",
+    "name": "IOGURTE PEDAÇOS MAGRO MARACUJÁ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b49a509b-fadd-4bbf-b38c-200e2c6e44ec",
+    "name": "SALSICHAS ALEMÃS 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b52c3819-cd86-44ef-a8ed-40133c25c286",
+    "name": "SALSICHA CHURRASCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Outros",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b5793c1f-420d-49a4-91ae-8486a6463b2e",
+    "name": "IOGURTE BATIDO PEDAÇOS MAÇÃ E CANELA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b592d67b-e836-4ab6-8836-e04aadcff30a",
+    "name": "IOGURTE LÍQUIDO MAGRO MELANCIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b64fe16a-f1fd-4817-a092-81bd2b6d46bc",
+    "name": "MOLHO VINAGRETE C/ MOSTARDA ANCIENNE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b6aba62c-0a06-4174-8179-5155b9dfc85e",
+    "name": "MANTEIGA DE AMENDOIM 340g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b6c17bce-7af1-4a05-b9fc-6ca16bad86e8",
+    "name": "MOLHO VINAGRETE C/ VINAGRE BALSÂMICO DE MODENA E MEL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b71cb525-a48f-485f-8ee2-a3f5dfbe0e62",
+    "name": "BEBIDA DE ARROZ E NOZ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b7bc8187-a240-41ff-b2a9-77bb0fc5d80f",
+    "name": "CREME VEGETAL PARA BARRAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b85d2a41-e8f9-4c2f-83d9-c11ab7a2e01f",
+    "name": "BEBIDA DE COCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b963b9ca-d592-40c6-9622-c0cda545fae3",
+    "name": "DOCE DE FRUTOS VERMELHOS SEM ADIÇÃO AÇÚCAR 230g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b9e7daa4-61c5-4aa1-902f-93aeb45b0640",
+    "name": "MOLHO PARA BOLONHESA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b9eb25f8-b1a5-4ee2-afc6-2d016c45c1fc",
+    "name": "CÁPSULAS DE CAFÉ EXPRESSO VIETNAM 10x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b9f12cf9-08c1-4206-8b98-49831cce1cf3",
+    "name": "MOLHO IOGURTE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ba23d32a-ff1c-40ec-a5ad-f74f7eb9c63b",
+    "name": "SALSICHAS AVES FRASCO 5 Unid.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ba916d6e-a478-4050-bcf9-252ad204e57c",
+    "name": "PATÉ DE SARDINHA 65g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ba933898-0bc8-4116-a7c9-3e1f0567a655",
+    "name": "MINI TORTITAS DE MILHO E ARROZ RECEITA MEDITERRÂNICA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ba9f50aa-4895-40fe-9169-eb3a3f99e1c8",
+    "name": "PATÉ DE ATUM 65g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bab0507f-2f65-42ea-8fc6-b90b6287ee93",
+    "name": "SNACK CROCANTE AMENDOINS E PISTÁCHIOS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bb2399d7-2505-4355-93a0-4a579cde959f",
+    "name": "QUEIJO DA ILHA DE SÃO JORGE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bb2bb526-0fda-4744-9f4c-575010e1214a",
+    "name": "BOLSA DE MAÇÃ 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bc5d2a57-4a47-487d-9c12-ff5fff4fc041",
+    "name": "IOGURTE SÓLIDO À BASE DE SOJA AVELÃ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes de soja",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bd100659-597a-4599-a47b-45f1df918028",
+    "name": "PASTÉIS DE NATA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bd4dc00b-f96a-4dc3-a4da-1346e140a3e4",
+    "name": "GELADO SEM LACTOSE SABOR A MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bd9303fd-136d-4da7-a734-3ef6629686d5",
+    "name": "QUEIJO PARMIGIANO REGGIANO DOP IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bde572b6-4ceb-4bc0-8ef6-e965443dbad0",
+    "name": "ADOÇANTE À BASE DE ASPARTAME 300 Unid.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/EDULCORANTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "be736fe7-4ff7-4d3b-b0ee-52d7902de0cb",
+    "name": "IOGURTE LÍQUIDO MAGRO PÊSSEGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bf7cf391-1ac0-4cc5-8c19-c55aabca8a4a",
+    "name": "GELATINA MIRTILO LIGHT 31g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bfe75af0-96d8-4342-a5d2-3a3c6a769a39",
+    "name": "REBUÇADOS DE FRUTA 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c0b81efe-be63-4195-b23f-f18bcdabc47e",
+    "name": "GELADO MOMENTOS DELICIOSOS DE STRACIATELLA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c102e572-6367-4fd5-a8b5-7d2cf1b9ecfb",
+    "name": "CREME PARA BARRAR CACAU E AVELÃS 400g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c16cdba8-1bf8-40b0-aad4-101479fa2623",
+    "name": "SOBREMESA DE ORIGEM VEGETAL MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c1b8c983-d356-474b-a68b-594f2a645e5e",
+    "name": "PIPOCAS CARAMELO SALGADO 100g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c1f53b85-d15a-45e5-b1e9-235d5d5824b8",
+    "name": "BOLSA DE FRUTA MORANGO E BANANA COM IOGURTE 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c33567d8-c3c2-4c9a-88f1-b98c7fa5b784",
+    "name": "HAMBÚRGUER DE SOJA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c34f8643-6aaf-470f-9c3d-f44cdf00990a",
+    "name": "TORTITAS MILHO COM CHOCOLATE NEGRO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c35343b2-6219-42c6-8204-e43b84b71a74",
+    "name": "FILETES DE ATUM EM AZEITE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c449ccbc-a285-42d0-9488-7bcbfc7013e8",
+    "name": "QUEIJO DE CABRA CURADO BEIRA ALTA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c4850725-21eb-48fd-a6f2-69f09e541120",
+    "name": "QUEIJO CURADO SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c4ed0e32-58d0-4118-884b-ca73bb8da7b0",
+    "name": "CREME VEGETAL PARA CULINÁRIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c5150d0c-e505-4d3a-b1cb-ebc81c308ff4",
+    "name": "PAIO DO LOMBO SEIA BEIRA ALTA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c56da1d5-0ad8-485b-87a3-1775403b4943",
+    "name": "ATUM POSTA AZEITE 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c5c9cf5d-6b59-4d83-b4bf-4ad6762c57a1",
+    "name": "PEITO DE PERU FATIAS FINAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c609c5b8-e22c-49a4-822a-2d13682f4133",
+    "name": "BEBIDA DE ARROZ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c6b81a2a-82d1-48be-a812-ee5c9dd7fbad",
+    "name": "NATAS UHT CULINÁRIA LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Natas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c717c1c5-1b73-4b5e-856d-b2dc4318f83e",
+    "name": "PINGOS DE NEVE 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c774322f-45aa-4709-8e86-618e986add01",
+    "name": "IOGURTE LÍQUIDO MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c9046d6a-5e4a-4673-a128-2499c670607b",
+    "name": "BARRAS DE FRUTOS SECOS SÉSAMO E ABÓBORA 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c93660fe-ab9e-4afb-a72c-b9602dc15c43",
+    "name": "GELADO MOMENTOS DELICIOSOS DUO CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c9716af8-5963-46fa-ba75-0aa456068a6f",
+    "name": "GELATINA ANANÁS LIGHT 31g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c9b1a271-78fb-433c-afcd-e30efba788a2",
+    "name": "CAFÉ EXPRESSO CORPOSO 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ca1f4fa5-e041-4803-85d0-1d8187ddb918",
+    "name": "CHOURIÇO DA BEIRA LITORAL QUIAIOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ca3d1d39-33bd-43ae-90ac-ebf02a189948",
+    "name": "QUEIJO OVELHA AMANTEIGADO GRANDE SEIA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "caefff4f-684a-415a-91eb-44e107c21fcd",
+    "name": "GELADO MINI MOMENTS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cc0f5d11-d310-45ab-8a0c-85c3195f9602",
+    "name": "IOGURTE MAGRO MORANGO SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cc223c56-b926-4b1a-b36b-d0da9ad037f0",
+    "name": "IOGURTE PEDAÇOS MAGRO MIRTILOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ccd592d9-a71e-40d0-8efc-2597a02bc5d5",
+    "name": "CAFÉ EXPRESSO COMÉRCIO JUSTO 10x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cd1d4a07-6549-4414-ae29-8117190a2216",
+    "name": "PASTILHAS SPEARMINT 24",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cd8c605f-2e28-417f-a612-4ebef799a04d",
+    "name": "DOCE DE ABÓBORA GILA C/ AMÊNDOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cdb43fc7-0122-4f47-b127-014ae0a66cb5",
+    "name": "PRESUNTO 5 MESES DE CURA FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cdbc32cf-0e22-4099-9824-ad06c8e26442",
+    "name": "PRESUNTO 5 MESES DE CURA FATIAS FINAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/fumados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ce211aac-b6b9-4031-811a-dd5e2147450f",
+    "name": "AZEITONA GORDAL 560g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d03b64a2-ef47-4b20-95b7-ca0ccdb938a2",
+    "name": "AZEITONA VERDE DESCAROÇADA 165g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d04b9a72-3f3e-422a-b5b8-b8d80ce52eba",
+    "name": "VEGGIE RICE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d0bfc8a7-8cff-42f4-bde0-38bd742f00aa",
+    "name": "IOGURTE LÍQUIDO MORANGO E BANANA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d0d772bb-dcad-4749-ac49-0d340b9c8ef1",
+    "name": "DOCE DE MAÇÃ COM CANELA IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d1025f4d-302b-43e9-a441-14b470916cb9",
+    "name": "BATATAS NOISETTES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d19e1f44-aa40-4ad8-b0f7-9da7fc7ec9ca",
+    "name": "BEBIDA DE SOJA 0% AÇUCAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d2409c31-0f99-4975-89da-f32de5f53f01",
+    "name": "PREPARADO DE MARISCO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d29ff3f0-7afa-47ec-a06e-f134aa77d6e2",
+    "name": "ANANÁS EM CALDA 825g 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d377f45f-515a-40ae-bf8f-d28a63988291",
+    "name": "IOGURTE AROMA A MORANGO ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d430b2e1-0c36-4a00-93c1-38274d5cc3ed",
+    "name": "DOCE DE MORANGO SEM ADIÇÃO AÇÚCAR 230g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d4c1a1a0-896c-4c3c-a421-bc8626bec7ca",
+    "name": "NATAS SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Natas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d50da403-e951-425a-8b25-1dc8fd392956",
+    "name": "IOGURTE LÍQUIDO BAUNILHA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d55b78d2-85c6-4a27-8ed0-463d16028820",
+    "name": "SNACK CROCANTE AMENDOINS AMÊNDOAS E CAJÚS 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d5c292e9-e1c7-403b-b333-31186eeba773",
+    "name": "AMÊNDOAS COBERTAS DE CHOCOLATE DE LEITE E CACAU EM PÓ IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d6977607-ebd2-421a-9f31-956b9033f1c0",
+    "name": "BATATA DOCE PALITOS FORNO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d7c49989-9bdf-4d81-a468-993d8d50e923",
+    "name": "IOGURTE LÍQUIDO SEM LACTOSE NATURAL AÇÚCARADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d8208e82-3119-4770-8ebc-846ee30215e1",
+    "name": "SOBREMESA DE ORIGEM VEGETAL ANANÁS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d8eaba19-c2f2-43b9-851e-227903c1ad57",
+    "name": "BOLSA DE PÊRA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d9719e96-0036-4e41-bc9d-d1d60414a51b",
+    "name": "MASSA DE PIMENTÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d9cbef23-309f-4d76-938d-6c7f894bbbd8",
+    "name": "SALPICÃO DE LOMBO PONTE DE LIMA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dc4f5d64-87a4-4f39-838a-9e376013ab47",
+    "name": "CHOCOLATE DE LEITE COM AVELÃS E PASSAS 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dca20db1-1b5b-4ee6-a8a1-1b65da460715",
+    "name": "AVEIA INSTANTÂNEA GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dd024464-048e-4f50-b950-29a58cd1f2a0",
+    "name": "IOGURTE NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "de627c39-b0d7-4dda-b8f8-fa638f2b5393",
+    "name": "ERVILHAS LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "de8b5260-a580-4d52-b018-6d717e735077",
+    "name": "MISTURA DE CHICORIA 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "df9b72bc-4726-4135-a5f0-70aa845061b8",
+    "name": "IOGURTE GREGO MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dfa8d671-6c86-4c95-b5f3-6ef045044675",
+    "name": "BOLSA DE MANGA COM IOGURTE 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dfb44a9c-3964-41ae-83f1-c5e899768921",
+    "name": "IOGURTE LÍQUIDO MAGRO FRUTOS VERMELHOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dfdedf6b-114d-4047-8f46-ac18b2b79632",
+    "name": "PATÉ IBÉRICO 125g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e02ecb0a-25dd-4e59-a95b-4b9e0ec34c61",
+    "name": "ERVILHAS LATA 850g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e09c94cb-be0c-4915-b51c-be4fe88183ef",
+    "name": "IOGURTE LÍQUIDO À BASE DE PÊSSEGO E ALPERCE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes de soja",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e176267c-1691-4cb8-a8f1-3d44e792cdd3",
+    "name": "GELADO NATA FRESCAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e2307589-d091-438b-9bc7-fb96dee86eba",
+    "name": "BETERRABA RALADA 370g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e238cf71-3c8b-4b5c-85cc-2311e042ff5b",
+    "name": "MASSA DE ALHO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e27b12ae-52d3-4bfd-8781-d20f6691ea97",
+    "name": "IOGURTE REDUZ COLESTEROL NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e28b921f-3cb2-435e-9db9-7a59fdac4ee8",
+    "name": "PASTILHAS ELÁSTICAS SEM AÇÚCAR PEPPERMINT 26",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e2da50e9-85af-4f01-b75c-21196590be3f",
+    "name": "IOGURTE BATIDO COM PEDAÇOS DE FRAMBOESA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e332fa0b-36ba-480d-b577-66a64a53ce43",
+    "name": "QUEIJO FETA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e40ce8b1-3969-4e0b-880a-487c37ea6f63",
+    "name": "FEIJÃO BRANCO LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e4302810-8d43-4b0f-8826-e11847b25d73",
+    "name": "PETIT SUISSE MORANGO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e57a8939-b15d-442f-a01b-6dfca07327d3",
+    "name": "IOGURTE LÍQUIDO MAGRO SEM LACTOSE NATURAL TRIPLO 0%",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Sem lactose",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e6675479-c280-40da-bb62-c3cc247f99df",
+    "name": "LENTILHAS COZIDAS 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e6ca0bb9-aa77-4a4b-9825-66ffc3e71567",
+    "name": "SALPICÃO DE PERÚ E ALHO FATIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Fatiados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e7de6add-a08b-4b5e-8905-9248b0ed0562",
+    "name": "MANTEIGA SEM LACTOSE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Manteigas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e85a4b6e-fd05-4af1-9aa2-33db31708957",
+    "name": "SALPICÃO BEIRA LITORAL ARGANIL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Enchidos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e872129c-a19e-413c-a2b1-61e73f9ea1f0",
+    "name": "FARINHA LÁCTEA DE PÊRA 250g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e8744f35-cc99-449a-a2a7-1287b7666dc6",
+    "name": "FEIJÃO BRANCO COZIDO FRASCO 540g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e877bf41-89a2-44bb-96dc-7df99be71f60",
+    "name": "IOGURTE MAGRO FRUTA BATIDA MORANGO E MENTA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e8ccfdc0-56e3-40a8-9e70-40091a9014f4",
+    "name": "BOLSA DE LEGUMES MAÇÃ BATATA DOCE E CENOURA 90g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e9896e43-b671-4605-87f3-3449e24f85b8",
+    "name": "PASTILHAS MELANCIA 24",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e9d510c3-2c96-4211-abe7-1cc2291033dc",
+    "name": "PICKLES EM FRASCO 210g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e9e6f404-795d-46ff-96c8-c16e6ca4bfe7",
+    "name": "BATATAS PALITOS FINOS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ea134f06-d2a2-4365-9b35-fb2860209635",
+    "name": "AZEITONAS PRETAS EM RODELAS 165g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eaa7c56f-cab6-4f78-bef9-60a540b733c7",
+    "name": "FEIJÃO BRANCO LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eb1189e6-120f-49e2-8093-e20a321a3686",
+    "name": "AZEITONA PRETA DESCAROCADA 165g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eb2f1240-299e-47c8-b7e5-7aa92b32fc62",
+    "name": "GRÃO BICO LATA 820g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eb4d7314-0311-4cb8-91b5-d67ac5506b49",
+    "name": "CHOCOLATE PRETO 72% 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ec29f397-c44b-4b53-a39e-01eba7664277",
+    "name": "BEBIDA DE SOJA CACAU 200ML",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ed27c059-628f-4228-9fb3-ab3305385287",
+    "name": "CAFÉ EXPRESSO INVICTA 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ed2beb12-8c64-4604-9786-af2b3f138136",
+    "name": "MANTEIGA AMENDOIM CREMOSA GO ACTIVE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Go Active",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ee62ab51-f315-43e8-8499-c7728fb1812d",
+    "name": "QUEIJO EMMENTAL RALADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eed23c01-f658-4256-854b-9fd095ab3cac",
+    "name": "QUEIJO DE OVELHA COM TRUFA NEGRA IGUARIAS",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Iguarias",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ef216d00-1365-4a14-a859-7de437f94bb3",
+    "name": "MAIONESE LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ef6c467a-5e2b-4f8e-a398-a02a6de7d76b",
+    "name": "GELATINA MELANCIA 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f02465d7-9aef-4e78-a80d-c2aef3306e4f",
+    "name": "BEBIDA DE AVELÃ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Bebidas vegetais",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f03cd9bc-bcd0-46e6-956e-468093e5d5d5",
+    "name": "IOGURTE LÍQUIDO PÊSSEGO E CENOURA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f0770029-8757-483e-be5e-402c01933a6e",
+    "name": "MOUSSE DE CHOCOLATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f07f23e4-ed12-46a0-ab6f-62f020ac9aff",
+    "name": "BATATAS FRITAS 100% PORTUGUESAS 150g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f0cae47d-beca-4ea6-9ff8-ec79d061507c",
+    "name": "QUEIJO MANCHEGO DOP",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f0ec2e4e-1fdf-4b32-a672-07f7680ba4b8",
+    "name": "TOUCHINHO DO CÉU",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "frescos/Sobremesas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f0f77af3-d916-41f4-96f6-62be14d53507",
+    "name": "QUEIJO FLAMENGO BOLA METADES",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f1e4abb8-224d-4e10-a968-b3c582f6ca59",
+    "name": "TRIÂNGULOS DE QUEIJO FUNDIDO LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f28beb38-9b93-4b29-815f-6b766095ddf4",
+    "name": "BATATA FRITA RECEITA CASEIRA 200g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SNACKS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f295f79b-720f-44ec-ba21-b6502d280848",
+    "name": "CHIPS DE ARROZ INTEGRAL COM CHIA E QUINOA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Alimentação equilibrada/Tortitas",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f2b4b474-e2ee-43ac-8b56-b3eedd3ed5d0",
+    "name": "CAFÉ EXPRESSO DESCAFEINADO 16x8g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f3fd5df2-0f4d-4a6e-bf50-37acbc5691ec",
+    "name": "GUACAMOLE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Charcutaria/Pronto a comer",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f42f42f9-c296-4753-9c75-c978e84fe014",
+    "name": "PASTILHAS RECHEADAS MELÃO E AMORA 22g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/DOCES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f4ba60db-24e5-44c5-8bbb-5d5d602baab9",
+    "name": "IOGURTE NATURAL INTEIRO PROBIÓTICO LÍQUIDO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f5981da6-3492-4d3b-8bc9-f2b76b4cf2ff",
+    "name": "CAPPUCCINO 10x13g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f5b154b7-4569-4bd8-aca0-e4b3c61ddd41",
+    "name": "CACAULATTE 5 Bebidas",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/BEBIDAS QUENTES",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f6bc6d1b-531c-4422-aee7-79640b4513c2",
+    "name": "GELATINA TUTTI-FRUTTI 170g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f77c0333-b90c-4f50-9106-f22983c913ae",
+    "name": "IOGURTE SKYR NATURAL",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f7905c87-529b-4925-822b-e0702c869c2f",
+    "name": "BOLSA DE FRUTOS VERMELHOS 120g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ALIMENTOS INFANTIS",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f82fa26a-7b09-4366-9fc6-568673739db0",
+    "name": "POLPA DE TOMATE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Tomate conservado",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f865ce8a-8d35-46c9-ab7d-408433abcc98",
+    "name": "IOGURTE MAGRO FRUTA BATIDA LIMÃO E GENGIBRE",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f868d6c6-b81b-4524-ba5c-63cb136f76c7",
+    "name": "GELADO DE NOZ COM PEDAÇOS DE NOZ CARAMELIZADA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f875a514-ac9d-41e4-82bd-eb547903d007",
+    "name": "DOCE DE PAPAIA MARACUJÁ E MANGA 230g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f88f312f-356d-46ed-9b5a-0c22f810731b",
+    "name": "TOMATE PEDAÇOS COM OREGÃOS E MANJERICÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Tomate conservado",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f8ed322e-eb0b-42fd-82d7-ff2daf90aec8",
+    "name": "DELÍCIAS DO MAR",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f9074cb1-cae5-4c9f-9e41-79ef3cf6fd7e",
+    "name": "MOSTARDA TOP DOWN",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fa3a6f9d-5b18-4cc1-bcfd-1762c1f60817",
+    "name": "GELATINA MORANGO LIGHT 31g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/SOBREMESA INSTANTÂNEA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fa668a5d-6a23-4b50-a6fd-9702c20ec69a",
+    "name": "DOCE FRUTOS SILVESTRES 355g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fa8e9561-c6f1-47e4-ad21-2dd92358bcd9",
+    "name": "GRÃO BICO LATA 420g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fb5f811c-dcfd-4e9f-bcde-5b19d77f893b",
+    "name": "MARMELADA SEM CORANTES NEM CONSERVANTES 500g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA BARRAR",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fb67df8b-862f-4784-ac0e-007bef6368d6",
+    "name": "AZEITONA MISTA RETALHADA COM AZEITE ALHO E ORÉGÃOS 155g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/ENLATADO",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fb6ec00a-0ae3-4f5e-b476-cdcead86e5af",
+    "name": "QUEIJO FLAMENGO FATIADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fb8c06f3-8d89-40bc-b96d-30c1440bad14",
+    "name": "ESPUMA COM ALHO NEGRO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "Mercearia/Molhos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fc1b6b29-8d65-4fd9-874a-e99ef1014a08",
+    "name": "CARAMELO LÍQUIDO 400g",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "MERCEARIA/PARA DOÇARIA",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fc8950a5-b02b-4fc3-b37a-3c5716d9935b",
+    "name": "SORBET DE LIMÃO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "congelados/Gelados",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fcfb5595-b052-40b4-80c4-603e7418552b",
+    "name": "QUEIJO FLAMENGO RALADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fd67ab5b-7ef3-4ee8-93a8-63f1a21b011e",
+    "name": "IOGURTE SKYR KIWI E SPIRULINA",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ffa94218-e44b-42f8-b16f-32a65ede463e",
+    "name": "QUEIJO FRESCO BARRAR LIGHT",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Queijos",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ffba4c43-2040-4778-a490-1c0cd418083d",
+    "name": "IGURTE BATIDO NATURAL AÇUCARADO",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Pingo_Doce_logo.png",
+    "category": "lácteos/Iogurtes",
+    "supermarket": "pingo_doce",
+    "country": "PT"
+  }
+]
