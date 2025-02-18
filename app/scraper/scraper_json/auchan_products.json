@@ -1,0 +1,1490 @@
+[
+  {
+    "product_uuid": "01f65abc-0f06-4f62-a2ea-896e4221cc6f",
+    "name": "BOLACHAS VICENZI GRISBI CHOCOLATE DUPLO SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9f77ed6f/images/hi-res/003207044.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "02e6b992-cbbd-454f-8aaf-091c9d8d74d2",
+    "name": "BOLACHAS SANTIVERI NOGLUT MINI ROSCOS SEM GLÚTEN 180G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw727029bf/images/hi-res/002366270.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "03a322ed-0761-4343-83d0-a54ebb483444",
+    "name": "BOLO MUSEU DO PÃO ARROZ SEM GLÚTEN 225G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw569f222a/images/hi-res/002206376.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "056fbda0-86f4-4396-81a2-fde0e91788d5",
+    "name": "FARINHA MIX CEM PORCENTO BOLOS S/ GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw046512a6/images/hi-res/003517334.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0685027c-b8b4-42df-bab8-657bd4e9630f",
+    "name": "BOLACHA SANDWICH GULLON CHOCOLATE SEM GLUTEN 225G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw896f102f/images/hi-res/003391459.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "08e3aef5-782b-4bed-9538-1101821871cb",
+    "name": "BOLACHAS AUCHAN SEM GLÚTEN SABLÉS NATURE 200 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd30d8605/images/hi-res/003404974.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0a7ab3a8-2344-45ca-9562-1c56f29b3cb2",
+    "name": "FERMENTO SCHAR SEM GLÚTEN 2X10G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc33c17b9/images/hi-res/001177967.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "0ab0283e-b831-48a4-88ac-4bc9da2ea0e8",
+    "name": "KONJAC KETO CHEF FETTUCCINE BIO 270G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw137c73be/images/hi-res/003654041.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "10b89147-2630-48dc-94d1-108b1d9bd51f",
+    "name": "TARTELETE AUCHAN SEM GLÚTEN MORANGO 130 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3776bdb6/images/hi-res/003417622.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "11ef04da-ca85-4097-b01b-acbc98df8b08",
+    "name": "BOLACHAS VICENZI GRISBI LIMÃO SEM GLÚTEN 150G",
+    "image": " ",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "12eb2c68-1b80-4117-98d9-538e32834e7d",
+    "name": "FLOCOS CEM PORCENTO AVEIA GROSSOS SEM GLÚTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw31062e52/images/hi-res/002447182.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "142fd91c-5532-4504-a055-2ff85679cfdb",
+    "name": "PÃO PACHAMAMA SEM GLÚTEN BANANA E CANELA 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw6e9a05c3/images/hi-res/003071702.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "14952511-b90e-48a9-b8ad-853119dd84e7",
+    "name": "MUFFIN AIROS BAUNILHA SEM GLÚTEN 170G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw98d8efcf/images/hi-res/003115841.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1503f046-019c-440f-93da-fd61de81670d",
+    "name": "FLOCOS CEM PORCENTO AVEIA FINOS SEM GLÚTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw006f1efb/images/hi-res/002405042.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "155275ba-ddb4-4b9d-aa3f-13830ee477ae",
+    "name": "BARRAS AUCHAN VIVER MELHOR SEM GLÚTEN WAFFER CHOCOLATE 107.5G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc30062b3/images/hi-res/002976769.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1b4452ae-d386-4286-a62d-1c24563a82db",
+    "name": "MASSA RUMMO LINGUINE SEM GLÚTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8853f9c5/images/hi-res/002270960.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1bd9c176-ef96-4cac-b7c1-c884babd9979",
+    "name": "MASSA RUMMO FUSILLI GRÃO BICO TOSCANIA 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwdeeb664e/images/hi-res/003011385.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1d0cd2fd-0791-4e58-8a40-f7d267069e86",
+    "name": "CUSCUZ AUCHAN VIVER MELHOR MILHO SEM GLÚTEN 375G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8d5a9c43/images/hi-res/003020856.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1e84f32a-1c81-4354-8ad4-520ad534a7b3",
+    "name": "KONJAC KETO CHEF NOODLES BIO 270G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw48816f46/images/hi-res/003654034.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "1ed9cff6-3013-4bc0-a897-56d22f683a22",
+    "name": "BOLACHAS AIROS COOKIES CHOCO SEM GLUTEN 230G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8a218426/images/hi-res/003368975.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "20b66330-2903-46e9-acb4-91b952af5cb5",
+    "name": "BOMBOM SCHAR BULÉ SEM GLÚTEN 42G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw94f9a4ea/images/hi-res/003266456.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "21aa578c-7a6e-4d43-aa52-2669cf36d291",
+    "name": "PREPARADO PARA BOLO AUCHAN SEM GLUTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc9211dee/images/hi-res/003707323.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "leite-condensado-e-preparado-para-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "24ea3907-d77e-451c-aa83-433efca8a8d3",
+    "name": "CEREAIS CEM PORCENTO HONEY RINGS SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1080a595/images/hi-res/002893848.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "27b78346-c392-446f-a825-92e622e7a4a5",
+    "name": "PÃO PACHAMAMA SEM GLÚTEN AVEIA E SEMENTES BIO 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw19782bd6/images/hi-res/003010679.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "29287f92-3b72-4be4-96a8-b562365f9784",
+    "name": "TOSTAS AUCHAN SEM GLÚTEN 225G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw426ed835/images/hi-res/003076863.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "29ae4975-f2ca-448d-8e34-ce537fab0966",
+    "name": "BOLACHA SCHAR O'S CHOCOLATE SEM GLÚTEN 165G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc3363ffa/images/hi-res/002130190.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2ae01f8b-4c48-474e-b67a-22e1b966970c",
+    "name": "BOLACHAS AUCHAN VIVER MELHOR RECHEIO CACAU SEM GLÚTEN 120G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8938c7d6/images/hi-res/002488650.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2b1b8f04-a720-4889-a62c-e280872181a5",
+    "name": "PÃO BEZGLUTEN FORMA ESCURO SEM GLÚTEN 260G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw5ec28a10/images/hi-res/002183517.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2ca5af79-e896-4f9c-88b2-75444e393000",
+    "name": "MASSA AUCHAN ESPARGUETE SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd27071d6/images/hi-res/002749257.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2d41e553-ed9f-4fc9-9591-717152bdd201",
+    "name": "TOSTAS MUSEU DO PÃO MISTURA SEM GLÚTEN 140G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw78e0b32a/images/hi-res/002174001.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "2df8f22d-39cb-4129-98f7-65a925966c67",
+    "name": "PÃO GARCIA FORMA CEREAIS SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwde8d47d4/images/hi-res/003075949.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "31d2cf92-6be8-4004-8464-341fcc22f2ef",
+    "name": "FARINHA DOVES FARM PARA PÃO INTEGRAL SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3e531949/images/hi-res/002184422.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "328945c0-28d6-41b7-852b-a98b5a685dfc",
+    "name": "PÃO RALADO AUCHAN SEM GLÚTEN 200 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb0222a1c/images/hi-res/003540556.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "37f6379b-622d-4428-961d-c7ba76bcbfca",
+    "name": "MASSA AUCHAN FUSILLI SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9ba7c9e7/images/hi-res/002749422.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "38806f10-6785-4a87-8fc6-4a10507e2f09",
+    "name": "PREPARADO PARA BOLO AUCHAN CHOCOLATE SEM GLUTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb6574e0a/images/hi-res/003709691.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "leite-condensado-e-preparado-para-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3a827ce5-7b37-4ac3-9b54-0730e55f0ea6",
+    "name": "BOLOS AUCHAN MINIATURAS RECHEIO MORANGO SEM GLÚTEN 6UN",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw484fbaeb/images/hi-res/002750083.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3b01fec4-6b77-49ee-8719-dd88ebc8191d",
+    "name": "GOMA DOVES FARM XANTANA SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw736a673b/images/hi-res/002184427.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "leite-condensado-e-preparado-para-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3b6ea179-9de7-4c4b-b7d3-a8ea3ca66dab",
+    "name": "PALMIERS AUCHAN VIVER MELHOR SEM GLÚTEN 120G",
+    "image": " ",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3ba95c67-8b09-48b8-865b-b61df854b997",
+    "name": "PÃES GARCIA CACETE SEM GLÚTEN 5X80G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw06524ac3/images/hi-res/003075960.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3bd9493c-fc46-41a6-9f88-84b230b7f343",
+    "name": "BARRAS NESTLÉ CORN FLAKES SEM GLÚTEN 88G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb9c161c8/images/hi-res/003316894.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3c8e175e-12d7-4970-b9d0-8abcfbfc2307",
+    "name": "BOLACHA GULLON MARIA INTEGRAL SEM GLÚTEN 360G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3e080d91/images/hi-res/001071958.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3d0e24bd-3a70-423b-b5bd-529ecb19da42",
+    "name": "PÃO CEM PORCENTO MULTICEREAIS 350G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw57b6a3c4/images/hi-res/003630278.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "3fce8483-4aac-4727-9d51-2c5a862505e4",
+    "name": "TORTIGLIONI DE CECCO S/GLÚTEN 400G",
+    "image": " ",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "411fdc07-e65f-4312-8fed-a60716ed029e",
+    "name": "BARRAS DE CEREAIS AUCHAN SEM GLÚTEN CHOCOLATE 6UN 138G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw06fa1b2e/images/hi-res/003553784.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "41665c46-66db-4347-bc46-a14f609a22e4",
+    "name": "BARRA SCHAR CEREAIS CHOCOLATE SEM GLÚTEN 25G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw2ac56d52/images/hi-res/002271772.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "42100a03-fcd3-4056-b361-b7a6f1f6f53a",
+    "name": "PÃO PACHAMAMA SEM GLÚTEN PROTEICO LOW CARB 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf58ca14e/images/hi-res/003006872.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "43c91ea1-32c7-4d36-a175-080dac8dce33",
+    "name": "MASSA MILANEZA ESPIRAIS SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9ac2cd4f/images/hi-res/002125332.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "441234d6-f3e6-44a7-be52-7145a352a834",
+    "name": "BOLACHAS NAIRNS AVEIA MIR FRAM S/GLÚTEN 160 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd6d7f07f/images/hi-res/003635217.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "44b6879b-8ea1-4bcc-b50e-3bf10b0fef3e",
+    "name": "FARINHA AUCHAN DE ARROZ SEM GLÚTEN 500 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw93de81ec/images/hi-res/003452448.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "farinha",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "44f2be27-98da-4654-a618-913e10b75a42",
+    "name": "FARINHA DE MILHO AUCHAN SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwcf0fc10a/images/hi-res/003704334.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "farinha",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "47621244-245d-4aac-9cd7-9be02b242ec6",
+    "name": "BISCOITOS VICENZI LADY FINGERS SEM GLÚTEN 125G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwbec61ec6/images/hi-res/003207050.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "483ff99c-506b-4fca-891e-951b0643af5a",
+    "name": "HAMBURGUER PESCANOVA DE VACA SEM GLÚTEN 750G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd396e057/images/hi-res/002517235.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "carne",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "49abf6cf-bb73-4e32-9022-788846175266",
+    "name": "MUFFINS LES R.CELIANE MINI CHOCOLATE SEM GLÚTEN 210G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc94040f5/images/hi-res/001152409.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4cdaf008-486e-431c-a6dd-65ccb2b1703d",
+    "name": "BISCOITOS SCHAR SAVOIARDI SEM GLÚTEN 200G",
+    "image": " ",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4d4a93be-ee93-48e3-ae3e-5d586cd9e860",
+    "name": "BOLACHAS AREADAS AUCHAN S/ GLÚTEN CHOC LEITE 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1ca3c58e/images/hi-res/003613161.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4e54cc67-3be2-4d89-a03e-eea2e97206be",
+    "name": "PÃO GARCIA CEREAIS SEM GLÚTEN 350G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8e01955b/images/hi-res/003075908.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4e7543dd-50c1-4bcd-8ed7-648690987319",
+    "name": "PÃO BEZGLUTEN FORMA BRANCO SEM GLÚTEN 260G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3495f846/images/hi-res/002183501.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "4ee32b30-1e5d-4724-8257-df1dfe3e6a83",
+    "name": "BOLACHA GULLON MINI CHIPS SEM GLÚTEN 200G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf11d738a/images/hi-res/000707408.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "52958daf-037f-4f27-b5c3-6acb60445eac",
+    "name": "CROISSANT SCHAR SEM GLÚTEN (4X55G) 220G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf2f3b001/images/hi-res/003291115.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "52c69b27-f849-4b0f-a326-ef336ee6c859",
+    "name": "MASSA AUCHAN PENNE SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8348df9b/images/hi-res/002749357.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "52fc6860-9bba-400b-ab06-a04f5832bdc8",
+    "name": "BOLACHAS SANTIVERI NOGLUT ANIMAIS SELVA SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw49594bdf/images/hi-res/001151851.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "53aeca05-53a4-459b-9521-334d9883744d",
+    "name": "FARINHA MIX CEM PORCENTO PÃO S/ GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb18d3e4c/images/hi-res/003517344.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5431401b-cbba-45ce-a0a7-28ff206c9b3b",
+    "name": "STICKS AUCHAN MINI SALGADOS SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe1d8ba2e/images/hi-res/003288504.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "55f1750b-23bd-4492-bc69-4f7b8e1cbd5a",
+    "name": "BOLACHAS AUCHAN SEM GLÚTEN PEPITA CHOCOLATE 150G",
+    "image": " ",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "56e67fe2-98b5-45d8-9bcf-97304603c16f",
+    "name": "CEREAIS SCHAR CORN FLAKES SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw662ab087/images/hi-res/002130199.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "575f7430-4a7f-4327-9e77-992e40e18c1e",
+    "name": "BOLACHA AVEIA GULLON CHOCO CHIPS SEM GLUTEN 220G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw0d66aed5/images/hi-res/003391460.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "59e59100-e33a-4d96-9d84-5aec9c012b46",
+    "name": "GELADOS EQUILIBRIO AUCHAN 6 MINI PALITOS BASE COCO 6X35G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw0c1ac90c/images/hi-res/003650929.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "gelados",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5a16f04f-3439-4b29-a67f-e513228f419c",
+    "name": "CEREAIS CEM PORCENTO CHOCO BALLS SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwaa86fa33/images/hi-res/002893851.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5ad2cebf-afbb-42ff-8932-bad594be201d",
+    "name": "BOLACHAS AUCHAN SEM GLÚTEN SABOR A BROWNIE DE CHOCOLATE 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw0a4febff/images/hi-res/003700277.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5d5b3b20-a9a1-4dda-a5b1-33e0bd035b8a",
+    "name": "FARINHA GRÃO S/G CEM PORCENTO",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw89f89b96/images/hi-res/003369428.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5d9f232b-0e1a-431a-a31c-544c463306ef",
+    "name": "GOMA DE GUAR PROVIDA BIO SEM GLÚTEN 60G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd7db2bf9/images/hi-res/003015399.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5e9e92fe-9ae6-4366-bbeb-194d2a3c404b",
+    "name": "BOLACHAS AUCHAN SEM GLÚTEN MANTEIGA 4 X 4UNID 130G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw09566eb2/images/hi-res/002980103.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "5f9e376d-26ce-4965-99fb-9fba7b367e20",
+    "name": "BOLACHA GULLON AVEIA LARANJA SEM GLÚTEN 180G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc3407d0b/images/hi-res/002896961.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6076064d-b21e-4281-9556-a50456ac352c",
+    "name": "BARRITAS BICENTURY SEM GLÚTEN CHOCOLATE LEITE 78G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf8c31b68/images/hi-res/001182513.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "616ec429-582a-4206-9c6f-db87c16e787b",
+    "name": "BARRAS DE CEREAIS AUCHAN SEM GLÚTEN AMÊNDOAS 180 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwdefe8fed/images/hi-res/003554098.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "620c6b0a-c339-429e-a7cb-8e23aca2bf78",
+    "name": "PREPARADO AUCHAN PRODUTOS PADARIA 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw7d2a8920/images/hi-res/003076864.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "64bce45d-141c-414b-a417-acec08f7b1ed",
+    "name": "GNOCCHI DE CECCO S/GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwfd54ff6c/images/hi-res/003617133.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6689daad-812f-425e-8454-3d2eac6fb215",
+    "name": "PÃO SCHAR HAMBURGUER SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw29bc9fd2/images/hi-res/002271783.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "680baf1d-e59b-4697-89de-a9f9ce58f4d4",
+    "name": "BARRA BENLIAN ARROZ CHOCOLATE BRANCO E CÔCO 90G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw6427f5af/images/hi-res/003073807.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "693203d6-1e42-4e3f-b161-6340d22cb0c4",
+    "name": "FARINHA DOVES FARM BRANCA SIMPLES SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw75d8246c/images/hi-res/002183302.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6bb60344-8780-4ba6-932d-fde0e61b509d",
+    "name": "CEREAIS DIET RADISSON ALMOFADAS RECHEADAS SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw17ef3583/images/hi-res/003003844.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6bc72c16-ab43-4adf-bb73-7df29e59d435",
+    "name": "CEREAIS NESTLÉ CORN FLAKES GO FREE SEM GLÚTEN 375G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw2c9fa5cd/images/hi-res/002134527.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6c930fac-61d3-41ff-bd72-8b0c081e20e0",
+    "name": "BOLO AUCHAN PREPARADO CREMOSO LIMÃO SEM GLÚTEN 500G",
+    "image": " ",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "6cd9e278-6979-4675-8685-d4a129803106",
+    "name": "PÃO AUCHAN FORMA SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw558cce0f/images/hi-res/003241708.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "70ce7a20-b16b-446f-a039-bbcc4fb544c1",
+    "name": "BOLOS MINI AUCHAN SEM GLUTEN COM PEPITAS 6UN 230G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw0263b109/images/hi-res/003709690.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "71ce9304-d7bc-4eb9-8018-a8105a053189",
+    "name": "CERVEJA SUPER BOCK SEM GLÚTEN 6X0.33L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9c4c51aa/images/hi-res/003238838.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cervejas-e-sidras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "73d46af0-9381-49c2-bbb0-7f520e612cd5",
+    "name": "BASES PIZZA SCHAR SEM GLÚTEN E SEM LACTOSE 2UN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa856a264/images/hi-res/002491955.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "76579f80-a716-453e-89b8-3a2fed3341e6",
+    "name": "MASSA RUMMO STELLINE SEM GLÚTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw81813b54/images/hi-res/002270963.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "76a23225-d790-42a2-a55d-52e5f59a7674",
+    "name": "PIZZA SCHAR MARGUERITA SEM GLÚTEN SEM LACTOSE 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb78a3999/images/hi-res/003013012.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "77b4055a-c7eb-4781-b5a8-ffb9c8669a2e",
+    "name": "ESPARGUETE S/GLÚTEN DE CECCO LENTILHA VERMELHA 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1bc6efd3/images/hi-res/003617139.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "782dd597-2ea5-482d-8578-1ed8eef30837",
+    "name": "BOLACHA SCHAR MARIA SEM GLÚTEN 200G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwcd847469/images/hi-res/001167765.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "79eec2dd-bd23-4bd1-af65-0ec9e1faf3a3",
+    "name": "MADALENA AUCHAN SEM GLUTEN 10 UN 350G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb8a20d09/images/hi-res/003600430.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7accf3bb-3d3c-4906-9a39-61a8c5ff21b7",
+    "name": "MASSA MILANEZA ESPARGUETE SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwfda7a6b7/images/hi-res/002125333.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7f19502f-2d10-4a6e-a48d-9fef6628f61f",
+    "name": "BEBIDA AUCHAN AMÊNDOAS SEM GLÚTEN 1L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw64832737/images/hi-res/003009144.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bebidas-vegetais",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "7fe814eb-aa02-4e23-a58b-30cc5e942db4",
+    "name": "CROISSANTS S/GLUTEN NUTRIFREE CHOCOLATE 240G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe1ea8dde/images/hi-res/003554059.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "82c87751-b2ee-4cee-ac5d-4e650f39b7f8",
+    "name": "TOSTAS AUCHAN AZEITONAS COM ORÉGÃOS SEM GLÚTEN 50G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc3be3a9e/images/hi-res/003232862.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "837404b1-ab6d-4c33-b46d-6d15fdb60342",
+    "name": "MUFFIN AIROS CACAU SEM GLÚTEN 170G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw663b61d8/images/hi-res/003115839.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8661c13d-c340-4757-8bb6-ded189050f0a",
+    "name": "PALMIERS AUCHAN VIVER MELHOR COBERTURA CACAU SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw7eb9cebb/images/hi-res/002768315.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "87309fcd-3567-440e-bde1-504196910c10",
+    "name": "TORTITAS ARROZ BONVITA ALFARROBA S/GLUT BIO 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd90855ed/images/hi-res/003661027.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "89d79781-fa46-4965-926d-7f13a998f095",
+    "name": "KONJAC KETO CHEF TAGLIATELLE BIO 270G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf73dde4c/images/hi-res/003654043.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8a1ae9aa-09cc-41d0-a3c7-3306155d9f05",
+    "name": "BOLACHAS SOMMER AVEIA VEGAN S/GLUTEN BIO 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd24f0cf0/images/hi-res/003664551.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "alimentação",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8b8cc4c7-ba5a-49c7-b2bf-27300d74025b",
+    "name": "BOLACHAS AUCHAN S/GLÚTEN COBER CHOC 150G 3X50G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw89e70d25/images/hi-res/003417627.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8c2ec2f8-7506-4379-a228-657f1cd94300",
+    "name": "FARINHA DE AVEIA CEM PORCENTO SEM GLÚTEN 400 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8f8b7a00/images/hi-res/003369414.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8e1bfeea-63db-4003-8d25-60fd5648a3cd",
+    "name": "TOSTAS SCHAR CROSTINI SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwda815b49/images/hi-res/002209822.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f36fb98-1dcd-40c0-b9c5-e6bc711122af",
+    "name": "MASSA SCHAR ALETRIA SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc09281f7/images/hi-res/003266788.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "8f45103f-7dbd-47c8-a3f0-32d8b2a9ba54",
+    "name": "GELADO PALITO AUCHAN AMENDOAS SEM AÇÚCAR 3X110ML",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc2c65836/images/hi-res/003651313.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "gelados",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "900dcaf1-1105-42d2-8270-cb1442131bad",
+    "name": "FARINHA DOVES FARM ARROZ SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw94b60612/images/hi-res/002184426.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "91a8965a-f3a0-4160-9ece-54d28983a5b3",
+    "name": "BEBIDA SHOYCE AVEIA SEM GLUTEN 0% AÇÚCAR 1L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3ad9fcc5/images/hi-res/003155496.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bebidas-vegetais",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "92544432-cd68-4af8-bc53-907d28d1caef",
+    "name": "BRIOCHES DIET RADISSON MILHO SEM GLÚTEN 5UN 200G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw0851c6fb/images/hi-res/000734044.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "95e6ed87-9c06-464b-b97d-e12144905d3b",
+    "name": "GAUFRES SCHAR SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwcf88415f/images/hi-res/003039861.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9677cd0a-7899-45b7-a9b3-e1124af7a2e2",
+    "name": "CERVEJA DAURA DAMM SEM GLÚTEN 6X0.33L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe11ba3f0/images/hi-res/002183527.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "984f911a-7d36-4853-9fda-e2006bf69cbc",
+    "name": "TORTAS GARCIA OVO SEM GLÚTEN 4UN 300G",
+    "image": " ",
+    "category": "sobremesas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "990fc3cc-2684-4095-832c-b3aece984eb9",
+    "name": "PÃO DE FORMA AUCHAN SEM GLUTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa8d78041/images/hi-res/003509556.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9bd45118-5912-4114-b98e-2a4983cfcae2",
+    "name": "PÃO SCHAR FORMA CLÁSSICO SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9ce3bffd/images/hi-res/002130210.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9dd650e1-d84d-4a1b-9264-0fe058c5dc9a",
+    "name": "PÃO GARCIA FORMA RÚSTICO SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw7ef82ad7/images/hi-res/003075941.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "9eeae313-5298-4b87-856c-d746d544f1be",
+    "name": "BOLACHA GULLON PASTAS SEM GLÚTEN 200G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3a1f85f3/images/hi-res/000707411.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a048bc79-15fc-4350-a599-a60e0936b924",
+    "name": "FARINHA SCHAR PARA PÃO MIX B SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe30e79f9/images/hi-res/000917240.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a1ca5e3d-4c43-4c8f-9e56-909932f45303",
+    "name": "PÃO AUCHAN RÚSTICO MULTICEREAIS SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1a3f040e/images/hi-res/003241710.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a311a547-8cad-42c8-9c09-703651b61d4f",
+    "name": "PICOS AIROS SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf173fb05/images/hi-res/003052510.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a32889c1-bf2a-4b69-a314-5159c959cb8f",
+    "name": "BOLACHA GULLON CRACKERS SEM GLÚTEN 200G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw45e6375c/images/hi-res/002208152.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a3e24792-31e2-41ea-a33a-833613d75c0b",
+    "name": "BROWNIES AUCHAN SEM GLÚTEN CHOCOLATE 8UN 240G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw257c2007/images/hi-res/002638453.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a509b2ea-5e8a-4af4-b749-57551a490522",
+    "name": "MASSA MILANEZA LASANHA SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc332fea9/images/hi-res/002487280.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a56ae1ac-b4e2-4a41-9268-6f43c8335307",
+    "name": "TOSTAS SCHAR SEM GLÚTEN 260G",
+    "image": " ",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a63799e9-23ea-4a9a-8f19-4d9033688137",
+    "name": "PÃO COM SEMENTES AIROS SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1ee3592f/images/hi-res/003115838.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a6695b87-4751-4a2b-8532-8a438e01b707",
+    "name": "MASSA RUMMO PENNETTE RIGATE LENTILHA VERMELHA 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw50162697/images/hi-res/003011382.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a86ba630-7180-4e57-bb02-b644a93f85ca",
+    "name": "PALITOS AUCHAN SEMENTES GIRASSOL SEM GLÚTEN 50G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe94cbf21/images/hi-res/003232863.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "a97a317a-5cf5-4896-865d-e216c1ca959d",
+    "name": "PALITOS AUCHAN VIVER MELHOR CHOCOLATE LEITE SEM GLÚTEN 130G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa4a3c1c3/images/hi-res/003030485.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ab427032-500d-4637-9a3e-25e96e6fc997",
+    "name": "BOLOS AUCHAN MINIATURAS RECHEIO CHOCOLATE SEM GLÚTEN 6UN",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw569caec5/images/hi-res/002750005.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ab5816d5-4f14-4047-950c-866ce1653a4f",
+    "name": "WAFER AUCHAN VIVER MELHOR BAUNILHA SEM GLÚTEN 125G",
+    "image": " ",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "adaaa4e4-2378-4871-bf80-dbf4956e5c54",
+    "name": "WRAPS SCHAR TORTILHAS SEM GLÚTEN 160G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe5d56f72/images/hi-res/002209857.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ae16f99d-e511-4e09-ad0a-e34365b14ecd",
+    "name": "TOSTAS MUSEU DO PÃO MULTICEREAIS SEM GLÚTEN 140G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw00a67941/images/hi-res/002173994.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ae589f1c-ffa2-491c-926c-ca80a0b75640",
+    "name": "BOLACHA GULLON CHIPS CHOCOLATE SEM GLÚTEN 130G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd37feb03/images/hi-res/001129899.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0cebd6f-8c2f-4de5-a5c0-9642bd2a7e59",
+    "name": "FARINHA NACIONAL SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc7c7bc09/images/hi-res/002184789.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b0cfd622-0800-40b2-8351-b0ece9b52065",
+    "name": "BISCOITOS SEM GLÚTEN NUTRIFREE INTEGRAIS INFINITI 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8658b730/images/hi-res/003554912.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b42ba471-c9bd-4ca7-ace9-4cff7034bace",
+    "name": "FLOCOS DE AVEIA SEARA INSTANTÂNEOS S/GLÚTEN BIO 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwdfcbee5a/images/hi-res/003616525.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b51c6e70-5266-4bff-972d-086361de9067",
+    "name": "PÃO SEM GLUTÉN PACHAMAMA ALFARROBA PASSAS E NOZES 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw92fdbcf4/images/hi-res/003458116.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b5814db5-3a31-4758-b46f-b1d87a96131c",
+    "name": "PÃO SCHAR FORMA CEREAIS SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dweec7005c/images/hi-res/002130207.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b5a2d64d-f25b-4486-8598-3b6ea80dde70",
+    "name": "PÃO AIROS SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw47db0872/images/hi-res/003114868.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b750e65b-0c7e-4f38-a62d-2bc503f140f5",
+    "name": "FARINHA DOVES FARM BRANCA AUTOLEVEDANTE SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw5830ee86/images/hi-res/002184424.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b7ce8ff3-c579-417f-8786-31f15af3e629",
+    "name": "BOLACHAS SANTIVERI NOGLUT ANIMAIS SELVA CACAU SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw80f7190d/images/hi-res/002597008.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b87068d3-9e68-49c7-b3ef-ec825f2c13d6",
+    "name": "PÃO AUCHAN FORMA MULTICEREAIS SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc4ff30a7/images/hi-res/003241718.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b999fc15-12d4-4100-9419-23e937a774d4",
+    "name": "GRANOLA CEM PORCENTO ORIGINAL SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa877cf11/images/hi-res/002893846.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "b9fd71ae-71df-4c7b-b261-f9e807c4177c",
+    "name": "CEREAIS NESTLÉ CORN FLAKES GO FREE COM CHOCOLATE SEM GLÚTEN 375G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw64fbecfd/images/hi-res/002279416.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bb64d411-c5cf-4b53-8a5b-8e364f750b3b",
+    "name": "TARTELETE AUCHAN SEM GLÚTEN FRAMBOESA 130 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb7fa7061/images/hi-res/003417617.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bbc40ec8-b78f-4137-8fd3-1e1d2e081c58",
+    "name": "BISCOITOS SEM GLÚTEN NUTRIFREE PEPITAS CHOCOLATE 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1ab74129/images/hi-res/003554916.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bd57eb63-0ba7-401e-99dc-52725b4894d1",
+    "name": "PÃO FOCACCIA NUTRIFREE SEM GLÚTEN 170G",
+    "image": " ",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bdbc2bb5-6e9d-4f6e-b578-2e47d1302fdd",
+    "name": "PENNE DALLA COSTA BIO ARROZ INTEGRAL SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3613d469/images/hi-res/003015445.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "bdd3e3e7-c797-46aa-a5c1-29dea9c6c14f",
+    "name": "KONJAC KETO CHEF ARROZ BIO 270G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw33e3dcce/images/hi-res/003654038.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "arroz-e-massa",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c484f49b-7ab2-4217-bcd7-9cae16d1918e",
+    "name": "PÃO PACHAMAMA SEM GLÚTEN PALEO LOW CARB 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw75dd976f/images/hi-res/003010691.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c678a832-e0d4-41c5-b29c-443a7441944f",
+    "name": "BARRA BENLIAN ARROZ CHOCOLATE NEGRO 90G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa3f9b9b3/images/hi-res/003073805.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c799debc-590b-437b-8932-6ac190adc38b",
+    "name": "BARRA BENLIAN ARROZ CHOCOLATE LEITE 90G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw6c6658f1/images/hi-res/003073803.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c7acc788-396d-4c63-90b5-65eb76ee6a5d",
+    "name": "BEBIDA AUCHAN SOJA SEM GLÚTEN 1L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwe59db272/images/hi-res/003009112.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bebidas-vegetais",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "c9cf13ac-187f-4433-97db-940a2de0107f",
+    "name": "MASSA AUCHAN MACARRÃO SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb1756a56/images/hi-res/002749311.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ca277394-c2e9-4b19-9007-75b8be334e11",
+    "name": "PÃO GARCIA FORMA BRANCO SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw26f17272/images/hi-res/003075964.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "cd8d6484-95bb-4e6b-964e-4bc789de0f12",
+    "name": "WAFER SCHAR QUADRITOS CHOCOLATE PRETO SEM GLÚTEN 40G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa47c4b46/images/hi-res/000966015.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ce40e661-0ee3-4135-9b57-c8af32a6fe5a",
+    "name": "PÃO SCHAR FORMA BRANCO CARRÉ SEM GLUTEN 250G",
+    "image": " ",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d02e3d49-db52-464a-9420-70a2911ef571",
+    "name": "BOLACHA SCHAR DIGESTIVE CHOCOLATE SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw14c21d3c/images/hi-res/002130186.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d0c483bc-9edb-4235-9b77-e83d53acb629",
+    "name": "BOLACHA GULON DIGESTIVE SEM GLÚTEN 150G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwd9792073/images/hi-res/002208153.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d78be81f-e51b-4770-8f05-253599ae1f14",
+    "name": "BEBIDA AUCHAN ARROZ SEM GLÚTEN 1L",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwbcdfd5cf/images/hi-res/003009153.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bebidas-vegetais",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "d977f5d5-ab85-445a-8d13-e0c0f2dadcd5",
+    "name": "PÃO \"BREAD LESS\" SCHNITZER S/FARINHA E GLÚTEN BIO 350G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3a33fcd0/images/hi-res/003707292.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "db14526a-158e-4b72-9aa0-c6d829b934ee",
+    "name": "QUEQUES AUCHAN SEM GLÚTEN PEPITAS CHOC. 350 G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw72e744b1/images/hi-res/003477651.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dbb176c2-9ebb-470e-a61c-3254d8584ed5",
+    "name": "CHOCO CRISPIES CEM PORCENTO S/GLÚTEN E S/AÇÚCAR 250G",
+    "image": " ",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "def0d2da-5b93-48c7-a54b-9a274d4acc5f",
+    "name": "FARINHA DOVES FARM GRÃO BICO SEM GLÚTEN 1KG",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc44e3e30/images/hi-res/002184425.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "df36d5ae-8f22-46ac-a5e9-633b87583a59",
+    "name": "PÃO SCHAR FORMA VITAL SEM GLÚTEN 350G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw4ba5e58d/images/hi-res/003266789.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "dfd2f15e-b0df-4ea8-beae-598f90864eea",
+    "name": "BOLACHAS AIROS COOKIES SEM GLUTEN AIROS 190G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1fecffba/images/hi-res/003368974.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e0c0afdf-3291-49b3-bd40-1a2fca5c73c3",
+    "name": "MASSA AUCHAN COTOVELOS SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw127e23fd/images/hi-res/002749325.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e17673c9-49d3-43a4-a7cd-fde512e64112",
+    "name": "PÃO SCHAR RÚSTICO 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf2e36816/images/hi-res/003039970.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e213e5d7-0832-4575-bafb-b6ca426f0730",
+    "name": "BISCOITOS SEM GLÚTEN NUTRIFREE CHOCO E MIRTILOS INSIEME 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwb547b05f/images/hi-res/003554915.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e3630430-575d-4fe3-b8e9-2d2a7b3c2b33",
+    "name": "BOLACHA SCHAR SORRISI RECHEIO CACAU SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9cc3e42e/images/hi-res/001008531.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e4b2861a-f203-47c6-bb75-af4eedf04d0f",
+    "name": "WAFER SCHAR CREME BAUNILHA SEM GLÚTEN 125G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw5291d060/images/hi-res/002209850.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e6e84c6f-3621-476e-be8a-d30cab46b175",
+    "name": "PÃO AUCHAN RÚSTICO SEM GLÚTEN 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw1aa40adb/images/hi-res/003241702.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e73b042d-6177-4e68-b22d-de170f245983",
+    "name": "GELADO CONE VEGAN AUCHAN SOJA 4X120ML",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa40edcde/images/hi-res/003651021.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "gelados",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "e874c249-d3cf-4e08-8f5d-aa91e32b328e",
+    "name": "BOLACHA GULLON DIBUS SHARKIES SEM GLÚTEN 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw22c3a93c/images/hi-res/002208164.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ea3fabb9-dff8-42e5-8bb0-a214869b9ee1",
+    "name": "CEREAIS SEM GLÚTEN AUCHAN RECHEADOS CACAU E AVELÃS 375G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw7664525f/images/hi-res/003647030.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "cereais-e-barras",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eb4fa845-f1ff-4d46-b168-98894c7d5fda",
+    "name": "LASANHA SCHAR CARNE SEM GLÚTEN CONGELADA 300G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw86d55acb/images/hi-res/002106225.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "eb7a7a95-25ad-4310-b156-3051ad5e6b0b",
+    "name": "MASSA SCHAR FOLHADA SEM GLÚTEN CONGELADA 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw987a8b98/images/hi-res/002106230.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "ee27afba-7748-463d-bc8c-53f4429a0e85",
+    "name": "MINIPIZZA SCHAR MARGARITA SEM GLÚTEN SEM LACTOSE 280G (4UN)",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw5e7054ee/images/hi-res/003291113.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "efba8d5c-866f-4b88-8ed4-7ebdcc3fd2e3",
+    "name": "GELADO PALITO VEGAN AUCHAN COBERTURA CHOCOLATE 3X120ML",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwffb384aa/images/hi-res/003651150.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "gelados",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f86e6c0c-bfce-4820-8319-e0a9743cd621",
+    "name": "GRESSINHOS SCHAR COM CREME CACAU SEM GLÚTEN 52G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwc74e74e9/images/hi-res/002130202.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "batatas-fritas-e-aperitivos-snacks",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f8861ce1-4caf-4f6a-bb37-cd42364411c9",
+    "name": "PÃES GARCIA CACETE RÚSTICO SEM GLÚTEN 5X80G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw9b93f7be/images/hi-res/003075956.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "pão,-base-e-massas",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f8cbb4ad-12fb-4be0-ac24-c8ad8bb002b3",
+    "name": "TOSTAS DIET RADISSON ARROZ MILHO SEM GLÚTEN 100G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw33cf8751/images/hi-res/000684359.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f8d69246-5061-4fb8-a960-ccc499f3eb71",
+    "name": "FARINHA CEMPORCENTO MULTIUSOS SEM GLÚTEN 500G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw8df98296/images/hi-res/003517341.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "f9ee0822-d20d-4a0c-9b62-02dc28bbc079",
+    "name": "BOLINHOS AUCHAN VIVER MELHOR CÔCO COM CHOCOLATE SEM GLÚTEN 240G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwa3fc5b8e/images/hi-res/002520017.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fcbdfa24-c87d-4806-9617-d4a713f5b19b",
+    "name": "MADALENAS AUCHAN SEM GLÚTEN 6UN 180G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw976b9476/images/hi-res/002749944.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "bolachas-e-bolos",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "fdda87dd-8573-4d6a-a3c0-e0466daaf9b4",
+    "name": "MASSA RUMMO SPAGUETTI SEM GLÚTEN 400G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dwf79bf20a/images/hi-res/003240169.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "sem-glúten",
+    "supermarket": "auchan",
+    "country": "PT"
+  },
+  {
+    "product_uuid": "feee2875-1459-4dc6-9df2-7b33a6da1911",
+    "name": "PÃO HAMBURGUER SCHNITZER S/GLÚTEN BIO 250G",
+    "image": "https://www.auchan.pt/dw/image/v2/BFRC_PRD/on/demandware.static/-/Sites-auchan-pt-master-catalog/default/dw3936d91b/images/hi-res/003707295.jpg?sw=250&sh=250&sm=fit&bgcolor=FFFFFF",
+    "category": "tostas-e-pão-embalado",
+    "supermarket": "auchan",
+    "country": "PT"
+  }
+]

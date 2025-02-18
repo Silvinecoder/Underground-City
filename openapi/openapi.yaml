@@ -1,0 +1,39 @@
+openapi: 3.1.0
+info:
+  description: API Documentation for underground-city
+  title: OpenAPI specification for the underground city application.
+  version: '1.0.0'
+components:
+  schemas:
+    Attribute:
+      $ref: schemas/attribute.yaml#/components/schemas/Attribute
+    Product:
+      $ref: schemas/product.yaml#/components/schemas/Product
+    Category:
+      $ref: schemas/category.yaml#/components/schemas/Category
+    Supermarket:
+      $ref: schemas/supermarket.yaml#/components/schemas/Supermarket
+paths:
+  /attributes:
+    $ref: paths/attributes.yaml
+  /products:
+    $ref: paths/products.yaml
+  /supermarkets:
+    $ref: paths/supermarkets.yaml
+
+responses:
+  200:
+    description: Successfully retrieved data.
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            Attribute:
+              $ref: schemas/attribute.yaml
+            Product:
+              $ref: schemas/product.yaml
+            Category:
+              $ref: schemas/category.yaml
+            Supermarket:
+              $ref: schemas/supermarket.yaml

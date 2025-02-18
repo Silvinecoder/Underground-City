@@ -1,0 +1,15 @@
+openapi: 3.0.3
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        product_uuid:
+          type: string
+          format: uuid
+        product_name:
+          type: string
+        product_image:
+          type: string
+        product_price:
+          type: string
