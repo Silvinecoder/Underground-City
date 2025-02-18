@@ -1,7 +1,3 @@
-openapi: 3.1.0
-info:
-  title: Attributes Endpoints
-  description: Endpoints for managing attributes in the underground city application.
 paths:
   /attributes:
     get:
@@ -15,7 +11,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: ../schemas/attribute.yml#/components/schemas/Attribute
+                  $ref: '../schemas/attribute.yaml#/components/schemas/Attribute'
   /attributes/{attribute_uuid}/products:
     get:
       summary: Get products for a specific attribute
@@ -36,7 +32,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: ../schemas/product.yml#/components/schemas/Product
+                  $ref: '../schemas/product.yaml#/components/schemas/Product'
         404:
           description: Attribute not found
   /attributes/{attribute_uuid}/products/{product_uuid}:
@@ -64,6 +60,6 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../schemas/product.yml#/components/schemas/Product
+                $ref: '../schemas/product.yaml#/components/schemas/Product'
         404:
           description: Product or attribute not found

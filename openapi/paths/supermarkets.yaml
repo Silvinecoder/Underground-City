@@ -1,159 +1,144 @@
-openapi: 3.1.0
-info:
-  title: Supermarket API
-  description: API for managing supermarkets and categories and products that are under them.
-  version: 1.0.0
 paths:
   /supermarkets:
     get:
       summary: Get all supermarkets
-      description: Retrieve a list of all supermarkets.
-      tags:
-        - Supermarket
+      operationId: getSupermarkets
       responses:
-        '200':
+        200:
           description: A list of supermarkets.
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '../schemas/supermarket.yml#/components/schemas/Supermarket'
+                  $ref: '../schemas/supermarket.yaml#/components/schemas/Supermarket'
   /supermarkets/{supermarket_uuid}:
     get:
       summary: Get a supermarket by UUID
-      description: Retrieve details of a supermarket by its UUID.
-      tags:
-        - Supermarket
+      operationId: getSupermarketByUUID
       parameters:
-        - in: path
-          name: supermarket_uuid
+        - name: supermarket_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the supermarket.
       responses:
-        '200':
+        200:
           description: Supermarket details.
           content:
             application/json:
               schema:
-                $ref: '../schemas/supermarket.yml#/components/schemas/Supermarket'
-        '404':
+                  $ref: '../schemas/supermarket.yaml#/components/schemas/Supermarket'
+        404:
           description: Supermarket not found.
   /supermarkets/{supermarket_uuid}/categories:
     get:
       summary: Get categories under a supermarket
-      description: Retrieve all categories for a specific supermarket.
-      tags:
-        - Categories
+      operationId: getCategoriesBySupermarket
       parameters:
-        - in: path
-          name: supermarket_uuid
+        - name: supermarket_uuid
+          in: oath
           required: true
           schema:
             type: string
           description: UUID of the supermarket.
       responses:
-        '200':
+        200:
           description: A list of categories.
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '../schemas/category.yml#/components/schemas/Category'
-        '404':
+                  $ref: '../schemas/category.yaml#/components/schemas/Category'
+        404:
           description: Categories not found.
   /supermarkets/{supermarket_uuid}/categories/{category_uuid}:
     get:
       summary: Get a category under a supermarket
-      description: Retrieve a category by UUID for a specific supermarket.
-      tags:
-        - Categories
+      operationId: getCategoryBySupermarket
       parameters:
-        - in: path
-          name: supermarket_uuid
+        - name: supermarket_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the supermarket.
-        - in: path
-          name: category_uuid
+        - name: category_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the category.
       responses:
-        '200':
+        200:
           description: Category details.
           content:
             application/json:
               schema:
-                $ref: '../schemas/category.yml#/components/schemas/Category'
-        '404':
+                  $ref: '../schemas/category.yaml#/components/schemas/Category'
+        404:
           description: Category not found.
   /supermarkets/{supermarket_uuid}/categories/{category_uuid}/products:
     get:
       summary: Get products by category in a supermarket
-      description: Retrieve all products in a specific category of a supermarket.
-      tags:
-        - Products
+      operationId: getProductsByCategory
       parameters:
-        - in: path
-          name: supermarket_uuid
+        - name: supermarket_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the supermarket.
-        - in: path
-          name: category_uuid
+        - name: category_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the category.
       responses:
-        '200':
+        200:
           description: A list of products.
           content:
             application/json:
               schema:
-                type: array
-                items:
-                  $ref: '../schemas/product.yml#/components/schemas/Product'
-        '404':
+                  $ref: '../schemas/product.yaml#/components/schemas/Product'
+        404:
           description: Products not found.
   /supermarkets/{supermarket_uuid}/categories/{category_uuid}/products/{product_uuid}:
     get:
       summary: Get a product by category in a supermarket
-      description: Retrieve details of a product by UUID within a category of a supermarket.
-      tags:
-        - Products
+      operationId: getProductByCategory
       parameters:
-        - in: path
-          name: supermarket_uuid
+        - name: supermarket_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the supermarket.
-        - in: path
-          name: category_uuid
+        - name: category_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the category.
-        - in: path
-          name: product_uuid
+        - name: product_uuid
+          in: path
           required: true
           schema:
             type: string
+            format: uuid
           description: UUID of the product.
       responses:
-        '200':
+        200:
           description: Product details.
           content:
             application/json:
               schema:
-                $ref: '../schemas/product.yml#/components/schemas/Product'
-        '404':
+                $ref: '../schemas/product.yaml#/components/schemas/Product'
+        404:
           description: Product not found.
