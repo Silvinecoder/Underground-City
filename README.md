@@ -28,6 +28,9 @@ docker compose up -d database
 
 Run the server
 flask --app app/handler/lambda_handler.py run
+
+To access the API docs run 
+localhost/docs
 ```
 
 For a clean installation of all of the python packages run:
