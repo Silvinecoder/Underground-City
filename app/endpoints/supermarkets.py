@@ -129,7 +129,16 @@ def get_products_by_category_in_supermarket(supermarket_uuid, category_uuid):
             session.close()
             return jsonify({"error": "Category not found under this supermarket"}), 404
         products = (
-            session.query(Product).filter_by(product_category_uuid=category_uuid).all()
+            session.query(Product)
+            .join(
+                SupermarketProductPair,
+                Product.product_uuid == SupermarketProductPair.product_uuid,
+            )
+            .filter(
+                SupermarketProductPair.supermarket_uuid == supermarket_uuid,
+                Product.product_category_uuid == category_uuid,
+            )
+            .all()
         )
         products_json = [
             {
