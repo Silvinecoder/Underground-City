@@ -157,7 +157,7 @@ def get_products_by_category_in_supermarket(supermarket_uuid):
                         "name": product.product_name,
                         "image": product.product_image,
                         "price": product.product_price,
-                        "supermarkets": [{"supermarket_name": supermarket.supermarket_name}], # TODO because frontend is fucked up rework shopping list
+                        "supermarkets": [{"supermarket_name": supermarket.supermarket_name}], # TODO because frontend is NOT RIGHT FU up rework shopping list
                     }
                     for product in products
                     if product.product_category_uuid == supermarket_category_pair.category_uuid
