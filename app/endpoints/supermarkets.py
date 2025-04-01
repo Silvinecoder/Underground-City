@@ -113,6 +113,14 @@ def get_category_under_supermarket(supermarket_uuid, category_uuid):
 def get_products_by_category_in_supermarket(supermarket_uuid):
     session = create_session()
     try:
+        supermarket = (
+            session.query(Supermarket)
+            .filter_by(supermarket_uuid=supermarket_uuid)
+            .one_or_none()
+        )
+        if not supermarket:
+            session.close()
+            return jsonify({"error": "Supermarket not found"}), 404
         supermarket_category_pairs = (
             session.query(SupermarketCategoryPair.category_uuid, Category.category_name)
             .join(
@@ -149,6 +157,7 @@ def get_products_by_category_in_supermarket(supermarket_uuid):
                         "name": product.product_name,
                         "image": product.product_image,
                         "price": product.product_price,
+                        "supermarkets": [{"supermarket_name": supermarket.supermarket_name}], # TODO because frontend is fucked up rework shopping list
                     }
                     for product in products
                     if product.product_category_uuid == supermarket_category_pair.category_uuid
