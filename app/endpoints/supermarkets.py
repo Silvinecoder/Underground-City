@@ -5,6 +5,7 @@ from app.model.supermarket import Supermarket
 from app.model.product import Product
 from app.model.supermarket_category_pair import SupermarketCategoryPair
 from app.model.supermarket_product_pair import SupermarketProductPair
+from app.model.category import Category
 
 supermarkets_blueprint = Blueprint("supermarkets_blueprint", __name__)
 
@@ -106,10 +107,10 @@ def get_category_under_supermarket(supermarket_uuid, category_uuid):
 
 # Define route to get all products within a category in a supermarket
 @supermarkets_blueprint.route(
-    "/supermarkets/<supermarket_uuid>/categories/<category_uuid>/products",
+    "/supermarkets/<supermarket_uuid>/categories/products",
     methods=["GET"],
 )
-def get_products_by_category_in_supermarket(supermarket_uuid, category_uuid):
+def get_products_by_category_in_supermarket(supermarket_uuid):
     session = create_session()
     try:
         supermarket = (
@@ -120,14 +121,20 @@ def get_products_by_category_in_supermarket(supermarket_uuid, category_uuid):
         if not supermarket:
             session.close()
             return jsonify({"error": "Supermarket not found"}), 404
-        supermarket_category_pair = (
-            session.query(SupermarketCategoryPair)
-            .filter_by(supermarket_uuid=supermarket_uuid, category_uuid=category_uuid)
-            .first()
+        supermarket_category_pairs = (
+            session.query(SupermarketCategoryPair.category_uuid, Category.category_name)
+            .join(
+                Category,
+                SupermarketCategoryPair.category_uuid == Category.category_uuid,
+            )
+            .filter(SupermarketCategoryPair.supermarket_uuid == supermarket_uuid)
+            .all()
         )
-        if not supermarket_category_pair:
+        print(supermarket_category_pairs)
+        if not supermarket_category_pairs:
             session.close()
-            return jsonify({"error": "Category not found under this supermarket"}), 404
+            return jsonify({"error": "Supermarket not found"}), 404
+        category_uuids = [row[0] for row in supermarket_category_pairs]
         products = (
             session.query(Product)
             .join(
@@ -136,23 +143,37 @@ def get_products_by_category_in_supermarket(supermarket_uuid, category_uuid):
             )
             .filter(
                 SupermarketProductPair.supermarket_uuid == supermarket_uuid,
-                Product.product_category_uuid == category_uuid,
+                Product.product_category_uuid.in_(category_uuids),
             )
             .all()
         )
-        products_json = [
+        categories_json = [
             {
-                "product_uuid": str(product.product_uuid),
-                "name": product.product_name,
-                "image": product.product_image,
-                "price": product.product_price,
-                "supermarket_name": supermarket.supermarket_name,
+                "category_uuid": str(supermarket_category_pair.category_uuid),
+                "category_name": supermarket_category_pair.category_name,
+                "products": [
+                    {
+                        "product_uuid": str(product.product_uuid),
+                        "name": product.product_name,
+                        "image": product.product_image,
+                        "price": product.product_price,
+                        "supermarkets": [
+                            {
+                                "supermarket_uuid": str(supermarket.supermarket_uuid),
+                                "supermarket_name": supermarket.supermarket_name,
+                            }
+                        ],
+                    }
+                    for product in products
+                    if product.product_category_uuid
+                    == supermarket_category_pair.category_uuid
+                ],
             }
-            for product in products
+            for supermarket_category_pair in supermarket_category_pairs
         ]
     finally:
         session.close()
-    return jsonify(products_json), 200
+    return jsonify(categories_json), 200
 
 
 # Define route to get a product within a category in a supermarket
